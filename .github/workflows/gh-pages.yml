@@ -60,7 +60,7 @@ jobs:
 
       - name: Build Material for MkDocs
         run: |
-          mkdocs build --site-dir public
+          mkdocs build:all --site-dir public
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
