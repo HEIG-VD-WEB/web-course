@@ -10,7 +10,7 @@ nav:
   - Home: index.md
   - Slides:
     - Simple: pitch.md
-site_dir: .mkdocs
+site_dir: public
 theme:
   # favicon:
   language: en
