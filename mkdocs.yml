@@ -1,0 +1,116 @@
+repo_url: https://github.com/HEIG-VD-WEB/web-course
+repo_name: HEIG-VD-WEB/web-course
+site_name: Web technologies courses
+site_author: web-course contributors
+site_url: https://heig-vd-web.github.io/web-course/
+site_description: >-
+  Course & tutorials about web technologies
+copyright: Made with ❤
+nav:
+  - Home: index.md
+  - Slides:
+    - Simple: pitch.md
+site_dir: site
+theme:
+  # favicon:
+  language: en
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/git-alt
+  name: material
+  custom_dir: theme
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - toc.follow
+reveal:
+  path: reveal.js/dist
+  transition: slide
+  theme:
+    name: white.css
+    path: theme
+  plugin:
+    path: reveal.js/plugin
+plugins:
+  # - glightbox
+  # - plantuml:
+  #     puml_url: http://plantuml:8080
+  #     puml_keyword: plantuml
+  - search
+  - tags
+extra:
+  social:
+    - icon: material/gitlab
+      link: https://gitlab.com/beescreens/beescreens
+      name: BeeScreens on GitLab
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: ["docs"]
+      auto_append:
+        - glossary.md
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: true
+extra_css:
+  - assets/stylesheets/extra.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/javascripts/tablesort.js

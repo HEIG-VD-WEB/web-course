@@ -13,6 +13,8 @@
 			]
 		}
 	},
+	// Execute the post-create.sh script once the container is created
+	"postCreateCommand": "./.devcontainer/post-create.sh",
 	// Map the user's SSH directory to the container for SSH signing
 	"mounts": [
 		"type=bind,source=${localEnv:HOME}/.ssh,target=${localEnv:HOME}/.ssh,type=bind,consistency=cached"

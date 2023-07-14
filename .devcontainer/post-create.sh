@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # MkDocs dependencies
-pip3 install \
+pip install \
 	cairosvg \
 	mkdocs-git-revision-date-localized-plugin \
 	mkdocs-glightbox \
