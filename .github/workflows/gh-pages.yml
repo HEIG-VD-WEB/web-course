@@ -30,10 +30,10 @@ jobs:
             mkdocs-git-revision-date-localized-plugin \
             mkdocs-glightbox \
             pillow
-          mkdocs build --site-dir public
+          mkdocs build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          branch: gh-pages
+          branch: 1-set-material-for-mkdocs-and-github-pages-up
           folder: public
