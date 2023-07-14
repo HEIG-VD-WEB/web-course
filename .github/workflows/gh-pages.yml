@@ -63,11 +63,14 @@ jobs:
       - name: Build Material for MkDocs
         run: |
           mkdocs build --site-dir public
+          ls
+          cd public
+          ls
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: ./public ./theme/reveal.js
 
   # Deployment job
   deploy:
