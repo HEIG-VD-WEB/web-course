@@ -1,4 +1,5 @@
 name: Deploy Material for MkDocs site to GitHub Pages
+run-name: Build and push Docker image to GitHub
 
 on:
   pull_request:
