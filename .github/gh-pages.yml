@@ -1,4 +1,3 @@
-# Disabled until the repository is public
 name: Deploy Material for MkDocs site to GitHub Pages
 
 on:
