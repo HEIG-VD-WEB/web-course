@@ -1,0 +1,20 @@
+{
+	"name": "HEIG-VD Web devcontainer",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/mkdocs:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"EditorConfig.EditorConfig",
+				"GitHub.copilot",
+				"jebbs.plantuml"
+			]
+		}
+	},
+	// Map the user's SSH directory to the container for SSH signing
+	"mounts": [
+		"type=bind,source=${localEnv:HOME}/.ssh,target=${localEnv:HOME}/.ssh,type=bind,consistency=cached"
+	]
+}
