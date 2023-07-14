@@ -37,18 +37,18 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - content.code.annotate
-    - content.code.copy
-    - navigation.indexes
-    - navigation.instant
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - navigation.footer
-    - search.suggest
-    - search.highlight
-    - toc.follow
+    # - content.code.annotate
+    # - content.code.copy
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.top
+    # - navigation.tracking
+    # - navigation.footer
+    # - search.suggest
+    # - search.highlight
+    # - toc.follow
 reveal:
   path: reveal.js/dist
   transition: slide
@@ -66,9 +66,9 @@ plugins:
   - tags
 extra:
   social:
-    - icon: material/gitlab
-      link: https://gitlab.com/beescreens/beescreens
-      name: BeeScreens on GitLab
+    - icon: material/github
+      link: https://github.com/HEIG-VD-WEB/web-course
+      name: Web on Github
 markdown_extensions:
   - abbr
   - admonition

@@ -1,1 +1,1 @@
-*[home]: c'est une maison
+*[home]: Application Programming Interface
