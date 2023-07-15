@@ -23,6 +23,7 @@ nav:
   - Explanations:
       - explanations/index.md
 
+edit_uri: blob/main/docs/
 theme:
   favicon: assets/images/favicon.svg
   language: en
@@ -49,14 +50,15 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - content.action.edit
     - content.code.annotate
     - content.code.copy
+    - navigation.footer
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-    - navigation.footer
     - search.suggest
     - search.highlight
     - toc.follow

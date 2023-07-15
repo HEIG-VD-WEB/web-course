@@ -27,6 +27,16 @@
 ## TODO
 
 - [ ] Define the english - french glossary for the course
-	- Cours, déroulement, tests, laboratoire, évaluation, etc.
-	- Proffesseur-e, chargé de cours, lecturer ?
-	- Étudiant-e, élèves, students ?
+
+|       Français      | English          |
+|---------------------|------------------|
+| Cours               | Course           |
+| Déroulement         | Organisation     |
+| Tests               | Tests, evaluation, assessment            |
+| Laboratoire         | Lab              |
+| Évaluation          | Evaluation       |
+| Chargé de cours     | Lecturer         |
+| Élèves              | Student          |
+| travaux pratique    | practical work   |
+| cours en présentiel | in-person course |
+| cours theorie       | theory course    |
