@@ -26,5 +26,7 @@
 
 ## TODO
 
-- [ ] Define the glossary for the course
+- [ ] Define the english - french glossary for the course
 	- Cours, déroulement, tests, laboratoire, évaluation, etc.
+	- Proffesseur-e, chargé de cours, lecturer ?
+	- Étudiant-e, élèves, students ?

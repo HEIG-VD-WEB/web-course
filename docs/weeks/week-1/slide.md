@@ -5,7 +5,7 @@ search:
 ---
 
 ## Web Technologies
-# ORGANISATION
+# Week 1 - ORGANISATION
 
 ---
 
@@ -19,10 +19,43 @@ Note: Informal speaking, you can call me Guidoux. I will do my best do be inclus
 
 # Objectives
 
-- Learn the basics of web technologies
-- Learn how to use them
-- Learn how to use them together
-- Learn how to use them in a project
-- Learn how to use them in a team
-- Learn how to use them in a team project
+- Learn the basics of web technologies ;
+- Learn the best practices ;
+- Be ready for the professional world ;
+- Conceptualise, create, maintain and deploy a web application.
 
+---
+
+# Prerequisites
+
+- Object-oriented programming (POO);
+- Network programming, sockets, use of TCP and UDP, use of HTTP(DAI).
+
+---
+
+# Quiz
+ 
+- Are you comfortable with git, github, devcontainer, VScode, HTML, CSS, javascript, typescript, Vue.js, React, Nuxt.js, Next.js, informal speaking ?
+- Do you know what you do after school : startup, big company, school assistant, travel, master, don't know ?
+- Do you use copilot and other IA tools ?
+
+---
+
+# Interactions
+
+Don't hesitate to ask questions during the course. Just raise your hand and I will give you the floor.
+
+---
+
+# Teaching platform
+
+- [https://heig-vd-web.github.io/web-course/](https://heig-vd-web.github.io/web-course/)
+- Github
+	- assignements
+	- discussions
+
+---
+
+# Calendar
+
+[About the calendar](../web-course/reference/about-the-calendar)
