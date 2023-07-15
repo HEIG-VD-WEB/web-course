@@ -12,7 +12,8 @@
 			"extensions": [
 				"EditorConfig.EditorConfig",
 				"GitHub.copilot",
-				"jebbs.plantuml"
+				"jebbs.plantuml",
+				"GitHub.vscode-github-actions"
 			]
 		}
 	},

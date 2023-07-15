@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       plantuml:
-        image: plantuml/plantuml-server:latest
+        image: plantuml/plantuml-server:jetty
         ports:
           - 8080:8080
     steps:
