@@ -56,15 +56,15 @@ reveal:
   plugin:
     path: reveal.js/plugin
 plugins:
-  - glightbox
+  # - glightbox
   - plantuml:
       puml_url: http://plantuml:8080
       puml_keyword: plantuml
   - search
   - tags
-# Order in plugins matters - this must be last
-  # - minify:
-  #     minify_html: true
+Order in plugins matters - this must be last
+  - minify:
+      minify_html: true
 extra:
   social:
     - icon: material/github
