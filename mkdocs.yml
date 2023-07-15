@@ -1,0 +1,120 @@
+repo_url: https://github.com/HEIG-VD-WEB/web-course
+repo_name: HEIG-VD-WEB/web-course
+site_name: HEIG-VD WEB 2023-2024
+site_author: web-course contributors
+site_url: https://heig-vd-web.github.io/web-course/
+site_description: >-
+  Course & tutorials about web technologies
+copyright: Made with ❤
+nav:
+  - Home:
+      - index.md
+  #     - Tutorials: tutorials/index.md
+  #     - How-to guides: how-to-guides/index.md
+  #     - Explanations: explanations/index.md
+  # - Tutorials:
+  #     - tutorials/index.md
+  # - How-to guides:
+  #     - how-to-guides/index.md
+  # - Explanations:
+  #     - explanations/index.md
+
+theme:
+  favicon: assets/images/favicon.svg
+  language: en
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/git-alt
+  name: material
+  custom_dir: theme
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - toc.follow
+plugins:
+  - glightbox
+  - plantuml:
+      puml_url: http://plantuml:8080
+      puml_keyword: plantuml
+  - search
+  - tags
+reveal:
+  path: reveal.js/dist
+  transition: slide
+  theme:
+    name: white.css
+    path: theme
+  plugin:
+    path: reveal.js/plugin
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/HEIG-VD-WEB/web-course
+      name: Web on Github
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - extra
+  - footnotes
+  - md_in_html
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: ["docs"]
+      auto_append:
+        - glossary.md
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: true
+extra_css:
+  - assets/stylesheets/extra.css
