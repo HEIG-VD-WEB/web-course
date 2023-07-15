@@ -1,5 +1,7 @@
 ---
 template: reveal.html
+search:
+  exclude: true
 ---
 
 ## Web Technologies
