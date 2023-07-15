@@ -2,8 +2,8 @@
 
 ## Slides
 
-- [Organisation](./organisation.md){:target="_blank"}
-- [Introduction](./introduction.md){:target="_blank"}
+- [Organisation](./1-organisation.md){:target="_blank"}
+- [Introduction](./2-introduction.md){:target="_blank"}
 
 ## Tutorials (theorical courses)
 

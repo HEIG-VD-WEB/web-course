@@ -71,7 +71,7 @@ plugins:
   - tags
 reveal:
   path: reveal.js/dist
-  transition: slide
+  transition: none # none/fade/slide/convex/concave/zoom
   theme:
     name: white.css
     path: theme
