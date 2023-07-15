@@ -5,17 +5,8 @@ search:
 ---
 
 ## Web Technologies
-# Week 1 - INTROCUCTION
+# Week 1 - INTRODUCTION
 Bertil Chapuis
-
----
-
-```javascript [1-2|3|4]
-let a = 1;
-let b = 2;
-let c = x => 1 + 2 + x;
-console.log(c(3));
-```
 
 ---
 
@@ -30,6 +21,10 @@ console.log(c(3));
 
 ---
 
+# Internet
+
+---
+
 ## Internet's Conceptual Model
 
 The **Internet Protocol Suite** is the conceptual model and set of communications protocols used in the Internet and similar computer networks.
@@ -39,6 +34,99 @@ The **Internet Protocol Suite** is the conceptual model and set of communication
 - The **Link Layer** is the group of methods and communications protocols that operate on the link that a host is physically connected to.<br>**Examples:** ARP, PPP, MAC (Ethernet, Wifi, DSL, Fiber), etc.
 
 https://en.wikipedia.org/wiki/Internet_protocol_suite
+
+---
+
+## Internet's Conceptual Model
+
+<table>
+		<tr>
+				<th>OSI</th>
+				<th>Internet Protocol Suite</th>
+				<th>Protocols</th>
+				<th>Data Unit</th>
+		</tr>
+		<tr>
+				<td>Application</td>
+				<td rowspan="3" class="centered">Application Layer</td>
+				<td rowspan="3" class="centered">HTTP/HTTPS</td>
+				<td rowspan="3" class="centered">Request/Response</td>
+		</tr>
+		<tr>
+				<td>Presentation</td>
+		</tr>
+		<tr>
+				<td>Session</td>
+		</tr>
+		<tr>
+				<td rowspan="2" class="centered">Transport</td>
+				<td rowspan="2" class="centered">Transport Layer</td>
+				<td>SSL/TLS</td>
+				<td rowspan="2" class="centered">Segment</td>
+		</tr>
+		<tr>
+				<td>TCP/UDP</td>
+		<tr>
+				<td>Network</td>
+				<td>Internet Layer</td>
+				<td>IP</td>
+				<td>Packet/Datagram</td>
+		</tr>
+		<tr>
+				<td>Data Link</td>
+				<td rowspan="2" class="centered">Link Layer</td>
+				<td>Ethernet/WiFi</td>
+				<td>Frame</td>
+		</tr>
+		<tr>
+				<td>Physical</td>
+				<td>Wire/Fiber</td>
+				<td>Signal</td>
+		</tr>
+</table>
+```plantuml
+@startuml
+"Application Layer" -> "Transport Layer" : Encapsulation
+"Transport Layer" -> "Application Layer" : Decapsulation
+@enduml
+```
+
+---
+
+## Domain Name System
+
+The <b>Domain Name System (DNS)</b> is a hierarchical and decentralized naming system (phone book) for computers connected to the Internet. 
+It translates domain names to IP addresses needed for locating and identifying computers.
+
+```plantuml
+@startuml
+
+left to right direction
+
+rectangle "HTTP Server" as http_server
+rectangle "DNS Resolver" as dns_resolver
+rectangle "Root Server" as root_server
+rectangle "Top Level Domain (TLD)" as tld_server
+rectangle "Name Server" as name_server
+rectangle "Computer" as computer
+
+http_server --> computer : Request
+computer --> http_server : Response
+
+computer --> dns_resolver : www.example.com
+dns_resolver --> computer : www.example.com = 3.3.3.3
+
+dns_resolver --> root_server: www.example.com
+root_server --> dns_resolver: com = 1.1.1.1
+dns_resolver --> tld_server: www.example.com
+tld_server --> dns_resolver: example.com = 2.2.2.2
+dns_resolver --> name_server : www.example.com
+name_server --> dns_resolver : www.example.com = 3.3.3.3
+
+@enduml
+```
+
+The DNS protocol uses <b>TCP</b> for Zone transfer and <b>UDP</b> for name queries.
 
 ---
 

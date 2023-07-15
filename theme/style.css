@@ -31,8 +31,23 @@ section {
 	font-size: 0.6em;
 }
 
+.reveal th,
+td {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+.reveal .centered {
+	vertical-align: middle;
+}
+
 a {
 	font-size: 0.8em;
+}
+
+/* add style to table to have a border */
+.reveal table {
+	border: 1;
 }
 
 .reveal pre {
