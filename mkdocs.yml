@@ -56,10 +56,10 @@ reveal:
   plugin:
     path: reveal.js/plugin
 plugins:
-  # - glightbox
-  - plantuml:
-      puml_url: http://plantuml:8080
-      puml_keyword: plantuml
+  - glightbox
+  # - plantuml:
+  #     puml_url: http://plantuml:8080
+  #     puml_keyword: plantuml
   - search
   - tags
 # Order in plugins matters - this must be last
