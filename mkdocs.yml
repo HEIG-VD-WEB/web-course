@@ -36,17 +36,17 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - content.code.annotate
-    - content.code.copy
-    - navigation.instant
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - navigation.footer
-    - search.suggest
-    - search.highlight
-    - toc.follow
+    # - content.code.annotate
+    # - content.code.copy
+    # - navigation.instant
+    # # - navigation.tabs
+    # # - navigation.tabs.sticky
+    # - navigation.top
+    # - navigation.tracking
+    # - navigation.footer
+    # - search.suggest
+    # - search.highlight
+    # - toc.follow
 reveal:
   path: reveal.js/dist
   transition: slide
@@ -56,10 +56,10 @@ reveal:
   plugin:
     path: reveal.js/plugin
 plugins:
-  # - glightbox
-  # - plantuml:
-  #     puml_url: http://plantuml:8080
-  #     puml_keyword: plantuml
+  - glightbox
+  - plantuml:
+      puml_url: http://plantuml:8080
+      puml_keyword: plantuml
   - search
   - tags
 # Order in plugins matters - this must be last
