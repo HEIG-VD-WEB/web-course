@@ -1,6 +1,8 @@
 Empty home for introducing your concepts.
 
-# BeeScreens
+See the presentation of the [course](./tutorials/pitch.md) for more information.
+
+# Tests
 
 ```typescript
 import { Bee } from '@ethersphere/bee-js'
@@ -17,9 +19,9 @@ actor User
 actor Developer
 actor Contributor
 
-User --> (Use BeeScreens)
-Developer --> (Develop BeeScreens)
-Contributor --> (Contribute to BeeScreens)
+User --> (Use Web course)
+Developer --> (Use Web course)
+Contributor --> (Use Web course)
 
 @enduml
 ```

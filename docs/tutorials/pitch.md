@@ -1,7 +1,7 @@
 ---
 template: reveal.html
 ---
-## Slides
+# Slides
 
 ### From Reveal
 
@@ -14,6 +14,7 @@ alert(s);
 
 ---
 
+# Slides
 ```plantuml
 @startuml
 Alice -> Bob: Authentication Request
@@ -29,7 +30,8 @@ Bob --> Alice: Authentication Response
 
 ### A Slide containing an image.
 
-<img title="survey" src=test.jpg  width="300" height="300">
+![image](test.jpg)
+
 
 ---
 

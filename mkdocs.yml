@@ -7,9 +7,21 @@ site_description: >-
   Course & tutorials about web technologies
 copyright: Made with ❤
 nav:
-  - Home: index.md
-  - Slides:
-    - Simple: pitch.md
+  - Home:
+      - index.md
+      - Tutorials: tutorials/index.md
+      - How-to guides: how-to-guides/index.md
+      - Explanations: explanations/index.md
+  - Tutorials:
+      - tutorials/index.md
+      - Install and configure Visual Studio Code: tutorials/install-and-configure-visual-studio-code/index.md
+  - How-to guides:
+      - how-to-guides/index.md
+      - How to use pnpm: how-to-guides/how-to-use-pnpm/index.md
+  - Explanations:
+      - explanations/index.md
+      - About TypeScript: explanations/about-typescript/index.md
+
 theme:
   # favicon:
   language: en
@@ -38,12 +50,12 @@ theme:
   features:
     - content.code.annotate
     - content.code.copy
-    # - navigation.instant
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    # # - navigation.top
-    # - navigation.tracking
-    # - navigation.footer
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
     - search.suggest
     - search.highlight
     - toc.follow
