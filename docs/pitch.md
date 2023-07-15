@@ -1,7 +1,7 @@
 ---
 template: reveal.html
 ---
-# Slides
+## Slides
 
 ### From Reveal
 

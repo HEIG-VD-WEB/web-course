@@ -1,5 +1,12 @@
 Empty home for introducing your concepts.
 
+# BeeScreens
+
+```typescript
+import { Bee } from '@ethersphere/bee-js'
+```
+## First part of the title
+
 ```plantuml
 @startuml
 skinparam monochrome true
