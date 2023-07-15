@@ -1,6 +1,6 @@
 repo_url: https://github.com/HEIG-VD-WEB/web-course
 repo_name: HEIG-VD-WEB/web-course
-site_name: Web technologies courses
+site_name: HEIG-VD WEB 2023-2024
 site_author: web-course contributors
 site_url: https://heig-vd-web.github.io/web-course/
 site_description: >-
@@ -9,18 +9,15 @@ copyright: Made with ❤
 nav:
   - Home:
       - index.md
-      - Tutorials: tutorials/index.md
-      - How-to guides: how-to-guides/index.md
-      - Explanations: explanations/index.md
-  - Tutorials:
-      - tutorials/index.md
-      - Install and configure Visual Studio Code: tutorials/install-and-configure-visual-studio-code/index.md
-  - How-to guides:
-      - how-to-guides/index.md
-      - How to use pnpm: how-to-guides/how-to-use-pnpm/index.md
-  - Explanations:
-      - explanations/index.md
-      - About TypeScript: explanations/about-typescript/index.md
+  #     - Tutorials: tutorials/index.md
+  #     - How-to guides: how-to-guides/index.md
+  #     - Explanations: explanations/index.md
+  # - Tutorials:
+  #     - tutorials/index.md
+  # - How-to guides:
+  #     - how-to-guides/index.md
+  # - Explanations:
+  #     - explanations/index.md
 
 theme:
   favicon: assets/images/favicon.svg
