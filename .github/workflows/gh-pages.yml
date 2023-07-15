@@ -2,11 +2,10 @@ name: Deploy Material for MkDocs site to GitHub Pages
 run-name: Deploy Material for MkDocs site to GitHub Pages
 
 on:
-  pull_request:
-  # push:
-    # paths:
-    #   - docs/**/*
-    #   - mkdocs.yml
+  push:
+    paths:
+      - docs/**/*
+      - mkdocs.yml
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -82,7 +81,7 @@ jobs:
   # Deployment job
   deploy:
     # Only run on main
-    # if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
