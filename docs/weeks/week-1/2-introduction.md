@@ -100,28 +100,34 @@ It translates domain names to IP addresses needed for locating and identifying c
 
 ```plantuml
 @startuml
+!define osaPuml https://raw.githubusercontent.com/Crashedmind/PlantUML-opensecurityarchitecture2-icons/master
+!include osaPuml/Common.puml
+!include osaPuml/Hardware/all.puml
+!include osaPuml/Misc/all.puml
+!include osaPuml/Server/all.puml
+!include osaPuml/Site/all.puml
 
-left to right direction
+together {
+	osa_desktop(computer, "192.169.1.10","Computer")
+	osa_server(http_server, "192.169.1.10", "HTTP Server")
+}
+osa_server(dns_resolver, "23.34.54.67","DNS Resolver")
+osa_server(root_server, "56.34.54.67","Root Server")
+osa_server(tld_server, "23.36.54.67","Top Level Domain (TLD)")
+osa_server(name_server, "34.34.54.67","Name Server")
 
-rectangle "HTTP Server" as http_server
-rectangle "DNS Resolver" as dns_resolver
-rectangle "Root Server" as root_server
-rectangle "Top Level Domain (TLD)" as tld_server
-rectangle "Name Server" as name_server
-rectangle "Computer" as computer
+http_server -r-> computer : Request
+computer -l-> http_server : Response
 
-http_server --> computer : Request
-computer --> http_server : Response
+computer -r-> dns_resolver : www.example.com
+dns_resolver -l-> computer : www.example.com = 3.3.3.3
 
-computer --> dns_resolver : www.example.com
-dns_resolver --> computer : www.example.com = 3.3.3.3
-
-dns_resolver --> root_server: www.example.com
-root_server --> dns_resolver: com = 1.1.1.1
-dns_resolver --> tld_server: www.example.com
-tld_server --> dns_resolver: example.com = 2.2.2.2
-dns_resolver --> name_server : www.example.com
-name_server --> dns_resolver : www.example.com = 3.3.3.3
+dns_resolver -u-> root_server: www.example.com
+root_server -d-> dns_resolver: com = 1.1.1.1
+dns_resolver -d-> tld_server: www.example.com
+tld_server -u-> dns_resolver: example.com = 2.2.2.2
+dns_resolver -r-> name_server : www.example.com
+name_server -l-> dns_resolver : www.example.com = 3.3.3.3
 
 @enduml
 ```
