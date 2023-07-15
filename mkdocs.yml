@@ -36,19 +36,17 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    tabs: true
-    # - content.code.annotate
-    # - content.code.copy
-    # - navigation.indexes
-    # - navigation.instant
+    - content.code.annotate
+    - content.code.copy
+    - navigation.instant
     # - navigation.tabs
     # - navigation.tabs.sticky
-    # - navigation.top
-    # - navigation.tracking
-    # - navigation.footer
-    # - search.suggest
-    # - search.highlight
-    # - toc.follow
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - toc.follow
 reveal:
   path: reveal.js/dist
   transition: slide
@@ -58,62 +56,57 @@ reveal:
   plugin:
     path: reveal.js/plugin
 plugins:
-  # - glightbox
-  # - plantuml:
-  #     puml_url: http://plantuml:8080
-  #     puml_keyword: plantuml
+  - glightbox
+  - plantuml:
+      puml_url: http://plantuml:8080
+      puml_keyword: plantuml
   - search
   - tags
+  Order in plugins matters - this must be last
+  - minify:
+      minify_html: true
 extra:
   social:
     - icon: material/github
       link: https://github.com/HEIG-VD-WEB/web-course
       name: Web on Github
 markdown_extensions:
+  - abbr
   - admonition
+  - attr_list
+  - def_list
   - extra
+  - footnotes
+  - md_in_html
   - meta
-  - tables
-  - toc
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.tabbed
-  - pymdownx.tasklist
-  # - abbr
-  # - admonition
-  # - attr_list
-  # - def_list
-  # - footnotes
-  # - md_in_html
-  # - pymdownx.arithmatex:
-  #     generic: true
-  # - pymdownx.betterem
-  # - pymdownx.critic
-  # - pymdownx.caret
-  # - pymdownx.details
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:materialx.emoji.twemoji
-  #     emoji_generator: !!python/name:materialx.emoji.to_svg
-  # - pymdownx.highlight:
-  #     anchor_linenums: true
-  #     linenums: true
-  # - pymdownx.inlinehilite
-  # - pymdownx.keys
-  # - pymdownx.mark
-  # - pymdownx.smartsymbols
-  # - pymdownx.snippets:
-  #     check_paths: true
-  #     base_path: ["docs"]
-  #     auto_append:
-  #       - glossary.md
-  # - pymdownx.superfences:
-  #     preserve_tabs: true
-  # - pymdownx.tabbed:
-  #     alternate_style: true
-  # - pymdownx.tasklist:
-  #     custom_checkbox: true
-  # - pymdownx.tilde
-  # - tables
-  # - toc:
-  #     permalink: true
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: ["docs"]
+      auto_append:
+        - glossary.md
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: true
