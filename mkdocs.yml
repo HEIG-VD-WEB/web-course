@@ -23,7 +23,7 @@ nav:
       - About TypeScript: explanations/about-typescript/index.md
 
 theme:
-  # favicon:
+  favicon: assets/images/favicon.svg
   language: en
   icon:
     logo: material/school
