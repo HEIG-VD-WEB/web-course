@@ -9,15 +9,19 @@ copyright: Made with ❤
 nav:
   - Home:
       - index.md
-  #     - Tutorials: tutorials/index.md
-  #     - How-to guides: how-to-guides/index.md
-  #     - Explanations: explanations/index.md
-  # - Tutorials:
-  #     - tutorials/index.md
-  # - How-to guides:
-  #     - how-to-guides/index.md
-  # - Explanations:
-  #     - explanations/index.md
+      - Week 1: weeks/week-1/index.md
+  - Tutorials:
+      - tutorials/index.md
+  - How-to guides:
+      - how-to-guides/index.md
+  - Reference:
+      - reference/index.md
+      - About the calendar: reference/about-the-calendar.md
+      - About the theory course: reference/about-the-theory-course.md
+      - About the code of conduct: reference/about-the-code-of-conduct.md
+
+  - Explanations:
+      - explanations/index.md
 
 theme:
   favicon: assets/images/favicon.svg
