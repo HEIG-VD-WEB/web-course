@@ -72,7 +72,7 @@ jobs:
 
       - name: Build Material for MkDocs
         run: |
-          mkdocs build --site-dir public
+          mkdocs build --config-file mkdocs.prod.yml --site-dir public
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

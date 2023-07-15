@@ -1,6 +1,8 @@
 services:
   devcontainer:
-    image: "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm"
+    #  so, it might some weird to have a node container for a python project,
+    # but it's the only way I could get the mkdocs plugins to work
+    image: mcr.microsoft.com/devcontainers/javascript-node:0-20
     volumes:
       - ../..:/workspaces:cached
     command: sleep infinity
