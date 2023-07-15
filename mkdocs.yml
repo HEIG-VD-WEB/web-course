@@ -62,7 +62,7 @@ plugins:
       puml_keyword: plantuml
   - search
   - tags
-Order in plugins matters - this must be last
+# Order in plugins matters - this must be last
   - minify:
       minify_html: true
 extra:
