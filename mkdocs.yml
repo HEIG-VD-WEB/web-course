@@ -119,3 +119,5 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+extra_css:
+  - assets/stylesheets/extra.css
