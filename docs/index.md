@@ -1,6 +1,6 @@
 Empty home for introducing your concepts.
 
-See the presentation of the [course](./tutorials/pitch.md) for more information.
+See the presentation of the [course](./tutorials/pitch.md){:target="_blank"} for more information.
 
 # Tests
 
