@@ -1,8 +1,11 @@
 name: Deploy Material for MkDocs site to GitHub Pages
-run-name: Build and push Docker image to GitHub
+run-name: Deploy Material for MkDocs site to GitHub Pages
 
 on:
-  pull_request:
+  push:
+    paths:
+      - docs/**/*
+      - mkdocs.yml
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -63,13 +66,6 @@ jobs:
       - name: Build Material for MkDocs
         run: |
           mkdocs build --site-dir public
-          echo yeh
-          ls
-          cd theme
-          echo yehyeh
-          ls
-
-          # mv theme/reveal.js/ public/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
@@ -79,6 +75,7 @@ jobs:
   # Deployment job
   deploy:
     # Only run on main
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
