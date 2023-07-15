@@ -7,17 +7,19 @@ template: reveal.html
 
 ---
 
-# Slide 2
-
---
-
-### Vertical
-
-TODO
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 
 ---
 
-# Slide 3
+```plantuml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+@enduml
+```
 
 --
 
