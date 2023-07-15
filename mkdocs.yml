@@ -44,8 +44,8 @@ theme:
     # - navigation.top
     # - navigation.tracking
     # - navigation.footer
-    # - search.suggest
-    # - search.highlight
+    - search.suggest
+    - search.highlight
     # - toc.follow
 plugins:
   - glightbox

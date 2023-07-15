@@ -8,13 +8,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	{% if config.title %}<title>{{ config.title }}</title>{% endif %}
-	{%- if config.description -%}
-	<meta name="description" content="{{ config.description }}">
-	{%- endif -%}
-	{%- if config.author -%}
-	<meta name="author" content="{{ config.author }}">
-	{%- endif -%}
 	<base href="{{ config.site_url }}">
 	<link rel="canonical" href="{{ config.site_url }}">
 
@@ -47,8 +40,6 @@
 	<script src="{{ config.reveal.plugin.path }}/notes/notes.js"></script>
 
 	<script>
-		console.log("{{ config.reveal.theme.path }}/{{ config.reveal.theme.name }}")
-		console.log("{{config.reveal}}")
 		// Full list of configuration options available here:
 		// https://github.com/hakimel/reveal.js#configuration
 		Reveal.initialize({
