@@ -58,7 +58,7 @@ reveal:
 plugins:
   # - glightbox
   - plantuml:
-      puml_url: http://plantuml:8080
+      puml_url: http://localhost:8080
       puml_keyword: plantuml
   - search
   - tags
