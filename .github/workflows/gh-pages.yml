@@ -54,19 +54,20 @@ jobs:
 
       - name: Install Material for MkDocs dependencies
         run: |
-          sudo apt install --yes \
-            libcairo2-dev \
-            libfreetype6-dev \
-            libffi-dev \
-            libjpeg-dev \
-            libpng-dev \
-            libz-dev
+          # sudo apt install --yes \
+          #   libcairo2-dev \
+          #   libfreetype6-dev \
+          #   libffi-dev \
+          #   libjpeg-dev \
+          #   libpng-dev \
+          #   libz-dev
           pip install \
             cairosvg \
             mkdocs-material \
             mkdocs-minify-plugin \
             mkdocs-git-revision-date-localized-plugin \
             mkdocs-glightbox \
+            mkdocs_puml \
             pillow
 
       - name: Build Material for MkDocs
