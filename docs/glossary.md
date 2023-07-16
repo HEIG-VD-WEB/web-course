@@ -14,6 +14,7 @@
 *[IP]: Internet Protocol is the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries.
 *[IPsec]: Internet Protocol Security is a secure network protocol suite that authenticates and encrypts the packets of data to provide secure encrypted communication between two computers over an Internet Protocol network.
 *[IMAP]: Internet Message Access Protocol is an Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection.
+*[JS]: JavaScript is a programming language that conforms to the ECMAScript specification.
 *[JSON]: JavaScript Object Notation is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays.
 *[JWT]: JSON Web Token.
 *[MAC]: Media Access Control address is a unique identifier assigned to a network interface controller for use as a network address in communications within a network segment.

@@ -4,7 +4,7 @@
 
 - [Week 1](./weeks/week-1.md)
 
-## Courses
+## Organisation
 
 - Organisation of the course
 - Introduction to the web
