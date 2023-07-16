@@ -9,19 +9,20 @@ copyright: Made with ❤
 nav:
   - Home:
       - index.md
-      - Week 1: weeks/week-1/index.md
+      - Week 1: weeks/week-1.md
+  - Courses:
+      - courses/index.md
+      - Organisation: courses/organisation/
+      - Introduction: courses/introduction/
   - Tutorials:
       - tutorials/index.md
-  - How-to guides:
-      - how-to-guides/index.md
+  - Practical works:
+      - practical-works/
   - Reference:
       - reference/index.md
       - About the calendar: reference/about-the-calendar.md
       - About the theory course: reference/about-the-theory-course.md
       - About the code of conduct: reference/about-the-code-of-conduct.md
-
-  - Explanations:
-      - explanations/index.md
 
 edit_uri: blob/main/docs/
 theme:

@@ -1,6 +1,4 @@
-# How-to guides
-
-## Practice courses
+# Practice works
 
 All the practical courses will be available if they exist. If the students are ahead of schedule, they can help other, test new things or help enhance the course.
 

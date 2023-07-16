@@ -1,2 +1,0 @@
-[Slides](./1-organisation-slide.md){:target="_blank" .md-button .md-button--primary } [Print (Only on Chrome)](./1-organisation-slide.md?print-pdf){:target="_blank" .md-button .md-button--primary}
---8<-- "./weeks/week-1/1-organisation-slide.md:6"

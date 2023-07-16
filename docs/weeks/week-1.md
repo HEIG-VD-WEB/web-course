@@ -2,8 +2,8 @@
 
 ## Slides
 
-- [Organisation](./1-organisation.md)
-- [Introduction](./2-introduction.md)
+- [Organisation](/web-course/courses/organisation/)
+- [Introduction](/web-course/courses/introduction/)
 
 ## Tutorials (theorical courses)
 
