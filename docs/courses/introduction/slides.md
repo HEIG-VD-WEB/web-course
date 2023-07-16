@@ -7,7 +7,6 @@ search:
 # INTRODUCTION
 Bertil Chapuis
 
----
 
 ## Overview of Today's Class
 
@@ -18,11 +17,9 @@ Bertil Chapuis
 - Hypertext Markup Language (HTML) 
 - Cascading Style Sheets (CSS)
 
----
 
 ## Internet
 
----
 
 ## Internet's Conceptual Model
 
@@ -35,7 +32,6 @@ The **Internet Protocol Suite** is the conceptual model and set of communication
 
 https://en.wikipedia.org/wiki/Internet_protocol_suite
 
----
 
 ## Internet's Conceptual Model
 
@@ -94,7 +90,6 @@ https://en.wikipedia.org/wiki/Internet_protocol_suite
 
 ```
 
----
 
 ## Domain Name System
 
@@ -137,7 +132,6 @@ name_server -l-> dns_resolver : www.example.com = 3.3.3.3
 
 The DNS protocol uses <b>TCP</b> for Zone transfer and <b>UDP</b> for name queries.
 
----
 
 ## <i class="fab fa-js"></i> Higher-Order Functions
 
@@ -154,7 +148,6 @@ console.log(greaterThan10(11)); // true
 
 https://eloquentjavascript.net/05_higher_order.html
 
----
 
 ## Mozilla's Definition
 

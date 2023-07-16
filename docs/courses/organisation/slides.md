@@ -6,7 +6,6 @@ search:
 
 # Organisation
 
----
 
 ## Staff
 
@@ -14,7 +13,6 @@ Lecturer: Vincent Guidoux (Il/lui) (He/him)
 
 Note: Informal speaking, you can call me Guidoux. I will do my best do be inclusive, but if I do something wrong, please tell me.
 
----
 
 ## Objectives
 
@@ -23,14 +21,12 @@ Note: Informal speaking, you can call me Guidoux. I will do my best do be inclus
 - Be ready for the professional world ;
 - Conceptualise, create, maintain and deploy a web application.
 
----
 
 ## Prerequisites
 
 - Object-oriented programming (POO);
 - Network programming, sockets, use of TCP and UDP, use of HTTP(DAI).
 
----
 
 ## Quiz
  
@@ -38,7 +34,6 @@ Note: Informal speaking, you can call me Guidoux. I will do my best do be inclus
 - Do you know what you do after school : startup, big company, school assistant, travel, master, don't know ?
 - Do you use copilot and other IA tools ?
 
----
 
 ## Interactions
 
@@ -46,7 +41,6 @@ Don't hesitate to ask questions during the course. Just raise your hand and I wi
 
 Questions relating to lessons and practical work should be asked on GitHub Discussions.
 
----
 
 ## Teaching platform
 
@@ -55,13 +49,11 @@ Questions relating to lessons and practical work should be asked on GitHub Discu
 	- assignements
 	- discussions
 
----
 
 ## Calendar
 
 [About the calendar](../web-course/reference/about-the-calendar)
 
----
 
 ## Course
 
@@ -71,7 +63,6 @@ Questions relating to lessons and practical work should be asked on GitHub Discu
   - Correction of practical work
   - Tutorials
 
----
 
 ## Practical work
 
@@ -82,7 +73,6 @@ The practical work are given:
 
 Each practical work has an assignement that is due by a fixed deadline on GitHub Classroom.
 
----
 
 ## Evaluation
 
@@ -94,13 +84,10 @@ The evaluations will have the following format:
 - Evaluation 2 (Duration 1h; Questions and code)
 - Evaluation 3 (Duration: 2 hours; Programming test)
 
----
 
 ## Code of conduct
 
 We will create a code of conduct together. Using this [link]
-
----
 
 ## The end
 
