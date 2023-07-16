@@ -11,7 +11,7 @@ Here is some content...
 !!! note
 	Informal speaking. I will do my best do be inclusive, but if I do something wrong, please tell me.
 
-
+<!--  -->
 ## Staff
 
 Lecturer: Vincent Guidoux (Il/lui) (He/him)
@@ -19,7 +19,7 @@ Lecturer: Vincent Guidoux (Il/lui) (He/him)
 !!! note
 	This is a note appearing in the course but not the slides.
 
-
+<!--  -->
 ## Objectives
 
 - Learn the basics of web technologies ;
@@ -27,27 +27,27 @@ Lecturer: Vincent Guidoux (Il/lui) (He/him)
 - Be ready for the professional world ;
 - Conceptualise, create, maintain and deploy a web application.
 
-
+<!--  -->
 ## Prerequisites
 
 - Object-oriented programming (POO) ;
 - Network programming, sockets, use of TCP and UDP, use of HTTP(DAI).
 
-
+<!--  -->
 ## Quiz
  
 - Are you comfortable with git, github, devcontainer, VScode, HTML, CSS, javascript, typescript, Vue.js, React, Nuxt.js, Next.js, informal speaking ?
 - Do you know what you do after school : startup, big company, school assistant, travel, master, don't know ?
 - Do you use copilot and other IA tools ?
 
-
+<!--  -->
 ## Interactions
 
 Don't hesitate to ask questions during the course. Just raise your hand and I will give you the floor.
 
 Questions relating to lessons and practical work should be asked on GitHub Discussions.
 
-
+<!--  -->
 ## Teaching platform
 
 - [https://heig-vd-web.github.io/web-course/](https://heig-vd-web.github.io/web-course/)
@@ -55,12 +55,12 @@ Questions relating to lessons and practical work should be asked on GitHub Discu
 	- assignements
 	- discussions
 
-
+<!--  -->
 ## Calendar
 
 [About the calendar](../web-course/reference/about-the-calendar)
 
-
+<!--  -->
 ## Course
 
 - Classes are given on [] at [] in room [] ;
@@ -69,7 +69,7 @@ Questions relating to lessons and practical work should be asked on GitHub Discu
   - Correction of practical work
   - Tutorials
 
-
+<!--  -->
 ## Practical work
 
 The practical work are given:
@@ -79,7 +79,7 @@ The practical work are given:
 
 Each practical work has an assignement that is due by a fixed deadline on GitHub Classroom.
 
-
+<!--  -->
 ## Evaluation
 
 The evaluations are based on the practical work, and on computer.  
@@ -90,12 +90,12 @@ The evaluations will have the following format:
 - Evaluation 2 (Duration 1h; Questions and code)
 - Evaluation 3 (Duration: 2 hours; Programming test)
 
-
+<!--  -->
 ## Code of conduct
 
 We will create a code of conduct together. Using this [link]
 
-
+<!--  -->
 ## The end
 
 - Do you have any questions ?

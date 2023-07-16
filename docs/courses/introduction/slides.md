@@ -7,7 +7,7 @@ search:
 # INTRODUCTION
 Bertil Chapuis
 
-
+<!--  -->
 ## Overview of Today's Class
 
 - Internet
@@ -17,10 +17,10 @@ Bertil Chapuis
 - Hypertext Markup Language (HTML) 
 - Cascading Style Sheets (CSS)
 
-
+<!--  -->
 ## Internet
 
-
+<!--  -->
 ## Internet's Conceptual Model
 
 The **Internet Protocol Suite** is the conceptual model and set of communications protocols used in the Internet and similar computer networks.
@@ -32,7 +32,7 @@ The **Internet Protocol Suite** is the conceptual model and set of communication
 
 https://en.wikipedia.org/wiki/Internet_protocol_suite
 
-
+<!--  -->
 ## Internet's Conceptual Model
 
 <table>
@@ -90,7 +90,7 @@ https://en.wikipedia.org/wiki/Internet_protocol_suite
 
 ```
 
-
+<!--  -->
 ## Domain Name System
 
 The <b>Domain Name System (DNS)</b> is a hierarchical and decentralized naming system (phone book) for computers connected to the Internet. 
@@ -132,7 +132,7 @@ name_server -l-> dns_resolver : www.example.com = 3.3.3.3
 
 The DNS protocol uses <b>TCP</b> for Zone transfer and <b>UDP</b> for name queries.
 
-
+<!--  -->
 ## <i class="fab fa-js"></i> Higher-Order Functions
 
 Higher-order functions allow us to abstract over actions, not just values. 
@@ -148,7 +148,7 @@ console.log(greaterThan10(11)); // true
 
 https://eloquentjavascript.net/05_higher_order.html
 
-
+<!--  -->
 ## Mozilla's Definition
 
 The World Wide Web - commonly referred to as WWW, W3, or the Web - is an interconnected system of public webpages accessible through the Internet. The Web is not the same as the Internet: the Web is one of many applications built on top of the Internet.
