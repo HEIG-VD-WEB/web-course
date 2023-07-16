@@ -28,15 +28,11 @@
 
 - [ ] Define the english - french glossary for the course
 
-|       Français      | English          |
-|---------------------|------------------|
-| Cours               | Course           |
-| Déroulement         | Organisation     |
-| Tests               | Tests, evaluation, assessment            |
-| Laboratoire         | Lab              |
-| Évaluation          | Evaluation       |
-| Chargé de cours     | Lecturer         |
-| Élèves              | Student          |
-| travaux pratique    | practical work   |
-| cours en présentiel | in-person course |
-| cours theorie       | theory course    |
+| Français                                    | English                      |
+|---------------------------------------------|------------------------------|
+| Cours, cours en présentiel, cours théorique | Course                       |
+| Déroulement du cours                        | Organisation                 |
+| Test, évaluation                            | Test, evaluation, assessment |
+| Laboratoire, travaux pratiques              | practical work               |
+| Personne chargée de cours                   | Lecturer                     |
+| Élèves                                      | Student                      |
