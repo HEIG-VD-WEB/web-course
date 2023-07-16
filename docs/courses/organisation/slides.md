@@ -6,12 +6,18 @@ search:
 
 # Organisation
 
+Here is some content...
+
+!!! note
+	Informal speaking. I will do my best do be inclusive, but if I do something wrong, please tell me.
+
 
 ## Staff
 
 Lecturer: Vincent Guidoux (Il/lui) (He/him)
 
-Note: Informal speaking, you can call me Guidoux. I will do my best do be inclusive, but if I do something wrong, please tell me.
+!!! note
+	This is a note appearing in the course but not the slides.
 
 
 ## Objectives
@@ -24,7 +30,7 @@ Note: Informal speaking, you can call me Guidoux. I will do my best do be inclus
 
 ## Prerequisites
 
-- Object-oriented programming (POO);
+- Object-oriented programming (POO) ;
 - Network programming, sockets, use of TCP and UDP, use of HTTP(DAI).
 
 
@@ -88,6 +94,7 @@ The evaluations will have the following format:
 ## Code of conduct
 
 We will create a code of conduct together. Using this [link]
+
 
 ## The end
 
