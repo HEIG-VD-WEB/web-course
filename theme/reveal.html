@@ -1,6 +1,10 @@
 <!--
 	author: fhiegel
 	source: https://github.com/fhiegel/slide-template/tree/main
+
+	inspiration to make title/description/author configurable:
+	- https://github.com/squidfunk/mkdocs-material/blob/master/src/base.html
+	- https://squidfunk.github.io/mkdocs-material/customization/
 -->
 <!doctype html>
 <html>
@@ -8,9 +12,28 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Page title -->
+	{% if page.title %}<title>{{ page.title }}</title>{% endif %}
+
+	<!-- Page description -->
+	{%- if config.site_description -%}
+	<meta name="description" content="{{ config.site_description }}">
+	{%- endif -%}
+
+	<!-- Page author -->
+	{%- if config.site_author -%}
+	<meta name="author" content="{{ config.site_author }}">
+	{%- endif -%}
+
+	<!-- Favicon -->
+	<link rel="icon" href="{{ config.theme.favicon }}" />
+
+	<!-- Generator banner -->
+	<meta name="generator" content="mkdocs-{{ mkdocs_version }}, $md-name$-$md-version$" />
+
 	<base href="{{ config.site_url }}">
 	<link rel="canonical" href="{{ config.site_url }}">
-
 	<link rel="stylesheet" href="{{ config.reveal.path }}/reset.css">
 	<link rel="stylesheet" href="{{ config.reveal.path }}/reveal.css">
 	<link rel="stylesheet" href="{{ config.reveal.path }}/{{ config.reveal.theme.path }}/{{ config.reveal.theme.name }}"
@@ -18,16 +41,17 @@
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="{{ config.reveal.plugin.path }}/highlight/monokai.css" id="highlight-theme">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-
 	<div class="reveal">
 		<div class="slides">
-			<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:">
-				<script type="text/template">
-        {{ page.markdown }}
-      </script>
+			<section data-markdown data-separator="^\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:" data-markdown
+				style="font-size: 0.6em; text-align: left;">
+				<textarea data-template>
+				{{ page.markdown }}
+				</textarea>
 			</section>
 		</div>
 	</div>
@@ -40,6 +64,27 @@
 	<script src="{{ config.reveal.plugin.path }}/notes/notes.js"></script>
 
 	<script>
+		const EvalJavaScript = {
+			id: "eval",
+			init: (deck) => {
+				document.querySelectorAll("pre code.javascript").forEach((block) => {
+					block.addEventListener("dblclick", (e) => {
+						e.preventDefault();
+						const code = block.textContent;
+
+						console.log("🚀 Evaluating code:");
+						console.log(code);
+						try {
+							eval(code);
+						} catch (err) {
+							console.error(err);
+						} finally {
+							console.log("✅ Done");
+						}
+					});
+				});
+			}
+		};
 		// Full list of configuration options available here:
 		// https://github.com/hakimel/reveal.js#configuration
 		Reveal.initialize({
@@ -51,7 +96,7 @@
 
 			transition: '{{ config.reveal.transition }}', // default/cube/page/concave/zoom/linear/fade/none
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, EvalJavaScript]
 		});
 	</script>
 
