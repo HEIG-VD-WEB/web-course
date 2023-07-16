@@ -6,8 +6,6 @@ search:
 
 # Organisation
 
-Here is some content...
-
 <!--  -->
 ## Staff
 
