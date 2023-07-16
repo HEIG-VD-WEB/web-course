@@ -12,12 +12,12 @@ nav:
       - Week 1: weeks/week-1.md
   - Courses:
       - courses/index.md
-      - Organisation: courses/organisation/
-      - Introduction: courses/introduction/
+      - Organisation: courses/organisation/index.md
+      - Introduction: courses/introduction/index.md
   - Tutorials:
       - tutorials/index.md
   - Practical works:
-      - practical-works/
+      - practical-works/index.md
   - Reference:
       - reference/index.md
       - About the calendar: reference/about-the-calendar.md
@@ -64,10 +64,10 @@ theme:
     - search.highlight
     - toc.follow
 plugins:
-  - glightbox
   - plantuml:
       puml_url: http://plantuml:8080
       puml_keyword: plantuml
+  - glightbox
   - search
   - tags
 reveal:

@@ -3,10 +3,10 @@ INHERIT: mkdocs.yml
 
 # We must redefine the entire list
 plugins:
-  - glightbox
   - plantuml:
       puml_url: http://localhost:8080
       puml_keyword: plantuml
+  - glightbox
   - search
   - tags
   - social
