@@ -2,8 +2,8 @@
 
 ## Slides
 
-- [Organisation](./1-organisation.md){:target="_blank"}, [print (only on Chrome)](./1-organisation.md?print-pdf){:target="_blank"}
-- [Introduction](./2-introduction.md){:target="_blank"}, [print (only on Chrome)](./2-introduction.md?print-pdf){:target="_blank"}
+- [Organisation](./1-organisation.md)
+- [Introduction](./2-introduction.md)
 
 ## Tutorials (theorical courses)
 
