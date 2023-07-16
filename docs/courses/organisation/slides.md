@@ -8,16 +8,14 @@ search:
 
 Here is some content...
 
-!!! note
-	Informal speaking. I will do my best do be inclusive, but if I do something wrong, please tell me.
-
 <!--  -->
 ## Staff
 
 Lecturer: Vincent Guidoux (Il/lui) (He/him)
 
 !!! note
-	This is a note appearing in the course but not the slides.
+	Informal speaking. I will do my best do be inclusive, but if I do something wrong, please tell me.
+	This note is not displayed in the slides. MAGIC !
 
 <!--  -->
 ## Objectives
