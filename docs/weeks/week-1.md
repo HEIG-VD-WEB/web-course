@@ -1,6 +1,6 @@
-# Week 1 - 18.09-24.09 - Introduction
+# Week 1
 
-## Slides
+## Courses
 
 - [Organisation](/web-course/courses/organisation/)
 - [Introduction](/web-course/courses/introduction/)

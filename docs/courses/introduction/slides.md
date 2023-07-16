@@ -4,8 +4,7 @@ search:
   exclude: true
 ---
 
-## Web Technologies
-# Week 1 - INTRODUCTION
+# INTRODUCTION
 Bertil Chapuis
 
 ---
@@ -21,13 +20,14 @@ Bertil Chapuis
 
 ---
 
-# Internet
+## Internet
 
 ---
 
 ## Internet's Conceptual Model
 
 The **Internet Protocol Suite** is the conceptual model and set of communications protocols used in the Internet and similar computer networks.
+
 - The **Application Layer** specifies the shared communications protocols and interface methods used by hosts in a communications network.<br>**Examples:** HTTP, HTTPS, FTP, SSH, SMTP, IMAP, Telnet, etc.
 - The **Transport Layer** provide host-to-host communication services, such as connection-oriented communication, reliability, and flow control.<br>**Examples:** TCP, UDP, etc.
 - The **Internet Layer** transports packets from the originating host across network boundaries to the destination host specified by an IP address.<br>**Examples:** IP, ICMP (traceroute), IPsec (VPN), etc.
@@ -84,11 +84,14 @@ https://en.wikipedia.org/wiki/Internet_protocol_suite
 				<td>Signal</td>
 		</tr>
 </table>
+
 ```plantuml
+
 @startuml
 "Application Layer" -> "Transport Layer" : Encapsulation
 "Transport Layer" -> "Application Layer" : Decapsulation
 @enduml
+
 ```
 
 ---
@@ -158,6 +161,7 @@ https://eloquentjavascript.net/05_higher_order.html
 The World Wide Web - commonly referred to as WWW, W3, or the Web - is an interconnected system of public webpages accessible through the Internet. The Web is not the same as the Internet: the Web is one of many applications built on top of the Internet.
 
 The system we know today as "the Web" consists of several components:
+
 - The HTTP protocol governs data transfer between a server and a client.
 - To access a Web component, a client supplies a unique universal identifier, called a URL (uniform resource location) or URI (uniform resource identifier).
 - HTML (hypertext markup language) is the most common format for publishing web documents.
