@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" clip-rule="evenodd" style="background-color:#fff" viewBox="0 0 1105 454">
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(334 405)">Link Layer</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(317 321)">Internet Layer</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(309 249)">Transport Layer</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(304 127)">Application Layer</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(73 126)">Presentation</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(80 71)">Application</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(95 181)">Session</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(85 250)">Transport</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(91 322)">Network</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(91 377)">Datalink</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(92 430)">Physical</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="rotate(-90 681 -372)">Encapsulation</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="rotate(-90 697 -387)">Decapsulation</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(839 240)">Segment</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(623 322)">IP</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(573 375)">Ethernet/WiFi</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(587 431)">Wire/Fiber</text>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M2 36h252v55H2zm0 55h252v55H2zm0 55h252v55H2zm0 55h252v87H2z"/>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M2 287h252v55H2zm0 55h252v54H2zm0 54h252v55H2zM254 36h252v165H254zm0 165h252v87H254z"/>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M254 287h252v55H254zm0 55h252v109H254z"/>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(113 15)">OSI</text>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M506 396h252v55H506zm0-54h252v54H506zm0-55h252v55H506zm0-251h252v165H506z"/>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(571 122)">HTTP/HTTPS</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(591 14)">Protocols</text>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M758 201h251v87H758z"/>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M758 287h251v55H758zm0 55h251v54H758zm0 54h251v55H758z"/>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(598 228)">SSL/TLS</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(798 313)">Packet/Datagram</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(852 366)">Frame</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(853 431)">Signal</text>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M758 36h251v165H758z"/>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(792 121)">Request/Response</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(271 14)">Internet Protocol Suite</text>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(836 13)">Data Unit</text>
+  <text font-family="&quot;LucidaGrande&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="10.7" font-weight="500" transform="translate(762 257)">src/dst port; seq num; ack; cheksum; etc.</text>
+  <text font-family="&quot;LucidaGrande&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="10.7" font-weight="500" transform="translate(787 332)">src/dst address; protocol; ttl; etc.</text>
+  <text font-family="&quot;LucidaGrande&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="10.7" font-weight="500" transform="translate(796 382)">sender/receiver mac; crc; etc.</text>
+  <path fill-rule="nonzero" d="m1094 150-5-10-4 10c2-3 7-3 9 0Z"/>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M1089 148v194"/>
+  <path fill-rule="nonzero" d="m1063 332-5 10-4-10c2 3 7 3 9 0Z"/>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M1058 140v194"/>
+  <text font-family="&quot;LucidaGrande&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="10.7" font-weight="500" transform="translate(822 140)">req/rsp headers; etc.</text>
+  <path fill="none" stroke="#000" stroke-width="1.1" d="M506 201h252v43H506z"/>
+  <text font-family="&quot;LucidaGrande-Bold&quot;,&quot;Lucida Grande&quot;,sans-serif" font-size="16" font-weight="600" transform="translate(616 270)">TCP</text>
+</svg>
