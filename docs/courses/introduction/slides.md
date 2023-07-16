@@ -4,7 +4,8 @@ search:
   exclude: true
 ---
 
-# INTRODUCTION
+# Introduction
+
 Bertil Chapuis
 
 <!--  -->
