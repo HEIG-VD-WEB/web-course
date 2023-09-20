@@ -57,11 +57,11 @@ At the end of the course, you will be able to conceptualise, create, maintain, t
 ### Teaching platform
 
 - [https://heig-vd-web.github.io/web-course/](https://heig-vd-web.github.io/web-course/)
-- 
-- Github
+- Email: [vincent.guidoux1@heig-vd.ch](mailto:vincent.guidoux1@heig-vd.ch)
+- GitHub
   - repository: [https://github.com/HEIG-VD-WEB/web-course](https://github.com/HEIG-VD-WEB/web-course)
-	- assignements
-	- discussions
+  - assignements
+  - [GitHub Discusssions](https://github.com/orgs/HEIG-VD-WEB/discussions)
 
 <!--  -->
 ### Calendar
