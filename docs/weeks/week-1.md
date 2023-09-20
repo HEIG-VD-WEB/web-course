@@ -3,12 +3,12 @@
 ## Courses
 
 - [Organisation](/web-course/courses/organisation/)
-- [Introduction](/web-course/courses/introduction/)
+- [Setup and experience](/web-course/courses/setup-and-experience/)
 
 ## Tutorials
 
-Create a simple calculator with HTML, CSS and Javascript.
-
-## Pratical works
-
-How to create a simple survey with HTML, CSS and Javascript.
+- [Install and configure Visual Studio Code](https://docs.beescreens.ch/tutorials/install-and-configure-visual-studio-code/)
+- [Install and configure Docker](https://docs.beescreens.ch/tutorials/install-and-configure-docker/)
+- [Install and configure Dev Containers](https://docs.beescreens.ch/tutorials/install-and-configure-dev-containers/)
+- [Create a media player application](https://docs.beescreens.ch/tutorials/create-a-media-player-application/introduction/)
+- [Create an interactive drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/)

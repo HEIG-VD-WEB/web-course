@@ -13,8 +13,9 @@ nav:
   - Courses:
       - courses/index.md
       - Organisation: courses/organisation/index.md
-      - Introduction: courses/introduction/index.md
-      - HTML & CSS: courses/html-css/index.md
+      - Setup and experience: courses/setup-and-experience/index.md
+      # - Introduction: courses/introduction/index.md
+      # - HTML & CSS: courses/html-css/index.md
   - Tutorials:
       - tutorials/index.md
   - Practical works:
@@ -22,8 +23,8 @@ nav:
   - Reference:
       - reference/index.md
       - About the calendar: reference/about-the-calendar.md
-      - About the theory course: reference/about-the-theory-course.md
-      - About the code of conduct: reference/about-the-code-of-conduct.md
+      # - About the theory course: reference/about-the-theory-course.md
+      # - About the code of conduct: reference/about-the-code-of-conduct.md
 
 edit_uri: blob/main/docs/
 theme:

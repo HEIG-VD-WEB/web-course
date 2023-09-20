@@ -2,7 +2,7 @@
 
 | No                            | Week | Date          | Title                                                          | Test   |
 |------------------------------:|-----:|---------------|----------------------------------------------------------------|--------|
-| [1](../weeks/week-1.md) |   38 | 18.09-24.09   | Introduction                                                   |        |
+| [1](../weeks/week-1.md)       |   38 | 18.09-24.09   | Introduction, Dev container                                    |        |
 |                             2 |   39 | 25.09-01.10   | HTML & CSS                                                     |        |
 |                             3 |   40 | 02.10-08.10   | Javascript                                                     |        |
 |                             4 |   41 | 09.10-15.10   | Devcontainer, NPM, Node.js                                     |        |
@@ -14,7 +14,7 @@
 |                             9 |   47 | 20.11-26.11   | Github Actions, container                                      |        |
 |                            10 |   48 | 27.11-03.12   | Asynchronous programming, fetch, promises, async/await, JSON   |        |
 |                            11 |   49 | 04.12-10.12   | HTTPS, Cookies, Sessions, JWT, Authentification, Authorization | Test 2 |
-|                            12 |   50 | 11.12-17.12   | REST & Security, CORS, XSS, CSRF                               |        |
+|                            12 |   50 | 11.12-17.12   | JWT, Authentification, Authorization                           |        |
 |                            13 |   51 | 18.12-24.12   | Frontend frameworks, jQuery, Vue.js, React, Nuxt.js, Next.js   |        |
 |                               |   52 | 25.12-31.12   | Interruption of course                                         |        |
 |                               |    1 | 01.01-07.01   | Interruption of course                                         |        |
