@@ -5,7 +5,7 @@ site_author: web-course contributors
 site_url: https://heig-vd-web.github.io/web-course/
 site_description: >-
   Course & tutorials about web technologies
-copyright: Made with ❤
+copyright: Made with ❤ and collaboration of the DAI team
 nav:
   - Home:
       - index.md
