@@ -4,79 +4,72 @@ search:
   exclude: true
 ---
 
-# Organisation
+## Introduction and course organization
+
+[https://heig-vd-web.github.io/web-course/](https://heig-vd-web.github.io/web-course/)
+
+Vincent Guidoux (He/him)
 
 <!--  -->
-## Staff
+### What to expect to learn from this course
 
-Lecturer: Vincent Guidoux (Il/lui) (He/him)
-
-!!! note
-	Informal speaking. I will do my best do be inclusive, but if I do something wrong, please tell me.
-	This note is not displayed in the slides. MAGIC !
-
-<!--  -->
-## Objectives
-
-- Learn the basics of web technologies ;
-- Learn the best practices ;
-- Be ready for the professional world ;
-- Conceptualise, create, maintain and deploy a web application.
+- [Fiche d'unité](https://gaps.heig-vd.ch/consultation/fiches/uv/uv.php?id=6763)
+- [Descriptif de module](https://gaps.heig-vd.ch/consultation/fiches/mv/mv.php?id=2351&plan=683)
+- 72 hours in class (= 96 periods of 45 minutes)
+- 72 hours outside of the class - I try our best to ensure you do not have to work that much outside of the class
 
 <!--  -->
-## Prerequisites
+### Prerequisites
 
 - Object-oriented programming (POO) ;
 - Network programming, sockets, use of TCP and UDP, use of HTTP(DAI).
 
 <!--  -->
-## Quiz
- 
-- Are you comfortable with git, github, devcontainer, VScode, HTML, CSS, javascript, typescript, Vue.js, React, Nuxt.js, Next.js, informal speaking ?
-- Do you know what you do after school : startup, big company, school assistant, travel, master, don't know ?
-- Do you use copilot and other IA tools ?
+### Topics
+
+You will learn the following topics during this course:
+
+- Frontend programming (HTML, CSS, Javascript, Typescript, React, Next.js)
+- Backend programming (Node.js, Express, Nest.js, MySQL, PostgreSQL)
+- Asynchronous programming (Promises, async/await)
+- Testing (Jest, Cypress)
+- Linting (ESLint)
+- Continuous integration (Github Actions)
+
+At the end of the course, you will be able to conceptualise, create, maintain, test and deploy a web application.
 
 <!--  -->
-## Interactions
-
-Don't hesitate to ask questions during the course. Just raise your hand and I will give you the floor.
-
-Questions relating to lessons and practical work should be asked on GitHub Discussions.
+### Why do you have this course ?
 
 <!--  -->
-## Teaching platform
+### Course sequence
+
+1. Theoretical content that is meant to be short and concise (all of us)
+    - Sessions of 20 minutes, dynamic and interactive
+2. Practical content where you do stuff (you)
+    - Prepare you for the practical work with official doc and tutorials
+3. Practical work (you)
+    - The theoretical and practical content are meant to help you
+4. Feedback and discussions (you - very important to us)
+    - You will be able to give feedback and help us improve the course
+
+<!--  -->
+### Teaching platform
 
 - [https://heig-vd-web.github.io/web-course/](https://heig-vd-web.github.io/web-course/)
+- 
 - Github
+  - repository: [https://github.com/HEIG-VD-WEB/web-course](https://github.com/HEIG-VD-WEB/web-course)
 	- assignements
 	- discussions
 
 <!--  -->
-## Calendar
+### Calendar
 
 [About the calendar](../web-course/reference/about-the-calendar)
 
 <!--  -->
-## Course
-
-- Classes are given on [] at [] in room [] ;
-- They are usually structured as follows:
-  - Review quiz
-  - Correction of practical work
-  - Tutorials
-
-<!--  -->
-## Practical work
-
-The practical work are given:
-
-- on [] at [] in room [] for group [] ;
-- on [] at [] in room [] for group [] ,
-
-Each practical work has an assignement that is due by a fixed deadline on GitHub Classroom.
-
-<!--  -->
-## Evaluation
+### Evaluation
 
 The evaluations are based on the practical work, and on computer.  
 
@@ -84,14 +77,13 @@ The evaluations will have the following format:
 
 - Evaluation 1 (Duration 1h; Questions and code)
 - Evaluation 2 (Duration 1h; Questions and code)
-- Evaluation 3 (Duration: 2 hours; Programming test)
+- Evaluation 3 (Duration 1h; Questions and code)
 
 <!--  -->
-## Code of conduct
-
-We will create a code of conduct together. Using this [link]
-
-<!--  -->
-## The end
+### The end
 
 - Do you have any questions ?
+
+### Hands on!
+
+It's up to you now ! Go to the [Tutorials of the first week](/web-course/weeks/week-1/#tutorials)

@@ -3,7 +3,7 @@
 ## Courses
 
 - [Organisation](/web-course/courses/organisation/)
-- [Setup and experience](/web-course/courses/setup-and-experience/)
+<!-- - [Setup and experience](/web-course/courses/setup-and-experience/) -->
 
 ## Tutorials
 
