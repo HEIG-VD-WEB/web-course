@@ -84,6 +84,7 @@ The evaluations will have the following format:
 
 - Do you have any questions ?
 
+<!--  -->
 ### Hands on!
 
 It's up to you now ! Go to the [Tutorials of the first week](/web-course/weeks/week-1/#tutorials)
