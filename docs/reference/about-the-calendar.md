@@ -2,10 +2,10 @@
 
 | No                      | Week | Date          | Title                                                          | Evaluation       |
 |-------------------------|------|---------------|----------------------------------------------------------------|------------------|
-| [1](../weeks/week-1.md) | 38   | 18.09-24.09   | Introduction, install the tools                                |                  |
-| 2                       | 39   | 25.09-01.10   | HTML & CSS                                                     |                  |
-| 3                       | 40   | 02.10-08.10   | Javascript                                                     |                  |
-| 4                       | 41   | 09.10-15.10   | Devcontainer, NPM, Node.js                                     | Practical work 1 |
+| [1](../weeks/week-1.md) | 38   | 18.09-24.09   | Organisation, install the tools & hands on tutorials           |                  |
+| [2](../weeks/week-2.md) | 39   | 25.09-01.10   | HTML, CSS & Javascript                                         |                  |
+| 3                       | 40   | 02.10-08.10   | Asynchronous Javascript & deployment                           |                  |
+| 4                       | 41   | 09.10-15.10   | NPM & Node.js                                                  | Practical work 1 |
 | 5                       | 42   | 16.10-22.10   | Typescript                                                     | Test 1           |
 |                         | _43_ | _23.10-29.10_ | _Interdisciplinary activities_                                 |                  |
 | 6                       | 44   | 30.10-05.11   | linter, formatter, prettier, eslint, stylelint                 |                  |
