@@ -10,6 +10,7 @@ nav:
   - Home:
       - index.md
       - Week 1: weeks/week-1.md
+      - Week 2: weeks/week-2.md
   - Courses:
       - courses/index.md
       - Organisation: courses/organisation/index.md
