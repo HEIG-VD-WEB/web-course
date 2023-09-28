@@ -25,17 +25,10 @@ Welcome ! This is the main center of information for the HEIG-VD Web course. You
 - [Week 15](./weeks/week-15.md)
 - [Week 16](./weeks/week-16.md) -->
 
-css_rulesets
-css_declarations_block
-css_rulesets
-css_declarations_block
-css_declaration
-css_pseudoclass
-css
-box
-css
-css
-grid
-grid
-html_content_tree
-html_dom
+js_history_es6
+logo_v8
+logo_nodejs
+Fetching_a_page
+js_compat_table
+js_eloquent_javascript
+javascript
