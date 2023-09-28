@@ -71,6 +71,12 @@ repository!
 
 Always complete never finished!
 
+If you want to already use API or other external resources, you can do it.
+
+You can use anything you want to create your website as long as you specify the source.
+
+Just search for "one page template free" on your favorite search engine and you will find a lot of free templates.
+
 ## Submission
 
 The deadline is just the Wednesday 12 October 2023 at 22h00.
