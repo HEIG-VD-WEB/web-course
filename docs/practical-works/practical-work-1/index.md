@@ -23,16 +23,16 @@ Maximum grade: ((38 points \\ 38) * 5) + 1 = 6
 If your repository is private, you must add me as collaborator to your
 repository!
 
-| #   | Criterion                                                            | Points | Done |
-| --: | -------------------------------------------------------------------  | -----: |      |
-| 1   | There is at least one `*.html` file and it is named `ìndex.html`     |      2 |      |
-| 2   | The `<h1>` and `<h2>` tags are used at least one time                |      2 |      |
-| 3   | The `<p>` tag is used at least one time                              |      2 |      |
-| 4   | The page `index.html` use at least one `*.js` file                   |      2 |      |
-| 5   | The page `index.html` use at least one `*.css` file                  |      2 |      |
-| 6   | Each formating tag (`<i>`, `<b>` and `<u>`) is used at least one time|      2 |      |
-| 7   | There is at least one Hyperlink element `<a>`                        |      2 |      |
-| 8   | There is at least one media (`<img>`, `<audio>` or `<canvas>`)       |      2 |      |
+| #   | Criterion                                                            | Points |
+| --: | -------------------------------------------------------------------  | -----: |
+| 1   | There is at least one `*.html` file and it is named `ìndex.html`     |      2 |
+| 2   | The `<h1>` and `<h2>` tags are used at least one time                |      2 |
+| 3   | The `<p>` tag is used at least one time                              |      2 |
+| 4   | The page `index.html` use at least one `*.js` file                   |      2 |
+| 5   | The page `index.html` use at least one `*.css` file                  |      2 |
+| 6   | Each formating tag (`<i>`, `<b>` and `<u>`) is used at least one time|      2 |
+| 7   | There is at least one Hyperlink element `<a>`                        |      2 |
+| 8   | There is at least one media (`<img>`, `<audio>` or `<canvas>`)       |      2 |
 
 ### Category 2 - CSS
 
