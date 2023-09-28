@@ -13,6 +13,8 @@
 - [Grid Garden](https://cssgridgarden.com/)
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 - [RegexOne](https://regexone.com/)
+- [Elevator Saga](https://play.elevatorsaga.com/)
+- [JS Robot](https://lab.reaal.me/jsrobot/#level=1&language=en)
 
 ## Examples
 
