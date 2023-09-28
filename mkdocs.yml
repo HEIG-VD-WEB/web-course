@@ -10,12 +10,14 @@ nav:
   - Home:
       - index.md
       - Week 1: weeks/week-1.md
+      - Week 2: weeks/week-2.md
   - Courses:
       - courses/index.md
       - Organisation: courses/organisation/index.md
-      # - Setup and experience: courses/setup-and-experience/index.md
-      # - Introduction: courses/introduction/index.md
-      # - HTML & CSS: courses/html-css/index.md
+      - Introduction: courses/introduction/index.md
+      - HTML: courses/html/index.md
+      - CSS: courses/css/index.md
+      - JavaScript: courses/javascript/index.md
   - Tutorials:
       - tutorials/index.md
   - Practical works:

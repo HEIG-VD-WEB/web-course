@@ -25,6 +25,7 @@
 *[POO]: Le cours de programmation orientée objet
 *[PPP]: Point-to-Point Protocol is a data link layer communications protocol used to establish a direct connection between two nodes.
 *[REST]: Representational State Transfer is a software architectural style that defines a set of constraints to be used for creating Web services.
+*[SEO]: Search engine optimization is a set of technical and content practices aimed at aligning a website page with a search engine's ranking algorithm so it can be easily found, crawled, indexed
 *[SMTP]: Simple Mail Transfer Protocol is an Internet standard for email transmission.
 *[SSH]: Secure Shell is a cryptographic network protocol for operating network services securely over an unsecured network.
 *[TCP]: Transmission Control Protocol is in the transport layer in the Internet protocol suite.
