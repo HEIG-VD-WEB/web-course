@@ -7,4 +7,4 @@ Here you will find all the theorethical material for the course.
 - [HTML](./html/)
 - [CSS](./css/)
 - [Javascript](./javascript/)
-- [Object oriented JavaScript](./object-oriented-javascript/)
+- [Object-oriented JavaScript](./object-oriented-javascript/)

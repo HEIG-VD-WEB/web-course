@@ -259,7 +259,7 @@ fruits.splice(2, 1, 'Orange'); // Replaces 1 elemnt at position 2 with 'Orange'
 fruits.splice(1, 0, 'Peach'); // Inserts 'Peach' at index 1
 ```
 
-We will learn more about arrays in the next chapter about Object-Oriented JavaScript.
+We will learn more about arrays in the next chapter about Object-oriented JavaScript.
 
 ### typeof Operator
 

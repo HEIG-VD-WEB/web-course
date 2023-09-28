@@ -22,7 +22,7 @@ nav:
       - HTML: courses/html/index.md
       - CSS: courses/css/index.md
       - JavaScript: courses/javascript/index.md
-      - Object oriented JavaScript: courses/object-oriented-javascript/index.md
+      - Object-oriented JavaScript: courses/object-oriented-javascript/index.md
   - Tutorials:
       - tutorials/index.md
   - Practical works:
