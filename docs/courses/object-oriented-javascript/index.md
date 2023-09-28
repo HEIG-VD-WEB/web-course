@@ -24,7 +24,7 @@ ECMAScript defines a special mutable type called **object** for collections of p
 
 In a dynamic language you don't specify the type when you declare a variable and the type of a variable can change.
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types)
 
 ### Objects
 
@@ -60,7 +60,7 @@ car['model'] = 'Mustang';
 car['year'] = 1969;
 ```
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 ### Methods
 
@@ -76,8 +76,6 @@ var apple = {
 }
 console.log(apple.toString()); // This fruit is red!
 ```
-
-### Methods
 
 When a function which is not the property of an object is invoked, `this` is bound to the **global** object.
 This is an **error** in the design of the language as it prevent the definition of helper funtions.
@@ -121,9 +119,9 @@ var obj = {
 ```
 
 <div class="r-stack" style="width: 80%; margin-inline: auto">
-  <img class="fragment" src="./images/prototypes/obj1.png">
-  <img class="fragment" src="./images/prototypes/obj2.png">
-  <img class="fragment" src="./images/prototypes/obj3.png">
+  <img class="fragment" src="./assets/obj1.png">
+  <img class="fragment" src="./assets/obj2.png">
+  <img class="fragment" src="./assets/obj3.png">
 </div>
 
 When an object's prototype property is the prototype
@@ -177,7 +175,7 @@ scott.greet();
 
 The `Object.assign` function extends the prototype given as first argument with the properties of the prototype given as second argument.
 
-<img src="./images/prototypes/scott.png">
+<img src="./assets/scott.png">
 
 Notes:
 
@@ -218,11 +216,11 @@ If we want that A inherits B, then we have to:
 </ol>
 
 <div class="r-stack" style="width: 95%; margin-inline: auto">
-  <img class="fragment" data-fragment-index="0" src="./images/prototypes/ab1.png">
-  <img class="fragment" data-fragment-index="1" src="./images/prototypes/ab2.png">
-  <img class="fragment" data-fragment-index="2" src="./images/prototypes/ab3.png">
-  <img class="fragment" data-fragment-index="3" src="./images/prototypes/ab4.png">
-  <img class="fragment" data-fragment-index="4" src="./images/prototypes/ab5.png">
+  <img class="fragment" data-fragment-index="0" src="./assets/ab1.png">
+  <img class="fragment" data-fragment-index="1" src="./assets/ab2.png">
+  <img class="fragment" data-fragment-index="2" src="./assets/ab3.png">
+  <img class="fragment" data-fragment-index="3" src="./assets/ab4.png">
+  <img class="fragment" data-fragment-index="4" src="./assets/ab5.png">
 </div>
 
                         </textarea>
@@ -282,7 +280,7 @@ let fruits = new Array('Apple', 'Banana', 'Pear');
 - It binds the newly created object to the `this` keyword.
 - It returns the newly created object unless the function returns another object.
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ### Overriding the prototype
 
@@ -303,7 +301,7 @@ Array.prototype.toString = function() {
 console.log(fruits.toString()); // Array of size 3!
 ```
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype](rototype)
 
 ### Putting it all together
 
@@ -312,3 +310,243 @@ As objects inherit properties from their prototype, we can say that JavaScript i
 While JavaScript does offer a class syntax, it is only **syntactic sugar** for the prototype-based inheritance system.
 
 ## Object-oriented JavaScript
+
+### The Object-oriented Syntax
+
+Introduced in ECMAScript 2015, classes are syntactic sugar over JavaScript's prototype-based inheritance. It is **not** a new object-oriented inheritance model.
+
+```js
+class Fruit {
+    constructor(color) {
+        this.color = color;
+    }
+    toString() {
+        return `This fruit is ${this.color}!`;
+    }
+}
+class Apple extends Fruit {
+    constructor(color, name) {
+        super(color);
+        this.name = name;
+    }
+    toString() {
+        return super.toString();
+    }
+}
+let apple = new Apple("red", "golden");
+console.log(apple.toString()); // This fruit is red!
+```
+
+- The `extends` keyword is used in class declarations or class expressions to create a class as the child of another class.
+- The `constructor` method is a special method for creating and initializing an object described by a class.
+- The `super` keyword is used to access and call functions on an object's parent.
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+### Static properties and methods
+
+The class syntax enables the use of `static` methods and properties, which are shared across all instances of the class.
+
+```js
+class Fruit {
+    static name = "Fruit";
+    static getName() {
+        return this.name;
+    }
+}
+console.log(Fruit.getName()); // Fruit
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+                       
+### Private properties and methods
+
+The class syntax enables the use of `private` properties and methods, which are not accessible outside of the class.
+
+```js
+class Fruit {
+    #name = "Fruit";
+    getName() {
+        return this.#name;
+    }
+}
+let fruit = new Fruit();
+console.log(fruit.getName()); // Fruit
+console.log(fruit.#name); // SyntaxError: Private field '#name' must be declared in an enclosing class
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+                        
+### Getters and setters
+
+The class syntax enables the use of `getters` and `setters` to access and modify properties.
+
+```js
+class Fruit {
+    constructor(color) {
+        this.color = color;
+    }
+    get color() {
+        return this._color;
+    }
+    set color(value) {
+        this._color = value;
+    }
+}
+let apple = new Fruit("red");
+console.log(apple.color); // red
+apple.color = "green";
+console.log(apple.color); // green
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+                        
+### Species
+
+Sometimes, you want to create a new object of the same type as an existing object. 
+For example, when you want to create a new array from an existing array, you want to create a new array of the same type.
+
+The `Symbol.species` property allows you to do that by specifying the constructor function that is used to create derived objects.
+
+```js
+class MyArray extends Array {
+    // Overwrite species to the parent Array constructor
+    static get [Symbol.species]() { return Array; }
+}
+
+const a = new MyArray(1, 2, 3);
+const mapped = a.map((x) => x * x);
+
+console.log(mapped instanceof MyArray); // false
+console.log(mapped instanceof Array);   // true
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+Notes:
+
+A lot of things are going on in this example.
+
+**The `[...]()` syntax**
+
+When defining an object's property, JavaScript allows us to provide an expression to be evaluated to that property's name, instead of providing an explicit name. That expression must then be surrounded by square brackets, which should remind you of how one can access an object's property through the same notation instead of the dot notation. This feature is called [Computed Property Names](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#computed_property_names). For example, it can be used as follows
+
+```js
+var propName = getPropertyName(); // Get a dynamically generated string
+const newObj = {
+    [propName]: getPropertyValue(),
+}
+```
+
+**`Symbol.species`**
+
+Recall that `Symbol` represents a unique identifier. The `Symbol` class offers static properties that contain symbols created for specific intents. This is the case of `Symbol.species`: it is a symbol intended to be used as a property name of all objects, and that identifies a static getter returning the function to be used to instantiate that object. Writing `static get [Symbol.species]() { //...` thus means declaring a static getter whose identifier is the symbol stored as a static property of the `Symbol` class, `Symbol.species`, and whose value corresponds to the function that instantiates that object.
+
+                        
+### Mix-ins
+
+Multiple inheritance is not supported in JavaScript, but it is possible to simulate it with mix-ins.
+
+```js
+const canWalk = (Base) => class extends Base {
+    walk() {
+        console.log("Walking...");
+    }
+};
+const canEat = (Base) => class extends Base {
+    eat() {
+        console.log("Eating...");
+    }
+};
+class Person extends canWalk(canEat(Object)) {
+    constructor(name) {
+        super();
+        this.name = name;
+    }
+}
+let person = new Person("John");
+person.walk(); // Walking...
+person.eat(); // Eating...
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+
+### Modules
+
+ECMAScript 6 introduced modules, a
+reusable piece of code that can be
+exported from one program and imported for
+use in another program.
+
+### Exporting
+
+Any value can be exported (object, number, string, etc).
+
+```js
+// Export upon declaring a value
+export function sum(a, b) { ... }
+export const ANSWER = 42
+
+// Export a declared value
+export { val1, val2, ... }
+```
+
+An export can be made **default** by following `export` with `default`.
+
+### Modules
+
+ECMAScript 6 introduced modules, a
+reusable piece of code that can be
+exported from one program and imported for
+use in another program.
+
+### Importing
+
+The imported script must be loaded as a module.
+
+```html
+<script type="module" src="path/to/module.js"></script>
+```
+
+The `import` statement must always be at the top of the file, before any other code.
+
+```js
+import { export1, export2, ... } from "module-name"; // import specific values
+import { export1 as alias1, ... } from "module-name"; // import value with alias
+import * as name from "module_name"; // import all into an object
+import name from "module-name"; // import the default export
+import "module-name"; // imports for side-effects; runs it but imports nothing.
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+
+Notes:
+
+Example
+
+```js
+// inside fruit.js
+class Fruit {}
+export Fruit;
+```
+
+```js
+// inside apple.js
+import Fruit from 'fruit.js';
+class Apple extends Fruit {}
+export Apple;
+```
+
+```js
+// inside index.js
+import Apple from 'apple.js';
+console.log(new Apple());
+```
+
+```html
+<!-- inside index.html -->
+<script type="module" src="index.js"></script>
+```
+
+## Manipulating DOM objects
