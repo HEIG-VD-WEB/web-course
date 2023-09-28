@@ -8,7 +8,7 @@
 
 - [HTML](/web-course/courses/html/)
 - [CSS](/web-course/courses/css/)
-- [Javascript](/web-course/courses/javascript/)
+- [JavaScript](/web-course/courses/javascript/)
 - [A complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Tutorials
@@ -39,8 +39,8 @@
 - [CSS font](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
 - [CSS position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 - [Flexbox CodePen](https://codepen.io/bchapuis-the-decoder/embed/ZEoawVE?height=265&theme-id=light&default-tab=html,result)
-- [Javascript - Optionnal chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
-- [Javascript - Destructuring assiagnment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [JavaScript - Optionnal chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+- [JavaScript - Destructuring assiagnment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 ## Quiz
 

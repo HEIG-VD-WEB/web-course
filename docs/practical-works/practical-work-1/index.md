@@ -1,6 +1,6 @@
 # Practical work 1
 
-So you just began to learn HTML, CSS and Javascript. You are now able to create a simple website. You will now create a simple website that will be hosted on GitHub Pages.
+So you just began to learn HTML, CSS and JavaScript. You are now able to create a simple website. You will now create a simple website that will be hosted on GitHub Pages.
 
 ## Objectives
 
@@ -45,7 +45,7 @@ repository!
 | 13  | At least 2 classes are used and declared                         |      2 |
 
 
-### Category 3 - Javascript
+### Category 3 - JavaScript
 
 | #   | Criterion                                                        | Points |
 | --- | ---------------------------------------------------------------- | -----: |

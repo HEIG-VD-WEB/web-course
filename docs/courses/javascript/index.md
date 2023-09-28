@@ -1,4 +1,4 @@
-# Javascript
+# JavaScript
 
 ## What is JavaScript
 
@@ -46,7 +46,7 @@ Notes:
 Birth  
 
 - 1994: Netscape Navigator is released, quickly becomes the most-used.  
-- Web pages can then only be static, so Netscape added a scripting language to their navigator: a language created by newly-hired Brendan Eich, similar syntax to Java, called LiveScript in its beta, and then renamed to javascript at its release.
+- Web pages can then only be static, so Netscape added a scripting language to their navigator: a language created by newly-hired Brendan Eich, similar syntax to Java, called LiveScript in its beta, and then renamed to JavaScript at its release.
 - Invented by Brendan Eich in 1995. He was also the cofounder of Mozilla.
 
 Standardization
@@ -98,13 +98,13 @@ Today, JavaScript is commonly used in browsers (client-side), on servers (server
 
 [https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
 
-### Eloquent Javascript
+### Eloquent JavaScript
 
 <img src="assets/js_eloquent_javascript.jpg" style="width: 25%" />
 
 [https://eloquentjavascript.net/](https://eloquentjavascript.net/)
 
-### Javascript: The Good Parts
+### JavaScript: The Good Parts
 
 <img src="assets/javascript-good-parts.webp" style="width: 60%" />
 
@@ -112,7 +112,7 @@ Today, JavaScript is commonly used in browsers (client-side), on servers (server
 
 ## Foundations of JavaScript
 
-### Client-side Javascript
+### Client-side JavaScript
 
 Adding JavaScript to a Web page is as simple as adding a `script` tag to the HTML document.
 
@@ -135,7 +135,7 @@ The `defer` attribute is used to defer the execution of the script until the pag
 
 The `async` attribute is used to load the script asynchronously.
 
-### Server-side Javascript
+### Server-side JavaScript
 
 After installing nodejs, a REPL (Read-Eval-Print-Loop) can be obtained by typing the node command:
 
@@ -773,7 +773,7 @@ For instance, given the format for [registration plates](https://fr.wikipedia.or
 ### Building Regular Expressions
 
 The following notations can be used to define a
-regular expression in Javascript. The description of
+regular expression in JavaScript. The description of
 the regular expression must be surrounded by "`/`"
 symbols.
 

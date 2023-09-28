@@ -29,7 +29,7 @@ Vincent Guidoux (He/him)
 
 You will learn the following topics during this course:
 
-- Frontend programming (HTML, CSS, Javascript, Typescript, React, Next.js)
+- Frontend programming (HTML, CSS, JavaScript, TypeScript, React, Next.js)
 - Backend programming (Node.js, Express, Nest.js, MySQL, PostgreSQL)
 - Asynchronous programming (Promises, async/await)
 - Testing (Jest, Cypress)
