@@ -737,11 +737,8 @@ function wrap(value) {
 console.log(wrap(1)()); // 1
 ```
 
-Try to implement a counter using a closure?
+This is what it looks like when using a closure?
 
-Notes:
-
-<div class="spoiler">
 
 ```js
 function getCounter() {
@@ -752,8 +749,6 @@ let c = getCounter();
 console.log(c()); // 0
 console.log(c()); // 1
 ```
-    
-</div>
 
 ## Regular Expressions
 
@@ -879,7 +874,7 @@ Recall the Array object. Its prototype has many methods. Some of the useful ones
 - `sort()` sorts the elements of an array.
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){:target="_blank"}
-                        
+
 
 ### Array's functional methods
 
@@ -966,9 +961,7 @@ let documents = [
 let stopWords = ["the", "is"];
 let invertedIndex = "...";
 ```
-
-Use the `replace`, `split`, `filter`, `map`, `flatMap`, and `reduce` methods to create the inverted index so that `console.log(invertedIndex)` prints:
-
+If you want `console.log(invertedIndex)` to prints the following
 ```js
 {
     "hello": [ 0, 1 ],
@@ -979,12 +972,10 @@ Use the `replace`, `split`, `filter`, `map`, `flatMap`, and `reduce` methods to 
     "dark": [ 3 ]
 }
 ```
-                          
-Notes:
 
-<div class="spoiler">
+Using the `replace`, `split`, `filter`, `map`, `flatMap`, and `reduce` methods
 
-Solution:
+you should do something like this:
 
 ```js
 let documents = [
@@ -1012,42 +1003,39 @@ let invertedIndex = documents
 console.log(invertedIndex);
 ```
 
-</div>
+### Iterators
 
+**Iterators** are objects that provide a `next()` method which returns an object with two properties:
 
-                        ### Iterators
+- `value`: the next value in the iterator, and
+- `done`: whether the last value has already been provided.
 
-                        **Iterators** are objects that provide a `next()` method which returns an object with two properties:
+**Iterables** are objects that have a `Symbol.iterator` method that returns an iterator over them.
 
-                        - `value`: the next value in the iterator, and
-                        - `done`: whether the last value has already been provided.
+```js
+let idGenerator = {};
 
-                        **Iterables** are objects that have a `Symbol.iterator` method that returns an iterator over them.
-
-                        ```js
-                        let idGenerator = {};
-
-                        idGenerator[Symbol.iterator] = function() {
-return {
-    nextId: 0,
-    next() {
-        if (this.nextId < 10) {
-            return { value: this.nextId++, done: false };
-        } else {
-            return { done : true };
-        }
-    }
+idGenerator[Symbol.iterator] = function() {
+	return {
+			nextId: 0,
+			next() {
+					if (this.nextId < 10) {
+							return { value: this.nextId++, done: false };
+					} else {
+							return { done : true };
+					}
+			}
+	}
 }
-                        }
 
-                        for (let id of idGenerator) {
-console.log(id);
-                        }
-                        ```
+for (let id of idGenerator) {
+	console.log(id);
+}
+```
 
-                        Notes:
+Notes:
 
-                        *Recall: The `for...of` loop requires its second operand to be an iterable.*
+*Recall: The `for...of` loop requires its second operand to be an iterable.*
 
 
 ### Generators - Convenient iterators
@@ -1085,13 +1073,6 @@ class Foo {
     }
 }
 ```
-
-### Exercise
-
-Try defining generators that return
-- the fibonacci sequence
-- a sequence of numbers followed by their square : (1 1 2 4 3 9 4 16 ...)
-
 
 ### Useful Built-in Iterables
 
