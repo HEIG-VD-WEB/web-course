@@ -31,6 +31,10 @@
 - [Javascript - Optionnal chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 - [Javascript - Destructuring assiagnment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
+## Quiz
+
+- [JS is weird](https://jsisweird.com/)
+
 ## Practical Work
 
 - [Practical Work 1](/web-course/practical-works/practical-work-1/)
