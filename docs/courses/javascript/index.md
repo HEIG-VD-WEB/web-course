@@ -863,3 +863,259 @@ Notes:
 [https://regexr.com](https://regexr.com){:target="_blank"}
 
 [https://regex101.com/](https://regex101.com/){:target="_blank"}
+
+## Javascript Arrays and Iterables
+
+### Arrays methods
+Recall the Array object. Its prototype has many methods. Some of the useful ones are:
+
+- `concat()` concatenates two or more arrays and returns a new array.
+- `join()` joins all elements of an array into a string.
+- `pop()` removes the last element from an array and returns that element.
+- `push()` adds one or more elements to the end of an array and returns the new length of the array.
+- `reverse()` reverses the order of the elements of an array.
+- `shift()` removes the first element from an array and returns that element.
+- `slice()` selects a part of an array, and returns it as a new array.
+- `sort()` sorts the elements of an array.
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){:target="_blank"}
+                        
+
+### Array's functional methods
+
+The Array object also has some functional methods, which are:
+
+`forEach()` executes a provided function once for each array element.
+
+```js
+const a = ['a', 'b', 'c'];
+a.forEach(element => console.log(element));
+```
+
+`map()` creates a new array with the results of calling a provided function on every element.
+
+```js
+var a = ["apple", "banana", "pear"];
+a.map(a => a.length)
+```
+
+`flatMap()` maps each element using a mapping function, and then flattens the resulting array by one level.
+
+```js
+var a = ['Yverdon is', 'a', 'beautiful city'];
+a.flatMap(s => s.split(" "));
+// First executes map: [['Yverdon', 'is'], 'a', ['beautiful', 'city']]
+// Then flattens: ['Yverdon', 'is', 'a', 'beautiful', 'city'].
+```
+
+`filter()` creates a new array with all elements that pass the test implemented by the provided function.
+
+```js
+const words = ['Yverdon', 'is', 'a', 'beautiful', 'city'];
+const result = words.filter(word => word.length > 6);
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){:target="_blank"}
+
+Notes:
+
+Flattenning an array by depth `n` means replacing any sub-array it contains with the elements contained by that subarray, `n` times. Note that a `flat` method exists in `Array.prototype` which does exactly that, meaning that `flatMap` is equivalent to calling `map` and then `flat`.
+
+`reduce()` and `reduceRight()` execute a reducer function on each element of the array, resulting in a single value.
+
+```js
+var a = [1, 2, 3];
+a.reduce((a, b) => a + b)
+```
+
+`every()` tests whether all elements in the array pass the test implemented by the provided function.
+
+```js
+var a = [1, 2, 3];
+a.every(a => a > 0)
+```
+
+`some()` tests whether some element in the array passes the test implemented by the provided function.
+
+```js
+var a = [1, 2, 3];
+a.some(a => a > 2)
+```
+
+`find()` and `findIndex()` return the value (or its index, respectively) of the first element in the array that satisfies the provided testing function.
+
+```js
+var a = [1, 2, 3];
+a.find(a => a > 2)
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){:target="_blank"}
+
+
+### Inverted Index
+
+Given a list of documents, create an inverted index. An inverted index is a dictionary where each word is associated with a list of the document identifiers in which that word appears.
+
+```js
+let documents = [
+    "Hello Everyone",
+    "Hello, World!",
+    "The sky is blue",
+    "The sky is dark"
+];
+let stopWords = ["the", "is"];
+let invertedIndex = "...";
+```
+
+Use the `replace`, `split`, `filter`, `map`, `flatMap`, and `reduce` methods to create the inverted index so that `console.log(invertedIndex)` prints:
+
+```js
+{
+    "hello": [ 0, 1 ],
+    "everyone": [ 0 ],
+    "world": [ 1 ],
+    "sky": [ 2, 3 ],
+    "blue": [ 2 ],
+    "dark": [ 3 ]
+}
+```
+                          
+Notes:
+
+<div class="spoiler">
+
+Solution:
+
+```js
+let documents = [
+    "Hello Everyone",
+    "Hello, World!",
+    "The sky is blue",
+    "The sky is dark"
+];
+let stopWords = ["the", "is"];
+let invertedIndex = documents
+    .map((doc, index) => doc
+        .replace(/[.,!]/g, "")
+        .split(" ")
+        .filter(word => !stopWords.includes(word.toLowerCase()))
+        .map(word => [word.toLowerCase(), index]))
+    .flat()
+    .reduce((acc, [word, index]) => {
+        if (acc[word]) {
+            acc[word].push(index);
+        } else {
+            acc[word] = [index];
+        }
+        return acc;
+    }, {});
+console.log(invertedIndex);
+```
+
+</div>
+
+
+                        ### Iterators
+
+                        **Iterators** are objects that provide a `next()` method which returns an object with two properties:
+
+                        - `value`: the next value in the iterator, and
+                        - `done`: whether the last value has already been provided.
+
+                        **Iterables** are objects that have a `Symbol.iterator` method that returns an iterator over them.
+
+                        ```js
+                        let idGenerator = {};
+
+                        idGenerator[Symbol.iterator] = function() {
+return {
+    nextId: 0,
+    next() {
+        if (this.nextId < 10) {
+            return { value: this.nextId++, done: false };
+        } else {
+            return { done : true };
+        }
+    }
+}
+                        }
+
+                        for (let id of idGenerator) {
+console.log(id);
+                        }
+                        ```
+
+                        Notes:
+
+                        *Recall: The `for...of` loop requires its second operand to be an iterable.*
+
+
+### Generators - Convenient iterators
+
+Allows the definition of a function that can "return multiple times" with the `yield` keyword:
+
+```js[3-8]
+let idGenerator = {};
+
+idGenerator[Symbol.iterator] = function* () {
+    let nextId = 0;
+    while (nextId < 10) {
+        yield nextId++;
+    }
+};
+
+for (let id of idGenerator) {
+    console.log(id);
+}
+```
+
+- `function*` declares a generator, which is a type of iterator, *not* a function.
+- `yield` effectively pauses execution after returning its operand. On a next call to the iterator, it will resume execution.
+- `yield*` is followed by another generator or iterable object and delegates the generation to them until they are empty.
+
+Notes:
+
+### Remarks
+
+When used as a class method, since there is no `function` keyword, the asterisk is put before the name :
+```js
+class Foo {
+    *bar() {
+        yield 1;
+    }
+}
+```
+
+### Exercise
+
+Try defining generators that return
+- the fibonacci sequence
+- a sequence of numbers followed by their square : (1 1 2 4 3 9 4 16 ...)
+
+
+### Useful Built-in Iterables
+
+The `Map` and `Set` objects are iterable and have a `forEach` method.
+
+
+The `Map` object holds key-value pairs and remembers the original insertion order of the keys.
+
+```js
+let map = new Map();
+map.set("key", "value");
+map.get("key");
+map.delete("key");
+```
+
+The `Set` object lets you store unique values of any type.
+
+```js
+let set = new Set();
+map.add("value");
+map.has("value");
+map.delete("value");
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Object){:target="_blank"}
+
+                

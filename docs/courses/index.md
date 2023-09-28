@@ -8,3 +8,4 @@ Here you will find all the theorethical material for the course.
 - [CSS](./css/)
 - [Javascript](./javascript/)
 - [Object-oriented JavaScript](./object-oriented-javascript/)
+- [Testing JavaScript application](./testing-javascript-application/)
