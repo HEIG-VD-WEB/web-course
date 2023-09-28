@@ -839,21 +839,7 @@ In addition to `matchAll`, a string comes with the `match`, `replace`, `search` 
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
-### Hands-on with Regular Expressions
-
-- Get comfortable with regexes on [https://regexone.com/](https://regexone.com/).
-
-- Write a regular expression that extracts the canton and the number of a Swiss registration plates.
-
-- Write a regular expression that extracts a list of Swiss registration plates from a free text.
-
-[https://regexr.com](https://regexr.com)
-
-[https://regex101.com/](https://regex101.com/)
-
-Notes:
-
-<div class="spoiler">
+- Example of a regular expression that extracts the canton and the number of a Swiss registration plates.
 
 ```js
 let plate = "BE.1234"
@@ -861,7 +847,9 @@ let plate = "BE.1234"
 let re = /([A-Z]{2})\.?([0-9]{1,6})/;
 let [_, canton, number] = plate.match(re);
 ```
-    
+
+- Example of a regular expression that extracts a list of Swiss registration plates from a free text.
+
 ```js
 // Text containing swiss license plates
 let text = getText()
@@ -869,3 +857,9 @@ let text = getText()
 let re = /[A-Z]{2}\.?[0-9]{1,6}/g;
 let plates = [...text.matchAll(re)];
 ```
+
+Notes:
+
+[https://regexr.com](https://regexr.com)
+
+[https://regex101.com/](https://regex101.com/)
