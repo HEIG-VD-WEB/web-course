@@ -260,19 +260,19 @@ from left to right. The highest wins.
 
 ```css
 #myElement {
-    color: green;
+		color: green;  /* (0, 1, 0, 0)  - WINS!! */
 }
 .bodyClass .sectionClass .parentClass [id="myElement"] {
-    color: yellow;
+		color: yellow; /* (0, 0, 4, 0) */
 }
 ```
 
 ```css
 #myElement {
-    color: yellow;
+		color: yellow; /* (0, 1, 0, 0) */
 }
 #myApp [id="myElement"] {
-    color: green;
+		color: green;  /* (0, 1, 1, 0)  - WINS!! */
 }
 ```
 
@@ -281,34 +281,6 @@ from left to right. The highest wins.
 Notes:
 
 When we say "compared from right to left", we mean that, first, the values of `a` are compared. If one is higher than the other, that declaration wins. Otherwise if they are equal, the values of `b` are compared. If one is higher than the other, it wins, and so on. If we reach equality, the cascading rule applies, and the last declaration wins.
-
-<div class="spoiler">
-
-    ```css
-    #myElement {
-        color: green;  /* (0, 1, 0, 0)  - WINS!! */
-    }
-    .bodyClass .sectionClass .parentClass [id="myElement"] {
-        color: yellow; /* (0, 0, 4, 0) */
-    }
-    ```
-    
-    ```css
-    #myElement {
-        color: yellow; /* (0, 1, 0, 0) */
-    }
-    #myApp [id="myElement"] {
-        color: green;  /* (0, 1, 1, 0)  - WINS!! */
-    }
-    ```
-
-</div>
-
-### Hands on!
-
-Practice with selectors on CSS Diner.
-
-[https://flukeout.github.io/](https://flukeout.github.io/)
 
 ## Properties
 ### Text Properties
@@ -764,11 +736,6 @@ See the illustrations on **[CSS
 tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)**
 to learn about the potential of flexbox.
 
-### Hands on!
-
-Play with these properties on [Flexbox Froggy](https://flexboxfroggy.com/), or freely on [codepen](https://codepen.io/bchapuis-the-decoder/embed/ZEoawVE?height=265&theme-id=light&default-tab=html,result).
-
-
 ### References
 
 **[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)** provides a very good **interactive** tutorial on Flexbox.
@@ -796,8 +763,6 @@ to learn about the potential of grid.
 ### Grid - Areas
 
 `grid-template-areas` allows trivial responsiveness for different screen sizes.
-
-<img src="assets/grid-template-areas.png" style="width:70%"/>
 
 Play with CSS grids with [Grid Garden](https://cssgridgarden.com/).
 

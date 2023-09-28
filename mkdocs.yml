@@ -22,6 +22,7 @@ nav:
       - tutorials/index.md
   - Practical works:
       - practical-works/index.md
+      - Practical Work 1: practical-works/practical-work-1/index.md
   - Reference:
       - reference/index.md
       - About the calendar: reference/about-the-calendar.md
