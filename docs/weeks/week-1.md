@@ -6,11 +6,11 @@
 
 ## Tutorials
 
-- [Install and configure Visual Studio Code](https://docs.beescreens.ch/tutorials/install-and-configure-visual-studio-code/)
-- [Install and configure Docker](https://docs.beescreens.ch/tutorials/install-and-configure-docker/)
-- [Install and configure Dev Containers](https://docs.beescreens.ch/tutorials/install-and-configure-dev-containers/)
-- [Create a media player application](https://docs.beescreens.ch/tutorials/create-a-media-player-application/introduction/)
-- [Create an interactive drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/)
+- [Install and configure Visual Studio Code](https://docs.beescreens.ch/tutorials/install-and-configure-visual-studio-code/){:target="_blank"}
+- [Install and configure Docker](https://docs.beescreens.ch/tutorials/install-and-configure-docker/){:target="_blank"}
+- [Install and configure Dev Containers](https://docs.beescreens.ch/tutorials/install-and-configure-dev-containers/){:target="_blank"}
+- [Create a media player application](https://docs.beescreens.ch/tutorials/create-a-media-player-application/introduction/){:target="_blank"}
+- [Create an interactive drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/){:target="_blank"}
 
 ## Questions
 
