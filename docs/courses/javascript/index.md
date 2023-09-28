@@ -1,4 +1,4 @@
-# HTML
+# Javascript
 
 ## What is JavaScript
 
