@@ -13,6 +13,8 @@
 - [Grid Garden](https://cssgridgarden.com/)
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 - [RegexOne](https://regexone.com/)
+- [Elevator Saga](https://play.elevatorsaga.com/)
+- [JS Robot](https://lab.reaal.me/jsrobot/#level=1&language=en)
 
 ## Examples
 
@@ -30,6 +32,10 @@
 - [Flexbox CodePen](https://codepen.io/bchapuis-the-decoder/embed/ZEoawVE?height=265&theme-id=light&default-tab=html,result)
 - [Javascript - Optionnal chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 - [Javascript - Destructuring assiagnment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
+## Quiz
+
+- [JS is weird](https://jsisweird.com/)
 
 ## Practical Work
 

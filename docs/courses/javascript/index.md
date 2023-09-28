@@ -1,4 +1,4 @@
-# HTML
+# Javascript
 
 ## What is JavaScript
 
@@ -43,21 +43,26 @@ ECMAScript (or ES) is a specification created by ECMA International to standardi
 
 Notes:
 
-Birth
-- 1994: Netscape Navigator is released, quickly becomes the most-used.
+Birth  
+
+- 1994: Netscape Navigator is released, quickly becomes the most-used.  
 - Web pages can then only be static, so Netscape added a scripting language to their navigator: a language created by newly-hired Brendan Eich, similar syntax to Java, called LiveScript in its beta, and then renamed to javascript at its release.
 - Invented by Brendan Eich in 1995. He was also the cofounder of Mozilla.
 
 Standardization
+
 - 1996, Netscape meets with ECMA to standardize JavaScript. Happens in 1997.
 
 Adoption
+
 - 1999: third major release comes out, ES3. Internet Explorer is the new best explorer
 
 Asynchronicity
+
 - 1999: AJAX (Asynchronous Javascript and XML) arrives in JS and is quickly adopted. Essentially decouples data communication with data presentation, allowing more dynamic web pages.
 
 JSON
+
 - 2009: ES5 comes out, JSON becomes standard
 - JSON first showed up in 2001, informally specified in 2006, and then officially standardized in 2013.
 
