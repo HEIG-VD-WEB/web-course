@@ -1,5 +1,9 @@
 # Week 2
 
+## Practical Work
+
+- [Practical Work 1](/web-course/practical-works/practical-work-1/)
+
 ## Courses
 
 - [HTML](/web-course/courses/html/)
@@ -15,6 +19,11 @@
 - [RegexOne](https://regexone.com/)
 - [Elevator Saga](https://play.elevatorsaga.com/)
 - [JS Robot](https://lab.reaal.me/jsrobot/#level=1&language=en)
+
+## How-to Guides
+
+- [How to deploy a website on GitHub Pages](/web-course/how-to-guides/how-to-deploy-on-github-pages/)
+
 
 ## Examples
 
@@ -37,6 +46,3 @@
 
 - [JS is weird](https://jsisweird.com/)
 
-## Practical Work
-
-- [Practical Work 1](/web-course/practical-works/practical-work-1/)

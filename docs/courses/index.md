@@ -1,3 +1,9 @@
 # Courses
 
-Check out the navigation bar for all the courses regarding this project.
+Here you will find all the theorethical material for the course.
+
+- [Organisation](./organisation/)
+<!-- - [Introduction](./introduction/) -->
+- [HTML](./html/)
+- [CSS](./css/)
+- [Javascript](./javascript/)

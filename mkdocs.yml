@@ -14,7 +14,7 @@ nav:
   - Courses:
       - courses/index.md
       - Organisation: courses/organisation/index.md
-      - Introduction: courses/introduction/index.md
+      # - Introduction: courses/introduction/index.md
       - HTML: courses/html/index.md
       - CSS: courses/css/index.md
       - JavaScript: courses/javascript/index.md
@@ -23,6 +23,9 @@ nav:
   - Practical works:
       - practical-works/index.md
       - Practical Work 1: practical-works/practical-work-1/index.md
+  - How-to guides:
+      - how-to-guides/index.md
+      - How to deploy on GitHub Pages: how-to-guides/how-to-deploy-on-github-pages/index.md
   - Reference:
       - reference/index.md
       - About the calendar: reference/about-the-calendar.md
