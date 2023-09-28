@@ -5,12 +5,16 @@ site_author: web-course contributors
 site_url: https://heig-vd-web.github.io/web-course/
 site_description: >-
   Course & tutorials about web technologies
-copyright: Made with ❤ and collaboration of the DAI team
+copyright: Made with ❤, the DAI team, Bertil Chapuis, Olivier Lemer and Stefan Teofanovic
 nav:
   - Home:
       - index.md
       - Week 1: weeks/week-1.md
       - Week 2: weeks/week-2.md
+      - Week 3: weeks/week-3.md
+      # - Week 4: weeks/week-4.md
+      # - Week 5: weeks/week-5.md
+      # - Week 6: weeks/week-6.md
   - Courses:
       - courses/index.md
       - Organisation: courses/organisation/index.md
@@ -18,6 +22,7 @@ nav:
       - HTML: courses/html/index.md
       - CSS: courses/css/index.md
       - JavaScript: courses/javascript/index.md
+      - Object oriented JavaScript: courses/object-oriented-javascript/index.md
   - Tutorials:
       - tutorials/index.md
   - Practical works:

@@ -1,9 +1,5 @@
 # Week 2
 
-## Practical Work
-
-- [Practical Work 1](/web-course/practical-works/practical-work-1/)
-
 ## Courses
 
 - [HTML](/web-course/courses/html/)
@@ -23,6 +19,10 @@
 ## How-to Guides
 
 - [How to deploy a website on GitHub Pages](/web-course/how-to-guides/how-to-deploy-on-github-pages/)
+
+## Practical Work
+
+- [Practical Work 1](/web-course/practical-works/practical-work-1/)
 
 
 ## Examples
