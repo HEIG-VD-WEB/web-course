@@ -10,7 +10,7 @@
 - Hypertext refers to **cross-references** (links, images, files, etc.) that connect web pages to one another, either within a single website or between websites
 - HTML5 is called a [living standard](https://html.spec.whatwg.org/) as it is constantly evolving.
 
-[https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML){:target="_blank"}
 
 ### Anatomy of an HTML document
 
@@ -47,7 +47,7 @@ Meta tags are a great way for webmasters to provide search engines and browsers 
 		<meta name="Description" content="Great description" />
 ```
 
-[https://support.google.com/webmasters/answer/79812](https://support.google.com/webmasters/answer/79812)
+[https://support.google.com/webmasters/answer/79812](https://support.google.com/webmasters/answer/79812){:target="_blank"}
 
 ### Setting the viewport
 
@@ -72,7 +72,7 @@ With these properties web pages become rich objects on the Web graph.
 
 <img src="assets/ogp.png" style="width: 200px;" />
 
-[https://www.ogp.me/](https://www.ogp.me/)
+[https://www.ogp.me/](https://www.ogp.me/){:target="_blank"}
 
 ### Search Engine Optimization (SEO)
 
@@ -270,7 +270,7 @@ The `<form>` element defines a form.
 - The `action` attribute defines the location (URL) where the form should be sent when it is submitted.
 - The `method` attribute defines which HTTP method to send the data with (it can be "get" or "post").
 
-[https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form)
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form){:target="_blank"}
 
 ### HTML Input Element
 
@@ -286,7 +286,7 @@ Common attributes are
 - `required`: indicates that the input is mandatory. Submission will be blocked if the input is empty.
 - `readonly`: indicates that the input cannot be edited.
 
-[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input){:target="_blank"}
 
 ### Semantic elements
 
@@ -343,7 +343,7 @@ Notes:
 Using semantic elements is important for accessibility and SEO, because it helps screen readers and search engines to understand the structure of the page.
 
 ### A growing list of elements
-[https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+[https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element){:target="_blank"}
 
 ## HTML Entities
 

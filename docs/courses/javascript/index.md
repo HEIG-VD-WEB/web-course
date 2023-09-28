@@ -16,7 +16,7 @@ The rest of the program is interpreted.
 Functions are treated like any other value.
 They can be stored in variables, passed as arguments to other functions, created within functions, and returned from functions.
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript){:target="_blank"}
 
 JavaScript is a **prototype-based**, multi-paradigm, **dynamic** language, supporting **object-oriented**, **imperative**, and **declarative** (e.g. functional programming) styles.
 
@@ -32,7 +32,7 @@ Imperative programming is a programming paradigm that uses statements that chang
 ### Declarative
 Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow.
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript){:target="_blank"}
 
 ### ECMAScript
 
@@ -96,19 +96,19 @@ Today, JavaScript is commonly used in browsers (client-side), on servers (server
 
 <img src="assets/js_compat_table.png" style="width: 70%" />
 
-[https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
+[https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/){:target="_blank"}
 
 ### Eloquent JavaScript
 
 <img src="assets/js_eloquent_javascript.jpg" style="width: 25%" />
 
-[https://eloquentjavascript.net/](https://eloquentjavascript.net/)
+[https://eloquentjavascript.net/](https://eloquentjavascript.net/){:target="_blank"}
 
 ### JavaScript: The Good Parts
 
 <img src="assets/javascript-good-parts.webp" style="width: 60%" />
 
-[https://www.oreilly.com/library/view/javascript-the-good/9780596517748/](https://www.oreilly.com/library/view/javascript-the-good/9780596517748/)
+[https://www.oreilly.com/library/view/javascript-the-good/9780596517748/](https://www.oreilly.com/library/view/javascript-the-good/9780596517748/){:target="_blank"}
 
 ## Foundations of JavaScript
 
@@ -147,7 +147,7 @@ Type ".help" for more information.
 Hello World!
 ```
 
-[https://nodejs.org/api/repl.html](https://nodejs.org/api/repl.html)
+[https://nodejs.org/api/repl.html](https://nodejs.org/api/repl.html){:target="_blank"}
 
 ### Get to know the REPL commands
 
@@ -163,7 +163,7 @@ Hello World!
 
 `.editor` - Enter editor mode (<ctrl>-D to finish, <ctrl>-C to cancel).
 
-[https://nodejs.org/api/repl.html#repl_repl_commands](https://nodejs.org/api/repl.html#repl_repl_commands)
+[https://nodejs.org/api/repl.html#repl_repl_commands](https://nodejs.org/api/repl.html#repl_repl_commands){:target="_blank"}
 
 ### JavaScript's Types
 
@@ -181,7 +181,7 @@ In a dynamic language you don't specify the type when you declare a variable and
 
 ECMAScript also defines a special mutable type called **object** for collections of properties (objects and array).
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types){:target="_blank"}
 
 Notes:
 
@@ -304,7 +304,7 @@ An arithmetic operator takes numerical values (either literals or variables) as 
 1 ** 1; // exponentiation
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators){:target="_blank"}
 
 ### String Operators
 
@@ -320,7 +320,7 @@ In practice, prefer template literals to concatenation.
 `PI = ${Math.PI}`; // template literals
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){:target="_blank"}
 
 ### Assignment Operators
 
@@ -346,7 +346,7 @@ a--; // decrements and returns value before decrementing
 --a; // decrements and returns result of decrementing
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators){:target="_blank"}
 
 ### Destructuring Assignment
 
@@ -372,7 +372,7 @@ console.log(b); // 2
 console.log(rest); // {c: 3, d: 4}
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){:target="_blank"}
 
 ### Logical and Ternary Operators
 
@@ -386,7 +386,7 @@ true || false  // true
 true ? a : b   // a
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators){:target="_blank"}
 
 Notes:
 
@@ -417,7 +417,7 @@ In this example, if we had omitted the `?` symbol, it would have failed with a `
     
 Introduced with ECMA2020.
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining){:target="_blank"}
         
 ### Comparison Operators
 
@@ -449,7 +449,7 @@ It is recommended to use strict equality (===) and strict inequality (!==) opera
   "1" !== 1 // true
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators){:target="_blank"}
 
 ### Variable declaration statements
 
@@ -605,7 +605,7 @@ for (let num = 0; num < 5; num++) {
 }
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label){:target="_blank"}
 
 ### JavaScript Exceptions
  
@@ -723,7 +723,7 @@ let greaterThan10 = greaterThan(10);
 console.log(greaterThan10(11)); // true
 ```
 
-[https://eloquentjavascript.net/05_higher_order.html](https://eloquentjavascript.net/05_higher_order.html)
+[https://eloquentjavascript.net/05_higher_order.html](https://eloquentjavascript.net/05_higher_order.html){:target="_blank"}
 
 ### JavaScript Closure
 
@@ -768,7 +768,7 @@ For instance, given the format for [registration plates](https://fr.wikipedia.or
 - Validate that the given string is a valid registration plate
 - Extract all the registration plates listed in a unstructured text 
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions){:target="_blank"}
 
 ### Building Regular Expressions
 
@@ -792,7 +792,7 @@ A regular expression is usually built with the following constructs:
 - **Groups** (`()`, `(?<name>)`, `(?:)`) that extracts and remember (or not) information from the input 
 - **Assertions** (`x(?=y)`) that helps at defining conditional expressions
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions){:target="_blank"}
 
 ### Fun with Flags
 
@@ -807,7 +807,7 @@ const re4 = /ab+c/m; // multi-line search
 const re5 = /ab+c/gi // global case-insensitive search
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions){:target="_blank"}
 
 Notes:
 
@@ -837,7 +837,7 @@ console.log(JSON.stringify([..."ac abc abbc abbbc".matchAll(/ab+c/g)]));
 
 In addition to `matchAll`, a string comes with the `match`, `replace`, `search` and `split` methods.
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions){:target="_blank"}
 
 - Example of a regular expression that extracts the canton and the number of a Swiss registration plates.
 
@@ -860,6 +860,6 @@ let plates = [...text.matchAll(re)];
 
 Notes:
 
-[https://regexr.com](https://regexr.com)
+[https://regexr.com](https://regexr.com){:target="_blank"}
 
-[https://regex101.com/](https://regex101.com/)
+[https://regex101.com/](https://regex101.com/){:target="_blank"}

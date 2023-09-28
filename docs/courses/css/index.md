@@ -13,7 +13,7 @@
 
 - CSS is **standardized** across Web browsers according to the [W3C specification](https://www.w3.org/Style/CSS/#specs),<br>the latest version being CSS3.
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS){:target="_blank"}
 
 
 ## Anatomy of a CSS document
@@ -46,7 +46,7 @@ There are more than [100 different
 properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 in CSS.
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax){:target="_blank"}
 
 Notes:
 
@@ -78,7 +78,7 @@ Notes:
 
 - Sometimes blocks can be **nested** (e.g., media queries)
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax){:target="_blank"}
 
 ### Declaration
 
@@ -94,7 +94,7 @@ Notes:
 
 - There are more than [100 different properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) in CSS 
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax){:target="_blank"}
 
 ### Adding CSS to an HTML Document
 
@@ -171,7 +171,7 @@ Selectors can be **grouped**:
 h1, h2, h3, p {}
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){:target="_blank"}
 
 ### Selectors++
 
@@ -202,7 +202,7 @@ ul > li {}
 
 Other combinators, such as `+`, `~`, respectively applies to **adjacent** and **sibling** elements in the DOM.
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){:target="_blank"}
 
 Notes:
 
@@ -227,7 +227,7 @@ The :nth-child() CSS pseudo-class matches elements based on their position in a 
 td:nth-child(2n) { background-color: gray; }
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes){:target="_blank"}
 
 Notes:
 
@@ -276,7 +276,7 @@ from left to right. The highest wins.
 }
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity){:target="_blank"}
 
 Notes:
 
@@ -297,7 +297,7 @@ p {
 
 There are many CSS properties for text manipulation, like line breaking, justification and alignment, white space handling, and text transformation.
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text){:target="_blank"}
 
 ### Background Properties
 
@@ -312,7 +312,7 @@ body {
 
 There are many more CSS properties for background manipulation, like background position, background attachment, background origin, etc.
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/background](https://developer.mozilla.org/en-US/docs/Web/CSS/background){:target="_blank"}
 
 Notes:
 
@@ -349,7 +349,7 @@ background-color: #090;
 border-color: #090;
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/color](https://developer.mozilla.org/en-US/docs/Web/CSS/color){:target="_blank"}
 
 ### Font Properties
 
@@ -381,7 +381,7 @@ body{
 [fonts.google.com](https://fonts.google.com) and [fonts.com](https://fonts.com) provide public registries for fonts.
 
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/font](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/font](https://developer.mozilla.org/en-US/docs/Web/CSS/font){:target="_blank"}
 
 ### Properties and Inheritance
 
@@ -396,7 +396,7 @@ body {
 
 <img src="assets/css-inheritence-1.png" style="width:35%">
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#concepts](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#concepts)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#concepts](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#concepts){:target="_blank"}
 
 - **Do Inherit:** `color`, `font`, `line-height`, `letter-spacing`, `text-align`, etc.
 
@@ -404,7 +404,7 @@ body {
 
 You can always use the `inherit` keyword to force inheritance.
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#concepts](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#concepts)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#concepts](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#concepts){:target="_blank"}
 
 ## Layout
 
@@ -446,7 +446,7 @@ div {
 
 <span class="detail">
     
-[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){:target="_blank"}
 
 </span>
 
@@ -536,7 +536,7 @@ The position CSS property sets how an element is positioned in a document.
 - `fixed`: The element is positioned relative to the initial containing block established by the viewport and does not move with scroll.
 - `sticky`: The element is positonned according to the normal flow of the document, but behaves like `fixed` when scrolled out of view. If another element is positioned `sticky` nearby, they will "push" each other out of the way.
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/position](https://developer.mozilla.org/en-US/docs/Web/CSS/position){:target="_blank"}
 
                     <h2><i class="fas fa-users"></i> Positionning - Examples</h2>
 
@@ -654,7 +654,7 @@ Viewport units:
 - **vmin** :  the smaller of vw and vh 
 - **vmax** : the smaller of vw and vh
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/length#units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#units)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/length#units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#units){:target="_blank"}
 
 Notes:
 
@@ -725,7 +725,7 @@ The Flexbox layout (`display: flex`) aims at providing a more efficient way to l
 }
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox){:target="_blank"}
 
 The Flexbox module is composed of a set of properites. Some are meant for the container whereas other are only meant for children items.
 
@@ -780,7 +780,7 @@ They are useful to adapt the layout to different screen sizes and dimensions, or
 }
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries){:target="_blank"}
 
 
 ### Mobile first
@@ -801,7 +801,7 @@ h1 { font-size: 50px; } /* General rule */
 
 Here, the font-size of h1 is 50px on mobile, 60px on tablet and 70px on desktop.
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries){:target="_blank"}
 
 ## CSS Variables
 
@@ -822,7 +822,7 @@ They can by global or local
 }
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties){:target="_blank"}
 
 
 ### Accessing variables
@@ -855,7 +855,7 @@ The **Document Object Model** is
 
 - an object-oriented representation of the structure of a document in memory
 
-[https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+[https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model){:target="_blank"}
 
 ### The DOM's content tree
 
@@ -877,7 +877,7 @@ When parsing an HTML document, browsers build a **content tree**, then used to *
 
 <span class="detail">
     
-[https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_W3C_DOM_Level_1_Core](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_W3C_DOM_Level_1_Core)
+[https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_W3C_DOM_Level_1_Core](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_W3C_DOM_Level_1_Core){:target="_blank"}
 
 </span>
 
@@ -887,4 +887,4 @@ When a browser displays a document, it must combine the document's content with 
 
 <img src="assets/html_dom.svg" />
 
-[https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works){:target="_blank"}

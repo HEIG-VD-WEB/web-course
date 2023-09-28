@@ -6,7 +6,7 @@ search:
 
 ## Introduction and course organization
 
-[https://heig-vd-web.github.io/web-course/](https://heig-vd-web.github.io/web-course/)
+[https://heig-vd-web.github.io/web-course/](https://heig-vd-web.github.io/web-course/){:target="_blank"}
 
 Vincent Guidoux (He/him)
 
