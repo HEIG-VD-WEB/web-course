@@ -7,6 +7,14 @@
 - [Canvas](/web-course/courses/canvas/)
 - [Document Object Model (DOM)](/web-course/courses/document-object-model/)
 
+## Tutorials
+
+- [MonsterJS - Learn DOM manipulation](https://monsterjs.com/){:target="_blank"}
+
+## How-to Guides
+
+- [How to deploy a website on GitHub Pages](/web-course/how-to-guides/how-to-deploy-on-github-pages/)
+
 ## Practical Work
 
 - [Practical Work 1](/web-course/practical-works/practical-work-1/)
