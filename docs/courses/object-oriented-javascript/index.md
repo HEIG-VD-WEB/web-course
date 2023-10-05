@@ -106,7 +106,7 @@ Notes:
 - The `call(this, ...)` function is identical, except that the arguments are given directly, instead of in the form of an array.
 - The `bind(this)` method of `Function` returns a new function whose `this` object is overridden with the provided one.
 
-### The prototype property
+## The prototype property
 
 Every object automatically has a prototype property,
 intended to describe what that object is.
