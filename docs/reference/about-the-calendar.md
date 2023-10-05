@@ -4,7 +4,7 @@
 |-------------------------|------|---------------|----------------------------------------------------------------|------------------|
 | [1](../weeks/week-1.md) | 38   | 18.09-24.09   | Organisation, install the tools & hands on tutorials           |                  |
 | [2](../weeks/week-2.md) | 39   | 25.09-01.10   | HTML, CSS & JavaScript                                         |                  |
-| 3                       | 40   | 02.10-08.10   | Asynchronous JavaScript & deployment                           | Practical work 1 |
+| [3](../weeks/week-3.md) | 40   | 02.10-08.10   | Javascript Arrays, iterables and object-oriented               | Practical work 1 |
 | 4                       | 41   | 09.10-15.10   | NPM & Node.js                                                  |                  |
 | 5                       | 42   | 16.10-22.10   | Typescript                                                     | Test 1           |
 |                         | _43_ | _23.10-29.10_ | _Interdisciplinary activities_                                 |                  |
