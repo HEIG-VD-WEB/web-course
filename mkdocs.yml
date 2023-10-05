@@ -23,6 +23,7 @@ nav:
       - CSS: courses/css/index.md
       - JavaScript: courses/javascript/index.md
       - Object-oriented JavaScript: courses/object-oriented-javascript/index.md
+      - Document Object Model (DOM): courses/document-object-model/index.md
       - Canvas: courses/canvas/index.md
       # - Testing JavaScript application: courses/testing-javascript-applications/index.md
   - Tutorials:
