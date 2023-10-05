@@ -13,5 +13,9 @@ Between the second and third week, the students were asked what they like about 
 
 - There will be small presentations to introduce the course material.
 - The course material will be available after the course. Always and open-source. You can fork it.
+	- The only reason it is not available now is that it is not finished yet.
+	- The course material will be improved and updated.
+- There will be a "Quiz" section in the course material. So you know what is important to know.
+- You will know which course is practical and theorical.
 
 
