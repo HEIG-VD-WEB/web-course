@@ -28,7 +28,7 @@
 ## Examples
 
 - A simple HTML & CSS example. [Code](https://github.com/HEIG-VD-WEB/html-css-example){:target="_blank"} [Preview](https://heig-vd-web.github.io/html-css-example/){:target="_blank"}
-- A simple example pf a button. [Code](https://github.com/HEIG-VD-WEB/button-example){:target="_blank"} [Preview](https://heig-vd-web.github.io/button-example/){:target="_blank"}
+- A simple example of a button. [Code](https://github.com/HEIG-VD-WEB/button-example){:target="_blank"} [Preview](https://heig-vd-web.github.io/button-example/){:target="_blank"}
 - A web calculator [Code](https://github.com/HEIG-VD-WEB/calculator-example){:target="_blank"}. [Preview](https://heig-vd-web.github.io/calculator-example/){:target="_blank"}
 - A web brick breaker. [Code](https://github.com/HEIG-VD-WEB/brick-breaker-example){:target="_blank"} [Preview](https://heig-vd-web.github.io/brick-breaker-example/){:target="_blank"}
 
