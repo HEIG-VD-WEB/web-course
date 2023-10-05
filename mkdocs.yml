@@ -143,3 +143,5 @@ markdown_extensions:
       permalink: true
 extra_css:
   - assets/stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/extra.js
