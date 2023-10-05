@@ -4,6 +4,7 @@
 
 - [Javascript Arrays and Iterables](/web-course/courses/javascript/#javascript-arrays-and-iterables)
 - [Object-oriented JavaScript](/web-course/courses/object-oriented-javascript/)
+- [Canvas](/web-course/courses/canvas/)
 
 ## Practical Work
 
