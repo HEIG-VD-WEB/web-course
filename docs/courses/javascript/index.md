@@ -1042,7 +1042,7 @@ Notes:
 
 Allows the definition of a function that can "return multiple times" with the `yield` keyword:
 
-```js[3-8]
+```js
 let idGenerator = {};
 
 idGenerator[Symbol.iterator] = function* () {
@@ -1066,6 +1066,7 @@ Notes:
 ### Remarks
 
 When used as a class method, since there is no `function` keyword, the asterisk is put before the name :
+
 ```js
 class Foo {
     *bar() {

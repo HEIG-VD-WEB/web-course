@@ -23,7 +23,7 @@ nav:
       - CSS: courses/css/index.md
       - JavaScript: courses/javascript/index.md
       - Object-oriented JavaScript: courses/object-oriented-javascript/index.md
-      - Testing JavaScript application: courses/testing-javascript-applications/index.md
+      # - Testing JavaScript application: courses/testing-javascript-applications/index.md
   - Tutorials:
       - tutorials/index.md
   - Practical works:
@@ -35,6 +35,7 @@ nav:
   - Reference:
       - reference/index.md
       - About the calendar: reference/about-the-calendar.md
+      - About the feedbacks: reference/about-the-feedbacks.md
       # - About the theory course: reference/about-the-theory-course.md
       # - About the code of conduct: reference/about-the-code-of-conduct.md
 
