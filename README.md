@@ -26,4 +26,4 @@ This work is licensed under a
 [AGPL-3.0 license ](./LICENSE.md)
 license.
 
-Thanks for the [DAI team](https://github.com/HEIG-VD-DAI-Course) for the collaboration
+Thanks for the [DAI team](https://github.com/HEIG-VD-DAI-Course), Bertil Chapuis, Olivier Lemer and Stefan Teofanovic for the collaboration
