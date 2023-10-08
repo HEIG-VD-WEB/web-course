@@ -31,24 +31,28 @@ So far, the calendar for 2023-2024 is the following:
 A perfect planning for the course would be the following:
 
 **Statique**
+
 - Introduction (1), IDE + Live server (1), HTML (2), CSS (2)
 - JavaScript (4), Practical work 1 (2)
 - Hugo + Static generator (1), CDN (1), Practical work 1 (4)
 - Test (2), Practical work 1 (4)
 
 **Dynamic**
+
 - Introduction (1), Dev container (1), PHP (2), Practical work (2)
 - PHP + MVC + HTML Forms (4), Practical work 2 (2)
 - Database + ORM (4), Practical work 2 (2)
 - Test (2) + Practical work 2 (4)
 
 **Frontend + Backend**
+
 - Introduction (1), Dev container (1), Node.js + NPM (1), Asynchronous programmation (1), Practical work 3 (2)
 - Functionnal programming (1), TypeScript (1), React (2), Practical work 3 (2)
 - Fastify (1), Hosting (HTTPS, CORS, REST, HTTP, API, CRUD) (2), Practical work 3 (2)
 - Test (2), Practical work 3 (2)
 
 **Advanced Web technologies**
+
 - Introduction (1), Unit testing + Debugging (1), Next.js (2), Practical work 4 (2)
 - NestJS + Database + Swagger/Open API (2), Integration testing (2), Practical work 4 (2)
 - Web security with NestJS (Authentification, Authorization, Sessions, Cookies & JWT) (3), WebSocket/WebRTC (1), Practical work 4 (2)
