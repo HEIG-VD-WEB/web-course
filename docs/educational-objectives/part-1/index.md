@@ -164,5 +164,5 @@
 	You should never block the [Event Loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop){:target="_blank"}
 
 
-- [JS is weird](https://jsisweird.com/){:target="_blank"}
+<!-- - [JS is weird](https://jsisweird.com/){:target="_blank"} -->
 
