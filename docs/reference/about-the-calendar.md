@@ -4,7 +4,7 @@
 
 So far, the calendar for 2023-2024 is the following:
 
-| No                        | Week | Date        | Title                                                                                                                                       | Evaluation       |
+| No                        | Week | Date        | Subjects (number of periods per subject)                                                                                                    | Evaluation       |
 |---------------------------|------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------|
 | [1](../weeks/week-1.md)   | 38   | 18.09-24.09 | Organisation, install the tools & hands on tutorials                                                                                        |                  |
 | [2](../weeks/week-2.md)   | 39   | 25.09-01.10 | HTML, CSS & JavaScript                                                                                                                      |                  |
