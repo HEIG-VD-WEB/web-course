@@ -12,7 +12,7 @@
 ??? success
 	HTML elements are the building blocks of a web page, such as `<p>`, `<h1>`, and `<a>`. HTML attributes provide additional information about elements, such as href in `<a>` or src in `<img>`.
 
-- Explain the role of the <head> and <body> sections in an HTML document. Give examples of what type of content should go in each.
+- Explain the role of the `<head>` and `<body>` sections in an HTML document. Give examples of what type of content should go in each.
 
 ??? success
 	The `<head>` section contains metadata about the document, such as the page title, links to stylesheets, and scripts. The `<body>` section contains the content that will be displayed on the page, such as headings, paragraphs, images, and links.
@@ -22,7 +22,7 @@
 ??? success
 	Semantic HTML is the use of HTML markup to reinforce the meaning of the information in webpages rather than merely define its presentation or look. Examples of semantic elements include `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`, `<figure>`, and `<figcaption>`.
 
-- What is the purpose of HTML5's <canvas> element, and how is it typically used?
+- What is the purpose of HTML5's `<canvas>` element, and how is it typically used?
 
 ??? success
 	The `<canvas>` element is used to draw graphics, animations, or other visual images on a webpage using JavaScript.
@@ -62,7 +62,11 @@
 - Explain the concept of CSS specificity and how it influences the application of styles.
 
 ??? success
-	CSS specificity is a set of rules that determine which CSS styles are applied to an element when multiple styles are defined for the same element. The rules are as follows: 1) inline styles override internal styles, which override external styles; 2) more specific selectors override less specific selectors; and 3) selectors of equal specificity override each other based on the order in which they are defined.
+	CSS specificity is a set of rules that determine which CSS styles are applied to an element when multiple styles are defined for the same element. The rules are as follows:  
+
+	1) inline styles override internal styles, which override external styles;  
+	2) more specific selectors override less specific selectors; and  
+	3) selectors of equal specificity override each other based on the order in which they are defined.
 
 - Explain the difference between a class and an ID in CSS. When should you use one over the other?
 
