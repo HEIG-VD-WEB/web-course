@@ -1,5 +1,9 @@
 # Week 3
 
+## Practical Work
+
+- [Practical Work 1](/web-course/practical-works/practical-work-1/)
+
 ## Courses
 
 - [Javascript Arrays and Iterables](/web-course/courses/javascript/#javascript-arrays-and-iterables)
@@ -14,11 +18,6 @@
 ## How-to Guides
 
 - [How to deploy a website on GitHub Pages](/web-course/how-to-guides/how-to-deploy-on-github-pages/)
-
-## Practical Work
-
-- [Practical Work 1](/web-course/practical-works/practical-work-1/)
-
 ## Examples
 
 - A simple HTML & CSS example. [Code](https://github.com/HEIG-VD-WEB/html-css-example){:target="_blank"} [Preview](https://heig-vd-web.github.io/html-css-example/){:target="_blank"}
