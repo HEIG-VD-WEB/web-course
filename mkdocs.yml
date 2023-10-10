@@ -43,6 +43,12 @@ nav:
   - How-to guides:
       - how-to-guides/index.md
       - How to deploy on GitHub Pages: how-to-guides/how-to-deploy-on-github-pages/index.md
+  - Educational objectives:
+      - educational-objectives/index.md
+      - Part 1: educational-objectives/part-1/index.md
+      - Part 2: educational-objectives/part-2/index.md
+      - Part 3: educational-objectives/part-3/index.md
+      - Part 4: educational-objectives/part-4/index.md
   - Reference:
       - reference/index.md
       - About the calendar: reference/about-the-calendar.md
