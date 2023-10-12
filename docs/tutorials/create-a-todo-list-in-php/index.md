@@ -1,5 +1,9 @@
 # Create a To Do list in PHP [NOT FINISHED]
 
+## Objectives
+
+TODO
+
 ## Prerequisites
 
 The following prerequisites must be filled to run this service:
@@ -25,3 +29,7 @@ Your folder should look like that:
 ├── .devcontainer
 │   └── devcontainer.json
 ```
+
+## Sources
+
+
