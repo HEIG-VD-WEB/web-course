@@ -79,7 +79,7 @@ Just search for "one page template free" on your favorite search engine and you 
 
 ## Submission
 
-The deadline is just the Wednesday 12 October 2023 at 22h00.
+The deadline is the Wednesday 12 October 2023 at 22h00.
 
 Any commit after the deadline will not be taken into account. Each day of delay will result in a penalty of -1 point on the final grade.
 
@@ -90,14 +90,6 @@ To submit your work, create a new GitHub Discussion at <https://github.com/orgs/
 - **Description**: The URL of your repository and the URL of the preview of your website
 
 If you don't want your First name to appear on GitHub, you can use your GitHub username instead. Juste email me to let me know.
-
-Grades will be entered into GAPS, followed by an email with the feedback.
-
-The evaluation will use exactly the same grading grid as shown in the course material.
-
-Each criterion will be accompanied by a comment explaining the points obtained, a general comment on your work and the final grade.
-
-If you have any questions about the evaluation, you can contact me!
 
 ## Grades and feedback
 

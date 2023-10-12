@@ -1,9 +1,8 @@
 # Week 4
 
-## How-to Guides
+## Tutorials
 
-- [How to generate and deploy a website with Hugo](/web-course/how-to-guides/how-to-generate-and-deploy-a-website-with-hugo/)
-- [How to make an Hello world in PHP](/web-course/how-to-guides/how-to-make-hello-world-php/)
+- [Create a Hello World in PHP](/web-course/tutorials/create-an-hello-world-in-php/)
 
 ## Examples
 

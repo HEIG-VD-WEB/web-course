@@ -38,14 +38,16 @@ nav:
       # - Testing JavaScript application: courses/testing-javascript-applications/index.md
   - Tutorials:
       - tutorials/index.md
+      - Create a Hello World in PHP: tutorials/create-an-hello-world-in-php/index.md
+      - Create a To Do list in PHP: tutorials/create-a-todo-list-in-php/index.md
+      - Generate and deploy a static website with Hugo and GitHub Actions: tutorials/generate-and-deploy-a-static-website-with-hugo-github-actions/index.md
   - Practical works:
       - practical-works/index.md
       - Practical Work 1: practical-works/practical-work-1/index.md
+      - Practical Work 2: practical-works/practical-work-2/index.md
   - How-to guides:
       - how-to-guides/index.md
       - How to deploy on GitHub Pages: how-to-guides/how-to-deploy-on-github-pages/index.md
-      - How to generate and deploy website with Hugo: how-to-guides/how-to-generate-and-deploy-website-with-hugo/index.md
-      - How to make an Hello World in PHP: how-to-guides/how-to-make-hello-world-php/index.md
   - Educational objectives:
       - educational-objectives/index.md
       - Part 1: educational-objectives/part-1/index.md

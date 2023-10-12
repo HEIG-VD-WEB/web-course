@@ -2,7 +2,7 @@
 
 ## Practical Work
 
-TODO
+- [Practical Work 2](/web-course/practical-works/practical-work-2/)
 
 ## Courses
 
@@ -10,7 +10,7 @@ TODO
 
 ## Tutorials
 
-TODO
+- [Create a to do list with PHP](/web-course/tutorials/create-a-to-do-list-with-php/)
 
 ## How-to Guides
 
@@ -22,4 +22,4 @@ TODO
 
 ## Quiz
 
-TODO
+- [PHP Exercices - W3Schools](https://www.w3schools.com/php/exercise.asp){:target="_blank"}

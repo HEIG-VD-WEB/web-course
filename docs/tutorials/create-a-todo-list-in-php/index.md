@@ -1,4 +1,4 @@
-# How to make an Hello World in PHP
+# Create a To Do list in PHP [NOT FINISHED]
 
 ## Prerequisites
 
@@ -25,43 +25,3 @@ Your folder should look like that:
 ├── .devcontainer
 │   └── devcontainer.json
 ```
-
-### Create the index.php file
-
-- Create a new file named `index.php` in the root of your project.
-- Add the following code in the file:
-
-```php
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>PHP Test</title>
-    </head>
-    <body>
-        <?php echo '<p>Hello World</p>'; ?>
-    </body>
-</html>
-```
-
-Your folder should look like that:
-
-```bash
-.
-├── .devcontainer
-│   └── devcontainer.json
-|   index.php
-```
-
-### Run the project
-
-- Open the command palette in Visual Studio Code by pressing `Ctrl+Shift+P` or `Cmd+Shift+P`.
-- Select "Remote-Containers: Reopen in Container".
-- Open the terminal in Visual Studio Code.
-- Run the following command to start the server:
-
-```bash
-php -S localhost:8080
-```
-
-
-
