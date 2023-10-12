@@ -118,6 +118,111 @@ Your root folder should look like that:
 └── README.md
 ```
 
+If you try to run the Hugo server, running the following command in the terminal of Visual Studio Code:
+
+```bash
+hugo server
+```
+
+You will get the following message, when you try to access the website at `http://localhost:1313`:
+
+```bash
+Page Not Found
+```
+
+Hugo is telling you that you don't have any content in your website and that you need a theme.
+
+### Add a theme
+
+You are going to use the [Ananke](https://themes.gohugo.io/gohugo-theme-ananke/) theme for this project.
+
+From your project's root directory, initiate the hugo module system:
+
+```bash
+hugo mod init github.com/<your-username>/<your-repository-name>
+```
+
+!!! info
+	Replace `<your-username>` and `<your-repository-name>` with your GitHub username and the name of your repository.
+
+	Example
+	
+	```bash
+	hugo mod init github.com/HEIG-VD-WEB/generate-and-deploy-a-static-website-with-hugo-github-actions
+	```
+
+Add the theme's repository to your project's `config.toml` file:
+
+```toml
+theme = "github.com/theNewDynamic/gohugo-theme-ananke"
+```
+
+Your `config.toml` file should look like this:
+
+```toml
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "github.com/theNewDynamic/gohugo-theme-ananke"
+```
+
+### Start the Hugo server
+
+Run the following command in the terminal of Visual Studio Code:
+
+```bash
+hugo server
+```
+
+The output should look like this:
+
+```bash
+Watching for changes in /workspaces/<your-repository-name>/{archetypes,assets,content,data,i18n,layouts,static}
+Watching for config changes in /workspaces/<your-repository-name>/hugo.toml, /workspaces/<your-repository-name>/go.mod
+Start building sites … 
+hugo v0.119.0-b84644c008e0dc2c4b67bd69cccf87a41a03937e linux/amd64 BuildDate=2023-09-24T15:20:17Z VendorInfo=gohugoio
+
+                   | EN  
+-------------------+-----
+  Pages            |  7  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  1  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 13 ms
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) 
+Press Ctrl+C to stop
+```
+
+You can now access your website at `http://localhost:1313`. You should see a main page with a big title and a footer not at the bottom of the page.
+
+There lacks a few things to make this website look good.
+
+### Add content
+
+As the Ananke theme is a blog theme, you need to add some content to your website.
+
+Create the first post of your blog
+
+```bash title="content/posts/my-first-post.md"
+---
+title: "My First Post"
+date: 2021-09-24T15:20:17+02:00	
+draft: false
+---
+
+This is my first post.
+```
+
+If your server is still running, you should see your post at `http://localhost:1313/`. The footer is at the bottom of the page, like it should be.
+
 ## Sources
 
 - [Hugo - Quick Start](https://gohugo.io/getting-started/quick-start/)
