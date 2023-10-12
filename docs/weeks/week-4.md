@@ -2,6 +2,7 @@
 
 ## Tutorials
 
+- [Generate and deploy a static website with Hugo and GitHub Actions ](/web-course/tutorials/generate-and-deploy-a-static-website-with-hugo-github-actions/)
 - [Create a Hello World in PHP](/web-course/tutorials/create-an-hello-world-in-php/)
 
 ## Examples
