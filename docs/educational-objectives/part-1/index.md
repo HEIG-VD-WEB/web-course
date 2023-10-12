@@ -5,7 +5,7 @@
 - What does HTML stand for, and what is its primary purpose in web development?
 
 ??? info
-	HTML stands for HyperText Markup Language, and its primary purpose in web development is to structure and present content on web pages.
+	HTML stands for HyperText Markup Language, and its primary purpose in web development is to **structure** and present content on web pages.
 
 - Differentiate between HTML elements and HTML attributes. Provide examples of each.
 
@@ -22,22 +22,47 @@
 ??? info
 	Semantic HTML is the use of HTML markup to reinforce the meaning of the information in webpages rather than merely define its presentation or look. Examples of semantic elements include `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`, `<figure>`, and `<figcaption>`.
 
-- What is the purpose of HTML5's `<canvas>` element, and how is it typically used?
-
-??? info
-	The `<canvas>` element is used to draw graphics, animations, or other visual images on a webpage using JavaScript.
-
 - Discuss the importance of using semantic HTML tags and their impact on accessibility and SEO.
 
 ??? info
 	Semantic HTML tags help search engines understand the content of a webpage and improve the page's ranking in search results. Semantic HTML tags also help screen readers and other assistive technologies understand the content of a webpage and improve accessibility for users with disabilities.
 
-- Provide examples of common HTML and CSS coding conventions and naming conventions that adhere to best practices.
+- What is the purpose of HTML5's `<canvas>` element, and how is it typically used?
 
 ??? info
-	Common conventions include using lowercase letters for HTML tags and attribute names, using hyphens for multi-word class names (e.g., class="my-class"), and following naming conventions like BEM (Block Element Modifier) for CSS classes.
+	The `<canvas>` element is used to draw graphics, animations, or other visual images on a webpage using JavaScript.
+
+- Provide example of common HTML & CSS naming conventions that adhere to best practices.
+
+??? info
+	Common conventions include using lowercase letters for HTML tags and attribute names, using hyphens for multi-word class names (e.g., class="my-class"). We use Kebab case.
+
+	Example of all the case:
+
+	```
+	kebab-case
+	snake_case
+	PascalCase
+	camelCase
+	```
 
 ## CSS
+
+- Explain the difference between HTML and CSS.
+
+??? info
+	HTML is a markup language used to **structure** and **present content** on web pages, while CSS is a style sheet language used to **style** the presentation of HTML elements on web pages.
+
+	Example:
+	```html
+	<!-- HTML -->
+	<p>This is a paragraph.</p>
+	
+	<!-- CSS -->
+	p {
+		color: red;
+	}
+	```
 
 - Explain the box model in CSS. How does it affect the layout and styling of elements on a webpage?
 
@@ -49,17 +74,85 @@
 ??? info
 	Inline CSS styles are applied directly to an element using the style attribute. Internal CSS styles are defined in the `<head>` section of an HTML document using the `<style>` tag. External CSS styles are defined in a separate CSS file and linked to an HTML document using the `<link>` tag. Inline styles are typically used to apply styles to a single element, internal styles are typically used to apply styles to a single page, and external styles are typically used to apply styles to multiple pages.
 
+	Example:
+	```html
+	<!-- Inline -->
+	<p style="color: red;">This is a paragraph.</p>
+
+	<!-- Internal -->
+	<head>
+		<style>
+			p {
+				color: red;
+			}
+		</style>
+	</head>
+
+	<!-- External -->
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<!-- styles.css -->
+	p {
+		color: red;
+	}
+	```
+
+
 - What is the purpose of CSS selectors? Provide examples of different types of selectors.
 
 ??? info
 	CSS selectors are used to select the HTML elements to which styles should be applied. Examples of selectors include element selectors (e.g., `p`), class selectors (e.g., `.my-class`), ID selectors (e.g., `#my-id`), and attribute selectors (e.g., `[type="text"]`).
+
+	Example:
+	```css
+	/* Element selector */
+	p {
+		color: red;
+	}
+
+	/* Class selector */
+	.my-class {
+		color: red;
+	}
+
+	/* ID selector */
+
+	#my-id {
+		color: red;
+	}
+
+	/* Attribute selector */
+
+	[type="text"] {
+		color: red;
+	}
+
+	<input type="text" value="Enter text here">
+	```
 
 - How can you apply CSS styles specifically to different media types (e.g., screen, print)?
 
 ??? info
 	You can use the `@media` rule to apply CSS styles specifically to different media types. For example, you can use the `@media screen` rule to apply styles to screens and the `@media print` rule to apply styles to printed documents.
 
-- Explain the concept of CSS specificity and how it influences the application of styles.
+	Example:
+	```css
+	@media screen {
+		body {
+			background-color: lightblue;
+		}
+	}
+
+	@media print {
+		body {
+			background-color: lightgreen;
+		}
+	}
+	```
+
+<!-- - Explain the concept of CSS specificity and how it influences the application of styles.
 
 ??? info
 	CSS specificity is a set of rules that determine which CSS styles are applied to an element when multiple styles are defined for the same element. The rules are as follows:  
@@ -68,12 +161,20 @@
 	2) more specific selectors override less specific selectors; and  
 	3) selectors of equal specificity override each other based on the order in which they are defined.
 
+	list of selectors by specificity (from least to most specific):
+	- type selectors (e.g., `p`)
+	- class selectors (e.g., `.my-class`)
+	- ID selectors (e.g., `#my-id`)
+	- inline styles (e.g., `style="color: red;"`)
+	- `!important` keyword
+ -->
+
 - Explain the difference between a class and an ID in CSS. When should you use one over the other?
 
 ??? info
 	Classes in CSS are used for applying styles to multiple elements with similar characteristics, while IDs are meant for unique elements. Classes are preferred for styling because they are more reusable.
 
-- Define what a "CSS reset" is and why it's used in web development.
+<!-- - Define what a "CSS reset" is and why it's used in web development.
 
 ??? info
 	A CSS reset is a set of CSS styles that resets the default styles of HTML elements to a consistent baseline across browsers. It is used to avoid cross-browser compatibility issues.
@@ -85,7 +186,7 @@
 		padding: 0;
 		box-sizing: border-box;
 	}
-	```
+	``` -->
 
 ## JavaScript
 
@@ -137,6 +238,25 @@
 ??? info
 	The DOM is a programming interface for HTML and XML documents. It represents the document as a tree of nodes and objects that can be manipulated with JavaScript.
 
+	Example:
+	```html
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>My Webpage</title>
+		</head>
+		<body>
+			<h1>My Webpage</h1>
+			<p>Hello, world!</p>
+		</body>
+	</html>
+	```
+
+	```js
+	// Modify the text of the <p> element
+	document.querySelector('p').textContent = 'Hello, world!';
+	```
+
 - What is the differance between `==` and `===`?
 
 ??? info
@@ -144,8 +264,8 @@
 
 	Example:
 	```js
-	1 == '1'; // true
-	1 === '1'; // false
+	console.log(1 == '1'); // true
+	console.log(1 === '1'); // false
 	```
 
 <!-- - Explain the difference between synchronous and asynchronous JavaScript. Provide examples of each.
@@ -158,11 +278,29 @@
 ??? info
 	An event listener is a function that is called when a specific event occurs, such as a mouse click or key press. You can use event listeners to respond to user interactions on a webpage by attaching them to HTML elements.
 
-- Why does database calls are asynchronous in javascript?
+	Open your console with ++ctrl+shift+i++ or ++cmd+option+k++ on mac
+
+	Example:
+	```js
+	// Add an event listener to the <button> element
+	document.querySelector('summary').addEventListener('click', function() {
+		console.log('The first summary is clicked !');
+	});
+	```
+
+	```js
+	document.querySelectorAll("summary").forEach((block) => {
+	block.addEventListener("click", (e) => {
+			console.log("One of the summary is clicked !");
+		});
+	});
+	```
+
+<!-- - Why does database calls are asynchronous in javascript?
 
 ??? info
 	You should never block the [Event Loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop){:target="_blank"}
-
+ -->
 
 <!-- - [JS is weird](https://jsisweird.com/){:target="_blank"} -->
 
