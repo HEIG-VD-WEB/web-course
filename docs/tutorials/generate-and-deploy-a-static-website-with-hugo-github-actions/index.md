@@ -223,6 +223,29 @@ This is my first post.
 
 If your server is still running, you should see your post at `http://localhost:1313/`. The footer is at the bottom of the page, like it should be.
 
+### Add a second post
+
+You can use Hugo to create a new post:
+
+```bash
+hugo new content posts/my-second-post.md
+```
+
+As you can see, Hugo created a new post in the `content/posts` folder. That should look like this:
+
+```bash title="content/posts/my-second-post.md"
++++
+title = 'My Second Post'
+date = 2023-10-12T19:37:08Z // (1)!
+draft = true
++++
+```
+
+1. The date is set to the current date. You can change it to the date you want.
+
+!!! info
+	Vincent, tu étais sur le point de finir ce tutoriel, là tu vas expliquer des choses à propos des archetypes. Et de te renseigner pourquoi le petit chiffre du dernier bout de code ne fonctionne pas. https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=code#code-annotations
+
 ## Sources
 
 - [Hugo - Quick Start](https://gohugo.io/getting-started/quick-start/)
