@@ -34,6 +34,7 @@ nav:
       - Object-oriented JavaScript: courses/object-oriented-javascript/index.md
       - Document Object Model (DOM): courses/document-object-model/index.md
       - Canvas: courses/canvas/index.md
+      # - Static Website generator: courses/static-website-generator/index.md
       # - Testing JavaScript application: courses/testing-javascript-applications/index.md
   - Tutorials:
       - tutorials/index.md
@@ -43,6 +44,7 @@ nav:
   - How-to guides:
       - how-to-guides/index.md
       - How to deploy on GitHub Pages: how-to-guides/how-to-deploy-on-github-pages/index.md
+      - How to generate and deploy website with Hugo: how-to-guides/how-to-generate-and-deploy-website-with-hugo/index.md
   - Educational objectives:
       - educational-objectives/index.md
       - Part 1: educational-objectives/part-1/index.md
