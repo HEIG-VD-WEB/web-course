@@ -1,4 +1,5 @@
 *[ARP]: Address Resolution Protocol is a communication protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address.
+*[CDN]: Content Delivery Network is a geographically distributed group of servers that work together to provide fast delivery of Internet content.
 *[CORS]: Cross-Origin Resource Sharing is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
 *[CSS]: Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
 *[CSRF]: Cross-Site Request Forgery is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated.
@@ -20,6 +21,7 @@
 *[MAC]: Media Access Control address is a unique identifier assigned to a network interface controller for use as a network address in communications within a network segment.
 *[MVC]: Model–view–controller is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements.
 *[NPM]: Node Package Manager is a package manager for the JavaScript programming language.
+*[ORM]: Object-relational mapping is a programming technique for converting data between incompatible type systems using object-oriented programming languages.
 *[OSI]: Open Systems Interconnection model is a conceptual model that characterises and standardises the communication functions of a telecommunication or computing system.
 *[PNPM]: PNPM is a package manager for web development projects. It is an alternative to popular package managers like npm (Node Package Manager) and Yarn. PNPM aims to provide a more efficient and faster approach to managing dependencies in web applications.
 *[POO]: Le cours de programmation orientée objet

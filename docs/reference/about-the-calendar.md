@@ -30,7 +30,7 @@ So far, the calendar for 2023-2024 is the following:
 
 A perfect planning for the course would be the following:
 
-**Statique**
+**Static**
 
 - Introduction (1), IDE + Live server (1), HTML (2), CSS (2)
 - JavaScript (4), Practical work 1 (2)

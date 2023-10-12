@@ -1,4 +1,4 @@
-# Part 1 - HTML, CSS, JavaScript
+# Part 1 - Static web development
 
 ## HTML
 
