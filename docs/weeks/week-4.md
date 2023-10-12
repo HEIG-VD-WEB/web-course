@@ -8,6 +8,7 @@
 
 - [Hugo - static website generation](https://heig-vd-web.github.io/hugo-example/){:target="_blank"}
 	- [code](https://github.com/HEIG-VD-WEB/hugo-example){:target="_blank"}
+- [PHP - Hello world](https://github.com/HEIG-VD-WEB/php-hello-world)
 
 ## Quiz
 
