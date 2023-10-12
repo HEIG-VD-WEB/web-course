@@ -43,6 +43,15 @@ Your folder should look like that:
 </html>
 ```
 
+Your folder should look like that:
+
+```bash
+.
+├── .devcontainer
+│   └── devcontainer.json
+|   index.php
+```
+
 ### Run the project
 
 - Open the command palette in Visual Studio Code by pressing `Ctrl+Shift+P` or `Cmd+Shift+P`.
