@@ -45,6 +45,7 @@ nav:
       - how-to-guides/index.md
       - How to deploy on GitHub Pages: how-to-guides/how-to-deploy-on-github-pages/index.md
       - How to generate and deploy website with Hugo: how-to-guides/how-to-generate-and-deploy-website-with-hugo/index.md
+      - How to make an Hello World in PHP: how-to-guides/how-to-make-hello-world-php/index.md
   - Educational objectives:
       - educational-objectives/index.md
       - Part 1: educational-objectives/part-1/index.md

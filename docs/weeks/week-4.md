@@ -3,12 +3,13 @@
 ## How-to Guides
 
 - [How to generate and deploy a website with Hugo](/web-course/how-to-guides/how-to-generate-and-deploy-a-website-with-hugo/)
+- [How to make an Hello world in PHP](/web-course/how-to-guides/how-to-make-hello-world-php/)
 
 ## Examples
 
 - [Hugo - static website generation](https://heig-vd-web.github.io/hugo-example/){:target="_blank"}
 	- [code](https://github.com/HEIG-VD-WEB/hugo-example){:target="_blank"}
-- [PHP - Hello world](https://github.com/HEIG-VD-WEB/php-hello-world)
+- [PHP - Hello world](https://github.com/HEIG-VD-WEB/php-hello-world){:target="_blank"}
 
 ## Quiz
 
