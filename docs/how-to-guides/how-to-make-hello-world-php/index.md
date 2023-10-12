@@ -16,7 +16,7 @@ The following prerequisites must be filled to run this service:
 - Create a new folder for your project and open it in Visual Studio Code.
 - Add devcontainer configuration files by clicking on the bottom left corner of Visual Studio Code and selecting "Remote-Containers: Add Development Container Configuration Files...".
 - Select "PHP" in the list of available containers.
-- Select the advised version of PHP (7.4) in the list of available versions.
+- Select the latest version of PHP (8.2 at the time of this commit) in the list of available versions.
 
 Your folder should look like that:
 
