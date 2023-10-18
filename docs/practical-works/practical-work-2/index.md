@@ -16,21 +16,49 @@ You will work in groups of one student
 
 Maximum grade: ((UNKOWN points \\ UNKOWN) * 5) + 1 = 6
 
-### Category 1 - UNKOWN
-
-If your repository is private, you must add me as collaborator to your
-repository!
+### Category 1 - View
 
 | #   | Criterion                                                            | Points |
 | --: | -------------------------------------------------------------------  | -----: |
-| 1   |                                                                      |      2 |
-| 2   |                                                                      |      2 |
-| 3   |                                                                      |      2 |
-| 4   |                                                                      |      2 |
-| 5   |                                                                      |      2 |
-| 6   |                                                                      |      2 |
-| 7   |                                                                      |      2 |
-| 8   |                                                                      |      2 |
+| 1   | HTML forms are used for creating entries in the dataset              |      2 |
+| 2   | HTML forms are used for updating entries in the dataset              |      2 |
+| 3   | HTML forms are used for deleting entries in the dataset              |      2 |
+| 4   | HTML views permits to read entries in the dataset                    |      2 |
+
+### Category 2 - Controller
+
+| #   | Criterion                                                            | Points |
+| --: | -------------------------------------------------------------------  | -----: |
+| 1   | The controller is implemented using PHP                              |      2 |
+| 1   | The controller is implemented using the MVC pattern                  |      2 |
+| 1   | Routes are used to create entries in the dataset                     |      2 |
+| 1   | Routes are used to update entries in the dataset                     |      2 |
+| 1   | Routes are used to delete entries in the dataset                     |      2 |
+| 1   | Routes are used to read entries in the dataset                       |      2 |
+
+### Category 3 - Model
+
+| #   | Criterion                                                                  | Points |
+| --: | -------------------------------------------------------------------------  | -----: |
+| 1   | Design the database schema for your application. (MYSQL, PostgreSQL, etc.) |      2 |
+| 1   | An ORM is used to interact with the database (Eloquent, Doctrine, etc.)    |      2 |
+
+### Category 4 - Interactivity
+
+The application should provide a user-friendly interface with interactive elements.
+
+| #   | Criterion                                                        | Points |
+| --: | ---------------------------------------------------------------- | -----: |
+| 1   | There are feedback on successful or failed actions.              |      2 |
+
+### Category 5 - Repository
+
+| #   | Criterion                                                               | Points |
+| --: | ----------------------------------------------------------------------- | -----: |
+| 1   | The project is on GitHub                                                |      2 |
+| 1	  | The project has a README.md file                                        |      2 |
+| 1	  | The README.md file contains the instructions to run the project locally |      2 |
+
 
 ## Remarks
 
@@ -49,6 +77,8 @@ To submit your work, create a new GitHub Discussion at <https://github.com/orgs/
 - **Title**: WEB 2023-2024 - Practical work 2 - First name
 - **Category**: Show and tell
 - **Description**: The URL of your repository and the URL of the preview of your website
+
+If your repository is private, you must add me as collaborator to your repository!
 
 If you don't want your first name to appear on GitHub, you can use your GitHub username instead. Juste email me to let me know.
 
