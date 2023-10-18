@@ -236,15 +236,48 @@ As you can see, Hugo created a new post in the `content/posts` folder. That shou
 ```bash title="content/posts/my-second-post.md"
 +++
 title = 'My Second Post'
-date = 2023-10-12T19:37:08Z // (1)!
+date = 2023-10-12T19:37:08Z # (1)!
+draft = true
++++
+```
+<!-- So I know the code block above is not a "bash" but "markdown". 
+But I don't know how to add code annotation on markdown codeblock -->
+
+1. The date is set to the current date. You can change it to the date you want.
+
+Hugo used the `archetypes/default.md` file to create the new post. You can change the default content of the post by changing the content of this file.
+
+```bash title="archetypes/default.md"
++++
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+date = {{ .Date }}
 draft = true
 +++
 ```
 
-1. The date is set to the current date. You can change it to the date you want.
+If your server is still running, you should see qonly one post at `http://localhost:1313/`. That's because the second post is a draft. You can see it by adding the `--buildDrafts` flag to the `hugo server` command:
 
-!!! info
-	Vincent, tu étais sur le point de finir ce tutoriel, là tu vas expliquer des choses à propos des archetypes. Et de te renseigner pourquoi le petit chiffre du dernier bout de code ne fonctionne pas. https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=code#code-annotations
+```bash
+hugo server --buildDrafts
+```
+
+You can now see both posts at `http://localhost:1313/`.
+
+### Add a menu
+
+You can add a menu to your website by adding the following code to your `config.toml` file:
+
+```toml
+[menu]
+	[[menu.main]]
+		name = "Home"
+		url = "/"
+		weight = 1
+	[[menu.main]]
+		name = "Posts"
+		url = "/posts"
+		weight = 2
+```
 
 ## Sources
 
