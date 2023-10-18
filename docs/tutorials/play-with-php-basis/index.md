@@ -14,12 +14,22 @@ The following prerequisites must be filled to run this service:
 
 ## Steps
 
-### Create the project
+### Initiate the project
 
-- Create a new folder for your project and open it in Visual Studio Code.
+- Create a new repository on GitHub.
+- Clone the repository on your computer.
+- Open the repository in Visual Studio Code.
+
+### Initiate the dev container
+
 - Add devcontainer configuration files by clicking on the bottom left corner of Visual Studio Code and selecting "Remote-Containers: Add Development Container Configuration Files...".
 - Select "PHP" in the list of available containers.
 - Select the latest version of PHP (8.2 at the time of this commit) in the list of available versions.
+- Add Visual Studio Code Extensions to the `devcontainer.json` by clicking on the extensions tab on the left.
+	- Search for "PHP Debug", click on the gear icon (⚙️) and select "Add to devcontainer.json".
+	- Search for "PHP Intelephense", click on the gear icon (⚙️) and select "Add to devcontainer.json".
+	- (Optional) Search for "GitHub Copilot", click on the gear icon (⚙️) and select "Add to devcontainer.json".
+- Remove unnecessary comments from the `devcontainer.json` file.
 
 Your folder should look like that:
 
@@ -239,3 +249,4 @@ if (isFirefox()) {
 ## Source
 
 - [PHP Manual - Something Useful](https://www.php.net/manual/en/tutorial.useful.php){:target="_blank"}
+- [Traversy Media - PHP For Absolute Beginners](https://www.youtube.com/watch?v=2eebptXfEvw){:target="_blank"}
