@@ -34,6 +34,7 @@ nav:
       - Object-oriented JavaScript: courses/object-oriented-javascript/index.md
       - Document Object Model (DOM): courses/document-object-model/index.md
       - Canvas: courses/canvas/index.md
+      - PHP: courses/php/index.md
       # - Static Website generator: courses/static-website-generator/index.md
       # - Testing JavaScript application: courses/testing-javascript-applications/index.md
   - Tutorials:

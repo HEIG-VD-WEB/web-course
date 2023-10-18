@@ -6,15 +6,12 @@
 
 ## Courses
 
-TODO
+- [PHP](/web-course/courses/php/)
+- [PHP - Language Reference](https://www.php.net/manual/en/langref.php){:target="_blank"}
 
 ## Tutorials
 
 - [Create a to do list with PHP](/web-course/tutorials/create-a-to-do-list-with-php/)
-
-## How-to Guides
-
-TODO
 
 ## Examples
 
