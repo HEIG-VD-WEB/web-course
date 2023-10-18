@@ -90,4 +90,4 @@ The evaluation will use exactly the same grading grid as shown in the course mat
 
 Each criterion will be accompanied by a comment explaining the points obtained, a general comment on your work and the final grade.
 
-If you have any questions about the evaluation, you can contact us!
+If you have any questions about the evaluation, you can contact me!
