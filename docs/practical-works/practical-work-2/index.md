@@ -24,17 +24,20 @@ Maximum grade: ((UNKOWN points \\ UNKOWN) * 5) + 1 = 6
 | 2   | HTML forms are used for updating entries in the dataset              |      2 |
 | 3   | HTML forms are used for deleting entries in the dataset              |      2 |
 | 4   | HTML views permits to read entries in the dataset                    |      2 |
+| 5   | There is Form Validation                        |      2 |
 
 ### Category 2 - Controller
 
-| #   | Criterion                                                            | Points |
-| --: | -------------------------------------------------------------------  | -----: |
-| 1   | The controller is implemented using PHP                              |      2 |
-| 1   | The controller is implemented using the MVC pattern                  |      2 |
-| 1   | Routes are used to create entries in the dataset                     |      2 |
-| 1   | Routes are used to update entries in the dataset                     |      2 |
-| 1   | Routes are used to delete entries in the dataset                     |      2 |
-| 1   | Routes are used to read entries in the dataset                       |      2 |
+| #   | Criterion                                                                              | Points |
+| --: | -------------------------------------------------------------------------------------  | -----: |
+| 1   | The controller is implemented using PHP                                                |      2 |
+| 1   | The controller is implemented using the MVC pattern                                    |      2 |
+| 1   | Routes are used to create entries in the dataset                                       |      2 |
+| 1   | Routes are used to update entries in the dataset                                       |      2 |
+| 1   | Routes are used to delete entries in the dataset                                       |      2 |
+| 1   | Routes are used to read entries in the dataset                                         |      2 |
+| 1   | A library manager is used to manage the dependencies of the project (Composer, Pickle) |      2 |
+
 
 ### Category 3 - Model
 
