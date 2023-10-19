@@ -13,6 +13,7 @@
 
 - [Create a to do list in PHP](/web-course/tutorials/create-a-todo-list-in-php/)
 - [Play with PHP basis](/web-course/tutorials/play-with-php-basis/)
+- ([Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/10.x){:target="_blank"})
 
 <!-- 
 ## Examples
