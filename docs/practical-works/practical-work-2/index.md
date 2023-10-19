@@ -28,24 +28,23 @@ Maximum grade: ((46 points \\ 46) * 5) + 1 = 6
 
 ### Category 2 - Controller
 
-|  # | Criterion                                                                              | Points |
-|---:|----------------------------------------------------------------------------------------|-------:|
-|  6 | The controller is implemented using PHP                                                |      2 |
-|  7 | The controller is implemented using the MVC pattern                                    |      2 |
-|  8 | Routes are used to create entries in the dataset                                       |      2 |
-|  9 | Routes are used to update entries in the dataset                                       |      2 |
-| 10 | Routes are used to delete entries in the dataset                                       |      2 |
-| 11 | Routes are used to read entries in the dataset                                         |      2 |
-| 12 | A library manager is used to manage the dependencies of the project (Composer, Pickle) |      2 |
-| 13 | The controllers check the inputs from the user                                         |      2 |
-
+|  # | Criterion                                                                                    | Points |
+|---:|----------------------------------------------------------------------------------------------|-------:|
+|  6 | The controller is implemented using PHP                                                      |      2 |
+|  7 | The controller is implemented using the MVC pattern                                          |      2 |
+|  8 | Routes are used to create entries in the dataset                                             |      2 |
+|  9 | Routes are used to update entries in the dataset                                             |      2 |
+| 10 | Routes are used to delete entries in the dataset                                             |      2 |
+| 11 | Routes are used to read entries in the dataset                                               |      2 |
+| 12 | A library manager is used to manage the dependencies of the project (e.g., Composer, Pickle) |      2 |
+| 13 | The controllers check the inputs from the user                                               |      2 |
 
 ### Category 3 - Model
 
 |  # | Criterion                                                                  | Points |
 |---:|----------------------------------------------------------------------------|-------:|
-| 14 | Design the database schema for your application. (MYSQL, PostgreSQL, etc.) |      2 |
-| 15 | An ORM is used to interact with the database (Eloquent, Doctrine, etc.)    |      2 |
+| 14 | Design the database schema for your application. (e.g., MYSQL, PostgreSQL) |      2 |
+| 15 | An ORM is used to interact with the database (e.g., Eloquent, Doctrine)    |      2 |
 | 16 | The database is containerized                                              |      2 |
 
 ### Category 4 - Interactivity
@@ -73,9 +72,15 @@ The repository should be well organized and documented. It should be easy to ins
 
 No more bonus points if it's funny or educational? In the spirit of inclusiveness, not everyone has the extra time for these kinds of points. But make it your own! That doesn't mean it can't be fun or educational. It's always a pleasure to see what direction you're going in when you've got the freedom to do so.
 
+For the frontend, do not use Hugo, Jekyll, or any other static site generator. If we saw it on the course, it was to end the theory about the static web technologies.
+
 Always complete never finished!
 
 You can use anything you want to create your website as long as you specify the source.
+
+You can use JQuery.
+
+You do not need to deploy your website.
 
 ## Submission
 
@@ -87,7 +92,7 @@ To submit your work, create a new GitHub Discussion at <https://github.com/orgs/
 
 - **Title**: WEB 2023-2024 - Practical work 2 - First name
 - **Category**: Show and tell
-- **Description**: The URL of your repository and the URL of the preview of your website
+- **Description**: The URL of your repository
 
 If your repository is private, you must add me as collaborator to your repository!
 
@@ -115,8 +120,7 @@ If you have any questions about the evaluation, you can contact me!
 	- Create an online quiz system where users can take quizzes on various topics.
 - Student Management System:
 	- Design a student management system for schools or universities. **Can you beat GAPS ?**
-- Recipe Sharing Platform:
-	- Develop a platform for sharing and discovering recipes.
+- Recipe Sharing Platform
 - Inventory Management System:
 	- Create an inventory management system for businesses to track products, manage stock levels, and generate reports.
 - Event Registration Portal:
