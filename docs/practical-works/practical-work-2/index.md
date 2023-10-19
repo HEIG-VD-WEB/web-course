@@ -60,7 +60,7 @@ The application should provide a user-friendly interface with interactive elemen
 | #   | Criterion                                                                           | Points |
 | --: | ----------------------------------------------------------------------------------- | -----: |
 | 1   | The project is on GitHub                                                            |      2 |
-| 1	  | The project has a README.md file                                                    |      2 |
+| 1	  | The project has a README.md file and it has a description of the project            |      2 |
 | 1	  | The README.md file contains the instructions to run the project locally             |      2 |
 | 1	  | The project has a .devcontainer folder and a functionnal devcontainer               |      2 |
 | 1   | A linter (e.g., PHP CodeSniffer, PHP-CS-Fixer) is used to enforce coding standards. |      2 |
