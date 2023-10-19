@@ -42,6 +42,7 @@ Maximum grade: ((UNKOWN points \\ UNKOWN) * 5) + 1 = 6
 | --: | -------------------------------------------------------------------------  | -----: |
 | 1   | Design the database schema for your application. (MYSQL, PostgreSQL, etc.) |      2 |
 | 1   | An ORM is used to interact with the database (Eloquent, Doctrine, etc.)    |      2 |
+| 1   | The database is containerized                                              |      2 |
 
 ### Category 4 - Interactivity
 
@@ -58,6 +59,7 @@ The application should provide a user-friendly interface with interactive elemen
 | 1   | The project is on GitHub                                                |      2 |
 | 1	  | The project has a README.md file                                        |      2 |
 | 1	  | The README.md file contains the instructions to run the project locally |      2 |
+| 1	  | The project has a .devcontainer folder and a functionnal devcontainer   |      2 |
 
 
 ## Remarks
