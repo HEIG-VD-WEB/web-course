@@ -98,3 +98,24 @@ The evaluation will use exactly the same grading grid as shown in the course mat
 Each criterion will be accompanied by a comment explaining the points obtained, a general comment on your work and the final grade.
 
 If you have any questions about the evaluation, you can contact me!
+
+## Ideas
+
+- Task Management System:
+	- Create a web application that allows users to manage their tasks. Users can create, edit, delete, and mark tasks as completed.
+- E-commerce Website:
+	- Build a basic e-commerce website where users can browse products, add items to a shopping cart, and complete orders.
+- Blog Platform:
+	- Develop a blog platform where users can create, edit, and publish blog posts.
+- Online Quiz System:
+	- Create an online quiz system where users can take quizzes on various topics.
+- Student Management System:
+	- Design a student management system for schools or universities. **Can you beat GAPS ?**
+- Recipe Sharing Platform:
+	- Develop a platform for sharing and discovering recipes.
+- Inventory Management System:
+	- Create an inventory management system for businesses to track products, manage stock levels, and generate reports.
+- Event Registration Portal:
+	- Build a system for event registration. Users can sign up for events, view event details, and receive event-related notifications.
+- Weather App:
+	- Develop a weather application that fetches weather data from an API and displays it to users. Users can search for weather in different locations.

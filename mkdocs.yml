@@ -39,9 +39,10 @@ nav:
       # - Testing JavaScript application: courses/testing-javascript-applications/index.md
   - Tutorials:
       - tutorials/index.md
-      - Create a Hello World in PHP: tutorials/create-an-hello-world-in-php/index.md
-      - Create a To Do list in PHP: tutorials/create-a-todo-list-in-php/index.md
       - Generate and deploy a static website with Hugo and GitHub Actions: tutorials/generate-and-deploy-a-static-website-with-hugo-github-actions/index.md
+      - Create a Hello World in PHP: tutorials/create-an-hello-world-in-php/index.md
+      - Play with PHP basis: /tutorials/play-with-php-basis/index.md
+      - Create a To Do list in PHP: tutorials/create-a-todo-list-in-php/index.md
   - Practical works:
       - practical-works/index.md
       - Practical Work 1: practical-works/practical-work-1/index.md

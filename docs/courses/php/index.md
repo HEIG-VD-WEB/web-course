@@ -7,23 +7,23 @@ PHP, which stands for "PHP: Hypertext Preprocessor" is a widely-used Open Source
 ## Why should you learn PHP ?
 
 - Multi-purpose language
-  - Simple websites
-  - Complex websites
-  - REST APIs
-  - Command line scripts
-  - Image processing
+	- Simple websites
+	- Complex websites
+	- REST APIs
+	- Command line scripts
+	- Image processing
 - Easy to learn
 - Easy to set up
 - Large community
 - Open source
 - PHP CMSs
-  - WordPress
-  - Drupal
-  - Magento
+	- WordPress
+	- Drupal
+	- Magento
 - PHP Framework
-  - Laravel
-  - Symfony
-  - CodeIgniter
+	- Laravel
+	- Symfony
+	- CodeIgniter
 - High demand on the job market
 
 ### Why you should not use PHP ?
@@ -38,11 +38,13 @@ PHP, which stands for "PHP: Hypertext Preprocessor" is a widely-used Open Source
 
 ```php
 <?php
+
 // This is a single line comment
 
 /*
 This is a multi-line comment
 */
+
 ?>
 ```
 
@@ -79,6 +81,7 @@ echo strtolower($name); // john
 echo str_replace('J', 'H', $name); // Hohn
 echo str_replace('o', '', $name); // Jhn
 echo substr($name, 1, 3); // ohn
+echo strrev($name); // nhoJ
 ?>
 ```
 
@@ -192,8 +195,23 @@ echo 'bool4 : ' . $bool4 . '<br>'; // bool4 :
 ?>
 ```
 
+## Conditionals
 
+```php
+<?php
+// Conditional statements
 
+$num = 4;
+
+if ($num == 5) {
+	echo '5 passed';
+} elseif ($num == 6) {
+	echo '6 passed';
+} else {
+	echo 'did not pass';
+}
+
+```
 
 
 ## Sources
