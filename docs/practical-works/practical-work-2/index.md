@@ -18,13 +18,13 @@ Maximum grade: ((UNKOWN points \\ UNKOWN) * 5) + 1 = 6
 
 ### Category 1 - View
 
-| #   | Criterion                                                            | Points |
-| --: | -------------------------------------------------------------------  | -----: |
-| 1   | HTML forms are used for creating entries in the dataset              |      2 |
-| 2   | HTML forms are used for updating entries in the dataset              |      2 |
-| 3   | HTML forms are used for deleting entries in the dataset              |      2 |
-| 4   | HTML views permits to read entries in the dataset                    |      2 |
-| 5   | There is Form Validation                                             |      2 |
+| #   | Criterion                                                                                  | Points |
+| --: | -----------------------------------------------------------------------------------------  | -----: |
+| 1   | HTML forms are used for creating entries in the dataset                                    |      2 |
+| 2   | HTML forms are used for updating entries in the dataset                                    |      2 |
+| 3   | HTML forms are used for deleting entries in the dataset                                    |      2 |
+| 4   | HTML forms include validation for user input (e.g., required fields, input format checks). |      2 |
+| 5   | HTML views permits to read entries in the dataset                                          |      2 |
 
 ### Category 2 - Controller
 
