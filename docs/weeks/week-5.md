@@ -11,7 +11,7 @@
 
 ## Tutorials
 
-- [Create a to do list with PHP](/web-course/tutorials/create-a-todo-list-with-php/)
+- [Create a to do list in PHP](/web-course/tutorials/create-a-todo-list-in-php/)
 - [Play with PHP basis](/web-course/tutorials/play-with-php-basis/)
 
 <!-- 
