@@ -222,7 +222,6 @@ Update the `index.php` file with the following code:
 $firefox = 'Firefox';
 $chrome = 'Chrome';
 
-
 function isFirefox() {
 		global $firefox;
 		return str_contains($_SERVER['HTTP_USER_AGENT'], $firefox);
@@ -245,8 +244,34 @@ if (isFirefox()) {
 ?>
 ```
 
+You can use arguments to pass variables to functions. Doing so, removing the need for the `global` keyword and repeating the same code.
+
+Update the `index.php` file with the following code:
+
+```php title="index.php"
+<?php
+function isBrowser($browser) {
+		return str_contains($_SERVER['HTTP_USER_AGENT'], $browser);
+}
+
+if (isBrowser('Firefox')) {
+?>
+		You are using Firefox, your code is more readable and you use arguments.
+<?php
+} elseif (isBrowser('Chrome')) {
+?>
+		You are using Chrome, your code is more readable and you use arguments.
+<?php
+}
+?>
+```
+
+## Conclusion
+
+You have successfully run a PHP script in a Dev container. You have also learned how to use variables, control structures, and functions.
 
 ## Source
 
+- [PHP Manual](https://www.php.net/manual/en/index.php){:target="_blank"}
 - [PHP Manual - Something Useful](https://www.php.net/manual/en/tutorial.useful.php){:target="_blank"}
 - [Traversy Media - PHP For Absolute Beginners](https://www.youtube.com/watch?v=2eebptXfEvw){:target="_blank"}
