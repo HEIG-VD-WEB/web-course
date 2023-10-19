@@ -78,7 +78,7 @@ Always complete never finished!
 
 You can use anything you want to create your website as long as you specify the source.
 
-You can use JQuery.
+You can **not** use JQuery.
 
 You do not need to deploy your website.
 
