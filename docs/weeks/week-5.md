@@ -14,9 +14,10 @@
 - [Create a to do list with PHP](/web-course/tutorials/create-a-todo-list-with-php/)
 - [Play with PHP basis](/web-course/tutorials/play-with-php-basis/)
 
+<!-- 
 ## Examples
 
-TODO
+TODO -->
 
 ## Quiz
 
