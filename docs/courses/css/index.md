@@ -101,7 +101,6 @@ Notes:
 **Embedded stylesheets** are contained in a `<style>` element inside the HTML document:
 
 ```html
-!DOCTYPE html>
 <html>
   <head>
     <style>
@@ -117,7 +116,6 @@ Notes:
 **External stylesheets** are contained in a file that is then imported with a `link` element:
 
 ```html
-<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">

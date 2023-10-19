@@ -240,7 +240,6 @@
 
 	Example:
 	```html
-	<!DOCTYPE html>
 	<html>
 		<head>
 			<title>My Webpage</title>

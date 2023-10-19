@@ -40,7 +40,6 @@
 Meta tags are a great way for webmasters to provide search engines and browsers with Additional information about their sites.
 
 ```html
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">

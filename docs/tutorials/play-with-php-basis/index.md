@@ -11,6 +11,7 @@ The following prerequisites must be filled to run this service:
 - [Docker](https://docs.docker.com/get-docker/) must be installed.
 - [Docker Compose](https://docs.docker.com/compose/install/) must be installed (it should be installed by default with Docker in most cases).
 - [Visual Studio Code](https://code.visualstudio.com/download) must be installed.
+- [Dev containers](https://code.visualstudio.com/docs/remote/containers) must be installed in Visual Studio Code.
 
 ## Steps
 
