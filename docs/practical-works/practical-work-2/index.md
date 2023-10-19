@@ -72,6 +72,8 @@ The repository should be well organized and documented. It should be easy to ins
 
 No more bonus points if it's funny or educational? In the spirit of inclusiveness, not everyone has the extra time for these kinds of points. But make it your own! That doesn't mean it can't be fun or educational. It's always a pleasure to see what direction you're going in when you've got the freedom to do so.
 
+You can use any framework you want, Laravel, Symfony, etc. But you can also do it without a framework.
+
 For the frontend, do not use Hugo, Jekyll, or any other static site generator. If we saw it on the course, it was to end the theory about the static web technologies.
 
 Always complete never finished!
