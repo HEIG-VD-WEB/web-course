@@ -266,6 +266,31 @@ if (isBrowser('Firefox')) {
 ?>
 ```
 
+Imagine that you don't want the variable `$firefox` and `$chrome` to be changed. You can use constants instead.
+
+Update the `index.php` file with the following code:
+
+```php title="index.php"
+<?php
+define('FIREFOX', 'Firefox');
+define('CHROME', 'Chrome');
+
+function isBrowser($browser) {
+		return str_contains($_SERVER['HTTP_USER_AGENT'], $browser);
+}
+
+if (isBrowser(FIREFOX)) {
+?>
+		You are using <?php echo FIREFOX; ?>, your code is more readable and you use constants.
+<?php
+} elseif (isBrowser(CHROME)) {
+?>
+		You are using <?php echo CHROME; ?>, your code is more readable and you use constants.
+<?php
+}
+?>
+```
+
 ## Conclusion
 
 You have successfully run a PHP script in a Dev container. You have also learned how to use variables, control structures, and functions.
