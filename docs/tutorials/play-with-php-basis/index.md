@@ -291,6 +291,38 @@ if (isBrowser(FIREFOX)) {
 ?>
 ```
 
+### Switch
+
+You can use the `switch` statement to make your code more readable.
+
+Update the `index.php` file with the following code:
+
+```php title="index.php"
+<?php
+define('FIREFOX', 'Firefox');
+define('CHROME', 'Chrome');
+
+function isBrowser($browser) {
+		return str_contains($_SERVER['HTTP_USER_AGENT'], $browser);
+}
+
+switch (true) {
+		case isBrowser(FIREFOX):
+?>
+		You are using <?php echo FIREFOX; ?>, your code is more readable and you use switch.
+<?php
+				break;
+		case isBrowser(CHROME):
+?>
+		You are using <?php echo CHROME; ?>, your code is more readable and you use switch.
+<?php
+				break;
+}
+?>
+```
+
+More readable ? Right,... but now you know how to use `switch` statements.
+
 ## Conclusion
 
 You have successfully run a PHP script in a Dev container. You have also learned how to use variables, control structures, and functions.
