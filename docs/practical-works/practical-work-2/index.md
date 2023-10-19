@@ -2,7 +2,7 @@
 
 ## Objectives
 
-Prove that you can create a dynamic website using PHP.
+Prove that you can create a dynamic website using PHP with a database. You will have to create a website that allows you to manage a dataset. The dataset can be anything you want (e.g., a list of books, a list of movies, a list of students, etc.).
 
 ## Group composition
 
