@@ -1,8 +1,8 @@
-# Week 8
+# Week 8 [NOT FINISHED]
 
 ## Practical Work
 
-TODO
+- [Practical Work 2](/web-course/practical-works/practical-work-2/)
 
 ## Courses
 
@@ -14,7 +14,7 @@ TODO
 
 ## How-to Guides
 
-TODO
+- [How to bind Windows folder with WSL and devcontainer (Only on Windows)](/web-course/how-to-guides/how-to-bind-windows-folder-with-wsl-and-devcontainer/)
 
 ## Examples
 

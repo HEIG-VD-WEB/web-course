@@ -28,16 +28,16 @@ Maximum grade: ((46 points \\ 46) * 5) + 1 = 6
 
 ### Category 2 - Controller
 
-|  # | Criterion                                                                                    | Points |
-|---:|----------------------------------------------------------------------------------------------|-------:|
-|  6 | The controller is implemented using PHP                                                      |      2 |
-|  7 | The controller is implemented using the MVC pattern                                          |      2 |
-|  8 | Routes are used to create entries in the dataset                                             |      2 |
-|  9 | Routes are used to update entries in the dataset                                             |      2 |
-| 10 | Routes are used to delete entries in the dataset                                             |      2 |
-| 11 | Routes are used to read entries in the dataset                                               |      2 |
-| 12 | A library manager is used to manage the dependencies of the project (e.g., Composer, Pickle) |      2 |
-| 13 | The controllers check the inputs from the user                                               |      2 |
+|  # | Criterion                                                                                                           | Points |
+|---:|---------------------------------------------------------------------------------------------------------------------|-------:|
+|  6 | The project is implemented using the MVC pattern, there is a clear separation between models, views and controllers |      2 |
+|  7 | The controller is implemented using PHP                                                                             |      2 |
+|  8 | Routes are used to create entries in the dataset                                                                    |      2 |
+|  9 | Routes are used to update entries in the dataset                                                                    |      2 |
+| 10 | Routes are used to delete entries in the dataset                                                                    |      2 |
+| 11 | Routes are used to read entries in the dataset                                                                      |      2 |
+| 12 | A library manager is used to manage the dependencies of the project (e.g., Composer, Pickle)                        |      2 |
+| 13 | The controllers check the inputs from the user                                                                      |      2 |
 
 ### Category 3 - Model
 

@@ -11,14 +11,13 @@
 
 ## Tutorials
 
-- [Create a to do list in PHP](/web-course/tutorials/create-a-todo-list-in-php/)
 - [Play with PHP basis](/web-course/tutorials/play-with-php-basis/)
+- [Create a to do list in PHP](/web-course/tutorials/create-a-todo-list-in-php/)
 - ([Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/10.x){:target="_blank"})
 
-<!-- 
-## Examples
+## How-to Guides
 
-TODO -->
+- [How to bind Windows folder with WSL and devcontainer (Only on Windows)](/web-course/how-to-guides/how-to-bind-windows-folder-with-wsl-and-devcontainer/)
 
 ## Quiz
 
