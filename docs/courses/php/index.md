@@ -28,7 +28,6 @@ PHP, which stands for "PHP: Hypertext Preprocessor" is a widely-used Open Source
 
 ### Why you should not use PHP ?
 
-- Building real-time applications
 - Building desktop applications
 - AI and machine learning
 

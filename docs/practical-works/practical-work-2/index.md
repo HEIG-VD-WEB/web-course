@@ -1,4 +1,4 @@
-# Practical work 2[NOT FINISHED]
+# Practical work 2
 
 ## Objectives
 
@@ -14,7 +14,7 @@ You will work in groups of one student
 - 1 point - The work is insufficient
 - 2 points - The work is done
 
-Maximum grade: ((UNKOWN points \\ UNKOWN) * 5) + 1 = 6
+Maximum grade: ((46 points \\ 46) * 5) + 1 = 6
 
 ### Category 1 - View
 
@@ -28,46 +28,50 @@ Maximum grade: ((UNKOWN points \\ UNKOWN) * 5) + 1 = 6
 
 ### Category 2 - Controller
 
-| #   | Criterion                                                                              | Points |
-| --: | -------------------------------------------------------------------------------------  | -----: |
-| 1   | The controller is implemented using PHP                                                |      2 |
-| 1   | The controller is implemented using the MVC pattern                                    |      2 |
-| 1   | Routes are used to create entries in the dataset                                       |      2 |
-| 1   | Routes are used to update entries in the dataset                                       |      2 |
-| 1   | Routes are used to delete entries in the dataset                                       |      2 |
-| 1   | Routes are used to read entries in the dataset                                         |      2 |
-| 1   | A library manager is used to manage the dependencies of the project (Composer, Pickle) |      2 |
+|  # | Criterion                                                                              | Points |
+|---:|----------------------------------------------------------------------------------------|-------:|
+|  6 | The controller is implemented using PHP                                                |      2 |
+|  7 | The controller is implemented using the MVC pattern                                    |      2 |
+|  8 | Routes are used to create entries in the dataset                                       |      2 |
+|  9 | Routes are used to update entries in the dataset                                       |      2 |
+| 10 | Routes are used to delete entries in the dataset                                       |      2 |
+| 11 | Routes are used to read entries in the dataset                                         |      2 |
+| 12 | A library manager is used to manage the dependencies of the project (Composer, Pickle) |      2 |
+| 13 | The controllers check the inputs from the user                                         |      2 |
 
 
 ### Category 3 - Model
 
-| #   | Criterion                                                                  | Points |
-| --: | -------------------------------------------------------------------------  | -----: |
-| 1   | Design the database schema for your application. (MYSQL, PostgreSQL, etc.) |      2 |
-| 1   | An ORM is used to interact with the database (Eloquent, Doctrine, etc.)    |      2 |
-| 1   | The database is containerized                                              |      2 |
+|  # | Criterion                                                                  | Points |
+|---:|----------------------------------------------------------------------------|-------:|
+| 14 | Design the database schema for your application. (MYSQL, PostgreSQL, etc.) |      2 |
+| 15 | An ORM is used to interact with the database (Eloquent, Doctrine, etc.)    |      2 |
+| 16 | The database is containerized                                              |      2 |
 
 ### Category 4 - Interactivity
 
 The application should provide a user-friendly interface with interactive elements.
 
-| #   | Criterion                                                        | Points |
-| --: | ---------------------------------------------------------------- | -----: |
-| 1   | There are feedback on successful or failed actions.              |      2 |
+|  # | Criterion                                           | Points |
+|---:|-----------------------------------------------------|-------:|
+| 17 | There are feedback on successful or failed actions. |      2 |
 
 ### Category 5 - Repository
 
-| #   | Criterion                                                                           | Points |
-| --: | ----------------------------------------------------------------------------------- | -----: |
-| 1   | The project is on GitHub                                                            |      2 |
-| 1	  | The project has a README.md file and it has a description of the project            |      2 |
-| 1	  | The README.md file contains the instructions to run the project locally             |      2 |
-| 1	  | The project has a .devcontainer folder and a functionnal devcontainer               |      2 |
-| 1   | A linter (e.g., PHP CodeSniffer, PHP-CS-Fixer) is used to enforce coding standards. |      2 |
-| 1   | The code is well documented                                                         |      2 |
+The repository should be well organized and documented. It should be easy to install and run the project locally.
 
+|  # | Criterion                                                                           | Points |
+|---:|-------------------------------------------------------------------------------------|-------:|
+| 18 | The project is on GitHub                                                            |      2 |
+| 19 | The project has a README.md file and it has a description of the project            |      2 |
+| 20 | The README.md file contains the instructions to run the project locally             |      2 |
+| 21 | The project has a .devcontainer folder and a functionnal devcontainer               |      2 |
+| 22 | A linter (e.g., PHP CodeSniffer, PHP-CS-Fixer) is used to enforce coding standards. |      2 |
+| 23 | The code is well documented                                                         |      2 |
 
 ## Remarks
+
+No more bonus points if it's funny or educational? In the spirit of inclusiveness, not everyone has the extra time for these kinds of points. But make it your own! That doesn't mean it can't be fun or educational. It's always a pleasure to see what direction you're going in when you've got the freedom to do so.
 
 Always complete never finished!
 
