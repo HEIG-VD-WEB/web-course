@@ -55,7 +55,7 @@ Variable are not typed, i.e. you don't need to specify the type of the variable.
 
 ```php
 <?php
-$name = 'John';
+$name = 'Sophie';
 $age = 30;
 $isMale = true;
 $height = 1.85;
@@ -73,14 +73,16 @@ PHP strings can be defined with single quotes `'` or double quotes `"`.
 echo 'Hello, my name is ' . $name . ' and I am ' . $age . '.';
 echo "Hello, my name is $name and I am $age.";
 
+$name = 'Zeniter';
+
 // String functions
-echo strlen($name); // 4
-echo strtoupper($name); // JOHN
-echo strtolower($name); // john
-echo str_replace('J', 'H', $name); // Hohn
-echo str_replace('o', '', $name); // Jhn
-echo substr($name, 1, 3); // ohn
-echo strrev($name); // nhoJ
+echo strlen($name) . '<br>'; // 7
+echo strtoupper($name) . '<br>'; // ZENITER
+echo strtolower($name) . '<br>'; // zeniter
+echo str_replace('e', 'f', $name) . '<br>'; // Zfnitfr
+echo str_replace('t', '', $name) . '<br>'; // Zenier
+echo substr($name, 1, 3) . '<br>'; // eni
+echo strrev($name) . '<br>'; // retineZ
 ?>
 ```
 
@@ -134,25 +136,25 @@ PHP arrays can be defined with the `array()` function or with square brackets `[
 ```php
 <?php
 // Create an array
-$peopleOne = array('Kevin', 'Jeremy', 'Sara');
-$peopleTwo = ['Kevin', 'Jeremy', 'Sara', 'Karen'];
+$peopleOne = array('Benoîte', 'Monique', 'Sara');
+$peopleTwo = ['Benoîte', 'Monique', 'Sara', 'Karen'];
 $ages = [20, 30, 40, 50];
 
 // Print the whole array
-print_r($peopleOne); // Array ( [0] => Kevin [1] => Jeremy [2] => Sara )
+print_r($peopleOne); // Array ( [0] => Benoîte [1] => Monique [2] => Sara )
 
 // Get element by index
-echo $peopleOne[1]; // Jeremy
+echo $peopleOne[1]; // Monique
 
 // Set element by index
-$peopleOne[1] = 'John';
-echo $peopleOne[1]; // John
+$peopleOne[1] = 'Alice';
+echo $peopleOne[1]; // Alice
 
 // Add element
 $peopleOne[] = 'Mary';
 
 // Print the whole array
-print_r($peopleOne); // Array ( [0] => Kevin [1] => John [2] => Sara [3] => Mary )
+print_r($peopleOne); // Array ( [0] => Benoîte [1] => Alice [2] => Sara [3] => Mary )
 
 // Add element at the beginning of the array
 array_unshift($peopleOne, 'Bob');
@@ -194,7 +196,7 @@ echo 'bool4 : ' . $bool4 . '<br>'; // bool4 :
 ?>
 ```
 
-## Conditionals
+## Control structures
 
 ```php
 <?php
@@ -204,11 +206,44 @@ $num = 4;
 
 if ($num == 5) {
 	echo '5 passed';
-} elseif ($num == 6) {
+} elseif ($num == 6) { // you can write elseis
 	echo '6 passed';
+} else if ($num == 7) { // or else if
+	echo '7 passed';
 } else {
 	echo 'did not pass';
 }
+
+// while loop
+
+$num = 0;
+
+while ($num < 10) {
+	echo $num;
+	echo ' ';
+	$num++;
+}
+// 0 1 2 3 4 5 6 7 8 9
+
+// for loop
+
+for ($i = 0; $i < 10; $i++) {
+	echo $i;
+	echo ' ';
+}
+// 0 1 2 3 4 5 6 7 8 9
+
+// foreach loop
+
+$people = ['Virginie', 'Despentes', 'Pénélope', 'Bagieu'];
+
+foreach ($people as $person) {
+	echo $person;
+	echo ' ';
+}
+// Virginie Despentes Pénélope Bagieu 
+
+
 
 ```
 
