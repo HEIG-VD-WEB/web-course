@@ -1,4 +1,4 @@
-# Week 6 [NOT FINISHED]
+# Week 6
 
 Little introduction on how a website is online.
 
@@ -9,12 +9,18 @@ Little introduction on how a website is online.
 ## Courses
 
 - [PHP - Language Reference](https://www.php.net/manual/en/langref.php){:target="_blank"}
+- [Little introduction on how a website is online](https://heig-vd-dai-course.github.io/heig-vd-dai-course/11-smtp-and-telnet/#5){:target="_blank"}
+- [GET & POST](https://www.w3schools.com/tags/ref_httpmethods.asp){:target="_blank"}
+- [Nslookup](http://www.steves-internet-guide.com/using-nslookup/){:target="_blank"}
+- [MVC - Frameworks](https://www.w3schools.in/php/mvc-architecture/){:target="_blank"}
+- [PHP - The right way](https://phptherightway.com/#welcome){:target="_blank"}
 
 ## Tutorials
 
 - [Create a to do list in PHP](/web-course/tutorials/create-a-todo-list-in-php/)
 - [Create a simple CRUD in PHP](/web-course/tutorials/create-a-simple-crud-in-php/)
 - [Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/10.x){:target="_blank"}
+- [MVC Framework with Custom Routing](https://youtu.be/2eebptXfEvw?t=17590&si=kuJhRkHRJf1G1MMp){:target="_blank"}
 
 ## How-to Guides
 
@@ -22,9 +28,8 @@ Little introduction on how a website is online.
 
 ## Examples
 
-TODO
+- [A simple CRUD in PHP](https://github.com/HEIG-VD-WEB/crud-product){:target="_blank"}
 
-## Quiz
+## Feedback
 
-TODO
-
+- [FramaForms](https://framaforms.org/feedback-cours-de-technologies-web-1698933856)

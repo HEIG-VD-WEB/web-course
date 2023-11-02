@@ -1,5 +1,7 @@
 # Create a simple CRUD in PHP
 
+You can see the code related to this tutorial on [GitHub](https://github.com/HEIG-VD-WEB/crud-product)
+
 ## Objectives
 
 With this tutorial, you will create a simple CRUD on products in PHP. And you will initiate a database.
@@ -98,12 +100,11 @@ Click on "Go".
 
 In the database list, you should see the `products_crud` database. Select it.
 
-Create a new table named `products` with the following 6 columns:
+Create a new table named `products` with the following 5 columns:
 
 - id: int(11) - Primary - Auto Increment
 - title: varchar(512)
 - description: longtext - Null
-- image: varchar(2048) - Null
 - price: decimal(10,2)
 - create_date: datetime
 
@@ -114,7 +115,7 @@ Click on the "SQL" tab.
 Enter the following SQL query:
 
 ```sql
-INSERT INTO `products` (`id`, `title`, `description`, `image`, `price`, `create_date`) VALUES (NULL, 'Fairphone 3s', NULL, NULL, '300', '2023-11-01 10:42:24.000000'), (NULL, 'Fairphone 4', NULL, NULL, '350', '2023-11-01 10:42:24.000000');
+INSERT INTO `products` (`id`, `title`, `description`, `price`, `create_date`) VALUES (NULL, 'Fairphone 3s', NULL, '300', '2023-11-01 10:42:24.000000'), (NULL, 'Fairphone 4', NULL, '350', '2023-11-01 10:42:24.000000');
 ```
 
 Click on "Go".
@@ -243,7 +244,6 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
       <thead>
         <tr>
           <th scope="col">#</th>
-          <th scope="col">Image</th>
           <th scope="col">Title</th>
           <th scope="col">Price</th>
           <th scope="col">Create Date</th>
@@ -254,7 +254,6 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
         <?php foreach ($products as $i => $product) { ?>
           <tr>
           <th scope="row"><?php echo $i ?></th>
-          <td><?php echo $product['image'] ?></th>
           <td><?php echo $product['title'] ?></th>
           <td><?php echo $product['price'] ?></th>
           <td><?php echo $product['create_date'] ?></th>
@@ -277,7 +276,6 @@ Go to the [Bootstrap button documentation](https://getbootstrap.com/docs/5.3/com
       <thead>
         <tr>
           <th scope="col">#</th>
-          <th scope="col">Image</th>
           <th scope="col">Title</th>
           <th scope="col">Price</th>
           <th scope="col">Create Date</th>
@@ -288,7 +286,6 @@ Go to the [Bootstrap button documentation](https://getbootstrap.com/docs/5.3/com
         <?php foreach ($products as $i => $product) { ?>
           <tr>
           <th scope="row"><?php echo $i ?></th>
-          <td><?php echo $product['image'] ?></th>
           <td><?php echo $product['title'] ?></th>
           <td><?php echo $product['price'] ?></th>
           <td><?php echo $product['create_date'] ?></th>
@@ -345,10 +342,6 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 <form>
     <div class="form-group">
-        <label>Product Image</label><br>
-        <input type="file">
-    </div>
-    <div class="form-group">
         <label>Product title</label>
         <input type="text" class="form-control" value="">
     </div>
@@ -396,10 +389,6 @@ Still nothing happens. Nothing is sent to the server. Let's add the `name` attri
 ```html
 <form action="" method="get">
     <div class="form-group">
-        <label>Product Image</label><br>
-        <input type="file" name="image">
-    </div>
-    <div class="form-group">
         <label>Product title</label>
         <input type="text" name="title" class="form-control" value="">
     </div>
@@ -418,13 +407,13 @@ Still nothing happens. Nothing is sent to the server. Let's add the `name` attri
 If you refresh the page, you should see the form. If you click on the submit button, you should see the parameters in the URL. It should look like that:
 
 ```bash
-http://localhost:8080/create.php?image=&title=&description=&price=
+http://localhost:8080/create.php?title=&description=&price=
 ```
 
 If you fill the form and click on the submit button, you should see the parameters in the URL. It should look like that:
 
 ```bash
-http://localhost:8080/create.php?image=&title=Fairphone+4&description=&price=350
+http://localhost:8080/create.php?title=Fairphone+4&description=&price=350
 ```
 
 This is how we can get the `get` informations. Now in we need to get the informations in the PHP code. Let's update the following code at the top of the `create.php` file:
@@ -489,6 +478,222 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 ```
+
+Now try to create a product. You should see the product in the database.
+
+### Add a validation
+
+You need some validation if the title is empty for example. You need an array to stock the errors:
+
+```php title="create.php"
+<?php
+
+$pdo = new PDO('mysql:host=127.0.0.1;port=3306;dbname=products_crud', 'user', 'password');
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$errors = [];
+
+$title = '';
+$description = '';
+$price = '';
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    $title = $_POST['title'];
+    $description = $_POST['description'];
+    $price = $_POST['price'];
+
+    if (!$title) {
+        $errors[] = 'Product title is required';
+    }
+
+    if (!$price) {
+        $errors[] = 'Product price is required';
+    }
+
+    if (empty($errors)) {
+        $statement = $pdo->prepare("INSERT INTO products (title, description, price, create_date)
+                VALUES (:title, :description, :price, :date)");
+        $statement->bindValue(':title', $title);
+        $statement->bindValue(':description', $description);
+        $statement->bindValue(':price', $price);
+        $statement->bindValue(':date', date('Y-m-d H:i:s'));
+
+        $statement->execute();
+    }
+
+}
+```
+
+And you need to add code to display the errors:
+
+```php title="create.php"
+<h1>Create new Product</h1>
+
+<?php if (!empty($errors)): ?>
+    <div class="alert alert-danger">
+        <?php foreach ($errors as $error): ?>
+            <div><?php echo $error ?></div>
+        <?php endforeach; ?>
+    </div>
+<?php endif; ?>
+
+<form action="" method="post">
+```
+
+Good ! Now, let's delete a product.
+
+### Delete a product
+
+Modify the **Delete** button in the `index.php` file:
+
+```html title="index.php"
+          <td>
+            <button type="button" class="btn btn-sm btn-primary">Edit</button>
+            <a href="delete.php?id=<?php echo $product['id']?>" type="button" class="btn btn-sm btn-danger">Delete</a>
+          </td>
+```
+
+If you go to the [http://localhost:8080](http://localhost:8080){:target="_blank"} page, you should see the **Delete** button. If you click on it, you should see the `id` in the URL.
+
+And you get an error because the `delete.php` file does not exist. Let's create it.
+
+Create a `delete.php` file at the root of the project:
+
+```php title="delete.php"
+<?php
+
+$pdo = new PDO('mysql:host=127.0.0.1;port=3306;dbname=products_crud', 'user', 'password');
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$id = $_GET_['id'] ?? null;
+if (!$id) {
+    header('Location: index.php');
+    exit;
+}
+
+$statement = $pdo->prepare('DELETE FROM products WHERE id = :id');
+$statement->bindValue(':id', $id);
+$statement->execute();
+
+header('Location: index.php');
+```
+
+If you go to the [http://localhost:8080](http://localhost:8080){:target="_blank"} page, you should see the **Delete** button. If you click on it, you should see the product deleted.
+
+### Edit a product
+
+Update the `index.php` file to 
+
+```html title="index.php"
+          <td>
+            <a href="update.php?id=<?php echo $product['id'] ?>" class="btn btn-sm btn-primary">Edit</a>
+            <a href="delete.php?id=<?php echo $product['id']?>" type="button" class="btn btn-sm btn-danger">Delete</a>
+          </td>
+```
+
+Create a `update.php` file at the root of the project:
+
+```php title="update.php"
+<?php
+
+$id = $_GET['id'] ?? null;
+if (!$id) {
+    header('Location: index.php');
+    exit;
+}
+
+$pdo = new PDO('mysql:host=127.0.0.1;port=3306;dbname=products_crud', 'user', 'password');
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$statement = $pdo->prepare('SELECT * FROM products WHERE id = :id');
+$statement->bindValue(':id', $id);
+$statement->execute();
+$product = $statement->fetch(PDO::FETCH_ASSOC);
+
+
+$title = $product['title'];
+$description = $product['description'];
+$price = $product['price'];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    $title = $_POST['title'];
+    $description = $_POST['description'];
+    $price = $_POST['price'];
+
+    if (!$title) {
+        $errors[] = 'Product title is required';
+    }
+
+    if (!$price) {
+        $errors[] = 'Product price is required';
+    }
+
+    if (empty($errors)) {
+        $statement = $pdo->prepare("UPDATE products SET title = :title,
+                                        description = :description, 
+                                        price = :price WHERE id = :id");
+        $statement->bindValue(':title', $title);
+        $statement->bindValue(':description', $description);
+        $statement->bindValue(':price', $price);
+        $statement->bindValue(':id', $id);
+
+        $statement->execute();
+        header('Location: index.php');
+    }
+
+}
+
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products CRUD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p>
+    <a href="index.php" class="btn btn-default">Back to products</a>
+</p>
+<h1>Update Product: <b><?php echo $product['title'] ?></b></h1>
+
+<?php if (!empty($errors)): ?>
+    <div class="alert alert-danger">
+        <?php foreach ($errors as $error): ?>
+            <div><?php echo $error ?></div>
+        <?php endforeach; ?>
+    </div>
+<?php endif; ?>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Product title</label>
+        <input type="text" name="title" class="form-control" value="<?php echo $title ?>">
+    </div>
+    <div class="form-group">
+        <label>Product description</label>
+        <textarea class="form-control" name="description"><?php echo $description ?></textarea>
+    </div>
+    <div class="form-group">
+        <label>Product price</label>
+        <input type="number" step=".01" name="price" class="form-control" value="<?php echo $price ?>">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</body>
+</html>
+```
+
+Yey !! You can update the database !
+
+## Conclusion
+
+You know how to create a simple CRUD in PHP. You can now create a CRUD for your own project.
+
 
 ## Sources
 
