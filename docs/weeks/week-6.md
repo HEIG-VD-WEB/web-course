@@ -12,7 +12,7 @@ Little introduction on how a website is online.
 - [Little introduction on how a website is online](https://heig-vd-dai-course.github.io/heig-vd-dai-course/11-smtp-and-telnet/#5){:target="_blank"}
 - [GET & POST](https://www.w3schools.com/tags/ref_httpmethods.asp){:target="_blank"}
 - [Nslookup](http://www.steves-internet-guide.com/using-nslookup/){:target="_blank"}
-- [MVC - Frameworks](https://www.w3schools.in/php/mvc-architecture/){:target="_blank"}
+- [MVC - Frameworks](https://www.w3schools.in/mvc-architecture){:target="_blank"}
 - [PHP - The right way](https://phptherightway.com/#welcome){:target="_blank"}
 
 ## Tutorials
