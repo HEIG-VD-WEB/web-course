@@ -52,6 +52,7 @@ nav:
       - how-to-guides/index.md
       - How to deploy on GitHub Pages: how-to-guides/how-to-deploy-on-github-pages/index.md
       - How to bind Windows folder with WSL and devcontainer (only on Windows): how-to-guides/how-to-bind-windows-folder-with-wsl-and-devcontainer/index.md
+      - How to make a beautiful Website: how-to-guides/how-to-make-a-beatiful-website/index.md
   - Educational objectives:
       - educational-objectives/index.md
       - Part 1: educational-objectives/part-1/index.md

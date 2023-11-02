@@ -26,6 +26,7 @@ Little introduction on how a website is online.
 ## How-to Guides
 
 - [How to bind Windows folder with WSL and devcontainer (Only on Windows)](/web-course/how-to-guides/how-to-bind-windows-folder-with-wsl-and-devcontainer/)
+- [How to make a beautiful website](/web-course/how-to-guides/how-to-make-a-beatiful-website/)
 
 ## Examples
 

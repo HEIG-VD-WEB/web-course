@@ -4,3 +4,4 @@ Here you will find a collection of guides that will help you to get started with
 
 - [How to deploy a website on GitHub Pages](./how-to-deploy-on-github-pages/)
 - [How to bind Windows folder with WSL and DevContainer (Only on Windows)](./how-to-bind-windows-folder-with-wsl-and-devcontainer/)
+- [How to make a beautiful website](./how-to-make-a-beatiful-website/)
