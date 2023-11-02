@@ -394,6 +394,10 @@ if (isset($_GET['remove'])) {
 1. Redirect to remove the 'remove' parameter from the URL.
 2. Exit the script to prevent the rest of the page from loading.
 
+## Conclusion
+
+You have created a simple To Do list in PHP.
+
 ## Sources
 
 - [ChatGPT](https://chat.openai.com/){:target="_blank"}

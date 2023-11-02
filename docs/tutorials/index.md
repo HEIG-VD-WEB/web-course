@@ -6,3 +6,4 @@ Check out the navigation bar for all the tutorials regarding this project.
 - [Create a Hello World in PHP](/web-course/tutorials/create-an-hello-world-in-php/)
 - [Play with PHP basis](/web-course/tutorials/play-with-php-basis/)
 - [Create a To Do list in PHP](/web-course/tutorials/create-a-todo-list-in-php/)
+- [Creat a simple CRUD in PHP](/web-course/tutorials/create-a-simple-crud-in-php/)

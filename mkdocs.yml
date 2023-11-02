@@ -14,7 +14,7 @@ nav:
       - Week 3: weeks/week-3.md
       - Week 4: weeks/week-4.md
       - Week 5: weeks/week-5.md
-      # - Week 6: weeks/week-6.md
+      - Week 6: weeks/week-6.md
       # - Week 7: weeks/week-7.md
       # - Week 8: weeks/week-8.md
       # - Week 9: weeks/week-9.md
@@ -43,6 +43,7 @@ nav:
       - Create a Hello World in PHP: tutorials/create-an-hello-world-in-php/index.md
       - Play with PHP basis: tutorials/play-with-php-basis/index.md
       - Create a To Do list in PHP: tutorials/create-a-todo-list-in-php/index.md
+      - Create a simple CRUD in PHP: tutorials/create-a-simple-crud-in-php/index.md
   - Practical works:
       - practical-works/index.md
       - Practical Work 1: practical-works/practical-work-1/index.md
