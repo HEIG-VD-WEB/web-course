@@ -20,6 +20,16 @@ The following prerequisites must be filled to run this service:
 mkdocs serve
 ```
 
+## Start marp for the slides
+
+```bash
+npx @marp-team/marp-cli@latest -s docs/slides/ -w
+```
+
+```
+find . -mindepth 3 -maxdepth 3 -name "presentation.md" -type f -exec sh -c 'npx @marp-team/marp-cli@latest --config marp.config.js --html --output "${1%.md}.html" "$1"' sh {} \;
+```
+
 ## License
 
 This work is licensed under a
