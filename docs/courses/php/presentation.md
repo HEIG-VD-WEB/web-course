@@ -47,7 +47,7 @@ headingDivider: 4
 [illustration]:
   https://heig-vd-web.github.io/web-course/
 
-## Title
+## PHP
 
 <!--
 _class: lead
