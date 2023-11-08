@@ -1,13 +1,33 @@
 # Part 2 - Dynamic web development
 
+## Objectives
+
 At the end of this part, you will should be able to know:
 
-- You know what are the pros and cons of using PHP for web development.
-- You know what is a package manager and why we need it. (Composer)
-- You know what a linter is and why we need it. (PHP_CodeSniffer)
-- You know what a web framework is and why we need it. (Symfony, Laravel, etc.)
-- You know what an ORM is and why we need it. (Doctrine, Eloquent, etc.)
-- You know the difference between static and dynamic web development and when to use each one.
-- You know what is the routing and what problems does it solve.
-- You know the difference between GET and POST.
-- You know when it is necessary to use database and when it is not necessary to use database.
+- You know what a **PHP** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what a **dependency** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what a **package manager** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what a **linter** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what a **web framework** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what a **ORM** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what **static web development** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what **dynamic web development** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what **routing** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what **GET** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what **POST** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what a **database** is, what are the advantages and disadvantages about it and when and why we need/use it.
+
+## Evaluation
+
+- The evaluation of this part will be the **16th of October 2023**, from **15:50 to 16:50** ;
+- You must be present for the test. Any unjustified absence will result in the grade of 1 ;
+- The evaluation will be in **french** ;
+- The evaluation will be **on paper** ;
+- No computer will be allowed ;
+- No smartphone will be allowed ;
+- No smartwatch will be allowed ;
+- No internet will be allowed ;
+- You are **allowed** to use one page of paper with whatever you want on it, **recto-verso** ;
+- You can listen to music with headphones ;
+- All act of cheating will be punished by a 1 ;
+- The questions will be about the objectives of this part. You will have to answer with your own words.
