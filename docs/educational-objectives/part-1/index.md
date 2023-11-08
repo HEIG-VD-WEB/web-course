@@ -1,5 +1,7 @@
 # Part 1 - Static web development
 
+- You know what **static web development** is, what are the advantages and disadvantages about it and when and why we need/use it.
+
 ## HTML
 
 - What does HTML stand for, and what is its primary purpose in web development?

@@ -4,13 +4,12 @@
 
 At the end of this part, you will should be able to know:
 
-- You know what a **PHP** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what **PHP** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what a **dependency** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what a **package manager** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what a **linter** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what a **web framework** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what a **ORM** is, what are the advantages and disadvantages about it and when and why we need/use it.
-- You know what **static web development** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what **dynamic web development** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what **routing** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what **GET** is, what are the advantages and disadvantages about it and when and why we need/use it.
@@ -31,3 +30,5 @@ At the end of this part, you will should be able to know:
 - You can listen to music with headphones ;
 - All act of cheating will be punished by a 1 ;
 - The questions will be about the objectives of this part. You will have to answer with your own words.
+
+Remember that the evaluation does not measure your emotionnal intelligence and relationnal intelligence. Your grade does not reflects your ability to dream or your artistic sensibility.

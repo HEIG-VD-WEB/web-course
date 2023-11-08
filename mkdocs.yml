@@ -15,7 +15,7 @@ nav:
       - Week 4: weeks/week-4.md
       - Week 5: weeks/week-5.md
       - Week 6: weeks/week-6.md
-      # - Week 7: weeks/week-7.md
+      - Week 7: weeks/week-7.md
       # - Week 8: weeks/week-8.md
       # - Week 9: weeks/week-9.md
       # - Week 10: weeks/week-10.md
@@ -34,7 +34,14 @@ nav:
       - Object-oriented JavaScript: courses/object-oriented-javascript/index.md
       - Document Object Model (DOM): courses/document-object-model/index.md
       - Canvas: courses/canvas/index.md
+      - Dependencies: courses/dependencies/index.md
       - PHP: courses/php/index.md
+      - PHP - linter: courses/php-linter/index.md
+      - PHP - ORM: courses/php-orm/index.md
+      - PHP - MVC: courses/php-mvc/index.md
+      - PHP - Routing: courses/php-routing/index.md
+      - PHP - Web framework: courses/php-web-framework/index.md
+      - PHP - Package manager: courses/php-package-manager/index.md
       # - Static Website generator: courses/static-website-generator/index.md
       # - Testing JavaScript application: courses/testing-javascript-applications/index.md
   - Tutorials:
