@@ -18,17 +18,14 @@ At the end of this part, you will should be able to know:
 
 ## Evaluation
 
-- The evaluation of this part will be the **16th of October 2023**, from **15:50 to 16:50** ;
+- The evaluation of this part will be the **30th of November 2023**, from **15:50 to 16:50** ;
 - You must be present for the test. Any unjustified absence will result in the grade of 1 ;
 - The evaluation will be in **french** ;
 - The evaluation will be **on paper** ;
-- No computer will be allowed ;
-- No smartphone will be allowed ;
-- No smartwatch will be allowed ;
-- No internet will be allowed ;
+- No computer will be allowed, no smartphone will be allowed, no smartwatch will be allowed, no internet will be allowed, you get the idea ;
 - You are **allowed** to use one page of paper with whatever you want on it, **recto-verso** ;
 - You can listen to music with headphones ;
 - All act of cheating will be punished by a 1 ;
 - The questions will be about the objectives of this part. You will have to answer with your own words.
 
-Remember that the evaluation does not measure your emotionnal intelligence and relationnal intelligence. Your grade does not reflects your ability to dream or your artistic sensibility.
+Remember that the evaluation does not measure your emotionnal and relationnal intelligence. Your grade does not reflects your ability to dream or your artistic sensibility.

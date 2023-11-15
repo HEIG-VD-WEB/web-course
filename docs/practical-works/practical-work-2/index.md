@@ -86,7 +86,7 @@ You do not need to deploy your website.
 
 ## Submission
 
-The deadline is the Wednesday 22 November 2023 at 22h00.
+The deadline is the 6th of December 2023 at 22h00 (Wednesday)
 
 Any commit after the deadline will not be taken into account. Each day of delay will result in a penalty of -1 point on the final grade.
 
