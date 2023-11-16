@@ -122,14 +122,56 @@ Like PNPM for NPM.
 
 The versionning between versions of the same library manager is not always compatible.
 
+## Important files
+
+- `package.json` (NPM)
+- `composer.json` (Composer)
+
+- `package-lock.json` (NPM)
+- `composer.lock` (Composer).
+
+## Package file
+
+```json
+{
+    "name": "vincent/crud",
+    "description": "a crud application",
+    "type": "project",
+    "license": "AGPL3.0",
+    "authors": [
+        {
+            "name": "Vincent Guidoux",
+            "email": "vincent.guidoux@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
+```
+
+## Lock files
+
+- Lock files are used to lock the version of the dependencies.
+- They are used to ensure that the same version of the dependencies are used by everyone.
+- It should be committed to the repository.
+
+## Packages folder
+
+- `node_modules` (NPM)
+- `vendor` (Composer)
+
+- The packages folder is where the dependencies are stored.
+- It should be ignored by the repository.
+
 ## What should I remember ?
 
 - What a dependency is, what are the advantages and disadvantages about it and when and why we need/use it.
 - What a package manager is, what are the advantages and disadvantages about it and when and why we need/use it.
-
+<!-- 
 Transition !
 
-![bg right:30%][next]
+![bg right:30%][next] -->
 
 ## Sources
 
