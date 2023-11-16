@@ -2,7 +2,7 @@
 
 This is a follow-up tutorial for the [Create a simple CRUD in PHP](/web-course/tutorials/create-a-simple-crud-in-php/) tutorial.
 
-The code of this tutorial is available on [GitHub](
+The code of this tutorial is available on [GitHub](https://github.com/HEIG-VD-WEB/crud-product-xampp){:target="_blank"}.
 
 ## Objectives
 

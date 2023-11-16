@@ -16,10 +16,9 @@
 
 - [How to bind Windows folder with WSL and devcontainer (Only on Windows)](/web-course/how-to-guides/how-to-bind-windows-folder-with-wsl-and-devcontainer/)
 
-<!-- ## Examples
+## Examples
 
-TODO
+- [A simple CRUD application for products using XAMPP](https://github.com/HEIG-VD-WEB/crud-product-xampp){:target="_blank"}
 
-## Quiz
+<!-- ## Quiz -->
 
-TODO -->
