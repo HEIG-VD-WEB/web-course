@@ -1,6 +1,7 @@
 # Part 1 - Static web development
 
 - You know what **static web development** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what **CDN** is, what are the advantages and disadvantages about it and when and why we need/use it.
 
 ## HTML
 

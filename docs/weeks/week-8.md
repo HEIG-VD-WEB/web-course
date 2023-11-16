@@ -7,6 +7,7 @@
 ## Courses
 
 - [Web server and PHP](/web-course/courses/php-web-server/)
+- [Dependencies](/web-course/courses/dependencies/)
 
 ## Tutorials
 
