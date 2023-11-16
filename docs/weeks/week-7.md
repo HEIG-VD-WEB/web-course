@@ -1,11 +1,11 @@
-# Week 7 [NOT FINISHED]
+# Week 7
 
 - [Educational objectives - Part 2](/web-course/educational-objectives/part-2/)
 
 ## Practical Work
 
 - [Practical Work 2](/web-course/practical-works/practical-work-2/)
-
+<!-- 
 ## Courses
 
 - [Dependencies](/web-course/courses/dependencies/)
@@ -33,4 +33,4 @@ TODO
 ## Quiz
 
 TODO
-
+ -->
