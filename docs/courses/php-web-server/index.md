@@ -1,7 +1,7 @@
 # Web server and PHP
 
-[slides](./presentation.html){:target="_blank"}
+[🖵 slides](./presentation.html){:target="_blank" .md-button .md-button--primary}
 
-## Sources
-
-- [What is a web server ?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
+--8<--
+./courses/php-web-server/presentation.md:4
+--8<--
