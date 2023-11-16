@@ -52,6 +52,7 @@ nav:
       - Play with PHP basis: tutorials/play-with-php-basis/index.md
       - Create a To Do list in PHP: tutorials/create-a-todo-list-in-php/index.md
       - Create a simple CRUD in PHP: tutorials/create-a-simple-crud-in-php/index.md
+      - Set a better Web server in php up: tutorials/set-a-better-web-server-in-php/index.md
   - Practical works:
       - practical-works/index.md
       - Practical Work 1: practical-works/practical-work-1/index.md

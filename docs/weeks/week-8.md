@@ -8,9 +8,9 @@
 
 - [Web server and PHP](/web-course/courses/php-web-server/)
 
-<!-- ## Tutorials
+## Tutorials
 
-TODO -->
+- [Set a better Web server in PHP up](/web-course/tutorials/set-a-better-web-server-in-php/)
 
 ## How-to Guides
 

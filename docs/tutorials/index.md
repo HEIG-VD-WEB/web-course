@@ -7,3 +7,4 @@ Check out the navigation bar for all the tutorials regarding this project.
 - [Play with PHP basis](/web-course/tutorials/play-with-php-basis/)
 - [Create a To Do list in PHP](/web-course/tutorials/create-a-todo-list-in-php/)
 - [Create a simple CRUD in PHP](/web-course/tutorials/create-a-simple-crud-in-php/)
+- [Set a better Web server in PHP up](/web-course/tutorials/set-a-better-web-server-in-php/)

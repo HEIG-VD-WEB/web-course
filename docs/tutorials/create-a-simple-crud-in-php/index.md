@@ -37,6 +37,7 @@ The following prerequisites must be filled to run this service:
 	- Search for "PHP Intelephense", click on the gear icon (⚙️) and select "Add to devcontainer.json".
 	- (Optional) Search for "GitHub Copilot", click on the gear icon (⚙️) and select "Add to devcontainer.json".
 - Remove unnecessary comments from the `devcontainer.json` file.
+- Open the devcontainer by clicking on the bottom left corner of Visual Studio Code and selecting "Remote-Containers: Reopen in Container".
 
 Your folder should look like that:
 
