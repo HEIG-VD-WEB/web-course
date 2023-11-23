@@ -14,7 +14,7 @@ You will work in groups of one student
 - 1 point - The work is insufficient
 - 2 points - The work is done
 
-Maximum grade: ((46 points \\ 46) * 5) + 1 = 6
+Maximum grade: ((26 points \\ 26) * 5) + 1 = 6
 
 ### Category 1 - View
 
@@ -26,25 +26,25 @@ Maximum grade: ((46 points \\ 46) * 5) + 1 = 6
 | 4   | HTML forms include validation for user input (e.g., required fields, input format checks). |      2 |
 | 5   | HTML views permits to read entries in the dataset                                          |      2 |
 
-### Category 2 - Controller
+### ~~Category 2 - Controller~~
 
 |  # | Criterion                                                                                                           | Points |
 |---:|---------------------------------------------------------------------------------------------------------------------|-------:|
-|  6 | The project is implemented using the MVC pattern, there is a clear separation between models, views and controllers |      2 |
-|  7 | The controller is implemented using PHP                                                                             |      2 |
-|  8 | Routes are used to create entries in the dataset                                                                    |      2 |
-|  9 | Routes are used to update entries in the dataset                                                                    |      2 |
-| 10 | Routes are used to delete entries in the dataset                                                                    |      2 |
-| 11 | Routes are used to read entries in the dataset                                                                      |      2 |
-| 12 | A library manager is used to manage the dependencies of the project (e.g., Composer, Pickle)                        |      2 |
-| 13 | The controllers check the inputs from the user                                                                      |      2 |
+|  6 | ~~The project is implemented using the MVC pattern, there is a clear separation between models, views and controllers~~ |      2 |
+|  7 | ~~The controller is implemented using PHP~~                                                                             |      2 |
+|  8 | ~~Routes are used to create entries in the dataset~~                                                                    |      2 |
+|  9 | ~~Routes are used to update entries in the dataset~~                                                                    |      2 |
+| 10 | ~~Routes are used to delete entries in the dataset~~                                                                    |      2 |
+| 11 | ~~Routes are used to read entries in the dataset~~                                                                      |      2 |
+| 12 | ~~A library manager is used to manage the dependencies of the project (e.g., Composer, Pickle)~~                        |      2 |
+| 13 | ~~The controllers check the inputs from the user~~                                                                      |      2 |
 
 ### Category 3 - Model
 
 |  # | Criterion                                                                  | Points |
 |---:|----------------------------------------------------------------------------|-------:|
 | 14 | Design the database schema for your application. (e.g., MYSQL, PostgreSQL) |      2 |
-| 15 | An ORM is used to interact with the database (e.g., Eloquent, Doctrine)    |      2 |
+| 15 | ~~An ORM is used to interact with the database (e.g., Eloquent, Doctrine)~~    |      2 |
 | 16 | The database is containerized                                              |      2 |
 
 ### Category 4 - Interactivity
@@ -65,7 +65,7 @@ The repository should be well organized and documented. It should be easy to ins
 | 19 | The project has a README.md file and it has a description of the project            |      2 |
 | 20 | The README.md file contains the instructions to run the project locally             |      2 |
 | 21 | The project has a .devcontainer folder and a functionnal devcontainer               |      2 |
-| 22 | A linter (e.g., PHP CodeSniffer, PHP-CS-Fixer) is used to enforce coding standards. |      2 |
+| 22 | ~~A linter (e.g., PHP CodeSniffer, PHP-CS-Fixer) is used to enforce coding standards.~~ |      2 |
 | 23 | The code is well documented                                                         |      2 |
 
 ## Remarks

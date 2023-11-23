@@ -5,16 +5,16 @@
 At the end of this part, you will should be able to know:
 
 - You know what **PHP** is, what are the advantages and disadvantages about it and when and why we need/use it.
-- You know what a **dependency** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- You know what a **library** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what a **package manager** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what a **linter** is, what are the advantages and disadvantages about it and when and why we need/use it.
-- You know what a **web framework** is, what are the advantages and disadvantages about it and when and why we need/use it.
-- You know what a **ORM** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- ~~You know what a **web framework** is, what are the advantages and disadvantages about it and when and why we need/use it.~~
+- ~~You know what a **ORM** is, what are the advantages and disadvantages about it and when and why we need/use it.~~
 - You know what **dynamic web development** is, what are the advantages and disadvantages about it and when and why we need/use it.
-- You know what **routing** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- ~~You know what **routing** is, what are the advantages and disadvantages about it and when and why we need/use it.~~
 - You know what **GET** is, what are the advantages and disadvantages about it and when and why we need/use it.
 - You know what **POST** is, what are the advantages and disadvantages about it and when and why we need/use it.
-- You know what a **database** is, what are the advantages and disadvantages about it and when and why we need/use it.
+- ~~You know what a **database** is, what are the advantages and disadvantages about it and when and why we need/use it.~~
 
 ## Evaluation
 

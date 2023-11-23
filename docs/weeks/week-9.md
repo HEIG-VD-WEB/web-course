@@ -2,24 +2,16 @@
 
 ## Practical Work
 
-TODO
+- [Practical Work 2](/web-course/practical-works/practical-work-2/)
 
 ## Courses
 
-TODO
+- [Educational Objectives - Part 2](/web-course/educational-objectives/part-2/)
 
 ## Tutorials
 
-TODO
-
-## How-to Guides
-
-TODO
-
-## Examples
-
-TODO
+- [Set a better Web server in PHP up](/web-course/tutorials/set-a-better-web-server-in-php/)
 
 ## Quiz
 
-TODO
+[🖵 Week 9](./presentation.html){:target="_blank" .md-button .md-button--primary}

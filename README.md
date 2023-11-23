@@ -23,7 +23,7 @@ mkdocs serve
 ## Build the slides with marp
 
 ```
-find . -maxdepth 3 -name "presentation.md" -type f -exec sh -c 'npx @marp-team/marp-cli@latest --config marp.config.js --html --output "${1%.md}.html" "$1"' sh {} \;
+find . -name "presentation.md" -type f -exec sh -c 'npx @marp-team/marp-cli@latest --config marp.config.js --html --output "${1%.md}.html" "$1"' sh {} \;
 ```
 
 ## License
