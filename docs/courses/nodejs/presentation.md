@@ -289,7 +289,7 @@ npm install --save-dev nodemon
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
-		"dev": "nodemon index.js"
+		"dev": "npx nodemon index.js 3000"
 	},
 	"keywords": [
 		"nodejs"
@@ -343,3 +343,4 @@ EXPOSE 3000
 
 CMD ["npm", "run", "start"]
 ```
+
