@@ -168,7 +168,7 @@ Hello World! I am a text file.
 Modify the `index.js` file to add the following code:
 
 ```js title="index.js"
-const { readFile, readFileSync } = require("fs");
+const { readFile } = require("fs");
 
 readFile("./text.txt", "utf8", (err, data) => {
 	if (err) {
