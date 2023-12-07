@@ -18,7 +18,7 @@ At the end of this part, you will should be able to know:
 
 ## Evaluation
 
-- The evaluation of this part will be the **30th of November 2023**, from **15:50 to 16:50** ;
+- The evaluation of this part will be the *7th of December 2023**, from **15:50 to 16:50** ;
 - You must be present for the test. Any unjustified absence will result in the grade of 1 ;
 - The evaluation will be in **french** ;
 - The evaluation will be **on paper** ;
