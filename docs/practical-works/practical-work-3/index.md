@@ -72,6 +72,7 @@ Maximum grade: ((46 points \\ 46) * 5) + 1 = 6
 - You can use Swagger/Open API to document your API.
 - You can replace Docker with one of its alternatives (Podman, Buildah, etc.)
 - You can use anything you want to create your website as long as you specify the source.
+- You can use Material UI, Bootstrap, Tailwind, etc. to style your website.
 You do not need to deploy your website.
 
 ## Submission
