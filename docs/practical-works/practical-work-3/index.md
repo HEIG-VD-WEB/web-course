@@ -66,13 +66,12 @@ Maximum grade: ((46 points \\ 46) * 5) + 1 = 6
 
 ## Remarks
 
-You can use any frontend framework you want, Vue, React, Angular, Svelte, etc.
-You can use any backend framework you want, Express, Fastify, NestJS, etc.
-You can use any package manager you want, npm, yarn, pnpm, etc.
-You can use Swagger/Open API to document your API.
-
-You can use anything you want to create your website as long as you specify the source.
-
+- You can use any frontend framework you want, Vue, React, Angular, Svelte, etc.
+- You can use any backend framework you want, Express, Fastify, NestJS, etc.
+- You can use any package manager you want, npm, yarn, pnpm, etc.
+- You can use Swagger/Open API to document your API.
+- You can replace Docker with one of its alternatives (Podman, Buildah, etc.)
+- You can use anything you want to create your website as long as you specify the source.
 You do not need to deploy your website.
 
 ## Submission
