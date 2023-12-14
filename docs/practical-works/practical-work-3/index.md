@@ -21,7 +21,7 @@ Maximum grade: ((NULL points \\ NULL) * 5) + 1 = 6
 | # | Criterion                                                                              | Points |
 |--:|----------------------------------------------------------------------------------------|-------:|
 | 1 | A frontend and a backend folder are at the root of the project                         |      2 |
-| 2 | There are `.gitattributes`, `.gitignore`,                                              |      2 |
+| 2 | There are `.gitattributes`, `.gitignore` files at the root of the project              |      2 |
 | 3 | The project is on GitHub                                                               |      2 |
 | 4 | The project has a README.md file and it has a description of the project               |      2 |
 | 5 | The README.md file contains the instructions to run the project locally                |      2 |
@@ -59,6 +59,7 @@ Maximum grade: ((NULL points \\ NULL) * 5) + 1 = 6
 You can use any frontend framework you want, Vue, React, Angular, Svelte, etc.
 You can use any backend framework you want, Express, Fastify, NestJS, etc.
 You can use any package manager you want, npm, yarn, pnpm, etc.
+You can use Swagger/Open API to document your API.
 
 You can use anything you want to create your website as long as you specify the source.
 
@@ -72,7 +73,7 @@ Any commit after the deadline will not be taken into account. Each day of delay 
 
 To submit your work, create a new GitHub Discussion at <https://github.com/orgs/HEIG-VD-WEB/discussions> with the following information:
 
-- **Title**: WEB 2023-2024 - Practical work 2 - First names of the students
+- **Title**: WEB 2023-2024 - Practical work 3 - First names of the students
 - **Category**: Show and tell
 - **Description**: The URL of your repository
 

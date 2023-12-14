@@ -1,5 +1,7 @@
 # Week 12
 
+- [Evaluation](https://gaps.heig-vd.ch/consultation/evaluationenseignements/){:target="_blank"}
+
 ## Practical Work
 
  - [Practical work 3](../../practical-work/practical-work-3/)
