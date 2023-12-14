@@ -14,19 +14,17 @@ So far, the calendar for 2023-2024 is the following:
 |                           | 43   | 23.10-29.10 | Interdisciplinary activities *Hackathon !*                                                                                                  |                           |
 | [6](../weeks/week-6.md)   | 44   | 30.10-05.11 | PHP + MVC + HTML Forms (4), Practical work 2 (2)                                                                                            |                           |
 | [7](../weeks/week-7.md)   | 45   | 06.11-12.11 | Practical work 2 (6)                                                                                                                        |                           |
-| [8](../weeks/week-8.md)   | 46   | 13.11-19.11 | Web server (1), Libraries (1), Practical work 2 (4)                                                                                         |                           |
-| [9](../weeks/week-9.md)   | 47   | 20.11-26.11 | Revising (1), Practical work 2 (5)                                                                                                          |                           |
-| [10](../weeks/week-10.md) | 48   | 27.11-03.12 | Test (2) +  Introduction (1), Node.js + NPM (1), Asynchronous programmation (1),                                                            | Test 2                    |
-| [11](../weeks/week-11.md) | 49   | 04.12-10.12 | Functionnal programming (1) , TypeScript (1), React (2), Practical work 3 (2)                                                               | Practical work 2          |
-| [12](../weeks/week-12.md) | 50   | 11.12-17.12 | Fastify (1), Hosting (HTTPS, CORS, REST, HTTP, API, CRUD) (2), Practical work 3 (2)                                                         |                           |
-| [13](../weeks/week-13.md) | 51   | 18.12-24.12 | Introduction (1), Unit testing + Debugging (1), Next.js (2), Practical work 3 (2)                                                           | Practical work 3          |
+| [8](../weeks/week-8.md)   | 46   | 13.11-19.11 |                                                                                                                                             |                           |
+| [9](../weeks/week-9.md)   | 47   | 20.11-26.11 |                                                                                                                                             |                           |
+| [10](../weeks/week-10.md) | 48   | 27.11-03.12 |                                                                                                                                             | Test 2                    |
+| [11](../weeks/week-11.md) | 49   | 04.12-10.12 | Test (2) + Introduction to HTML & CSS + Asynchronous programming + express                                                                  |                           |
+| [12](../weeks/week-12.md) | 50   | 11.12-17.12 | Test correction (1) + React (2) + Practical work 3 (3)                                                                                      |                           |
+| [13](../weeks/week-13.md) | 51   | 18.12-24.12 |                                                                                                                                             |                           |
 |                           | 52   | 25.12-31.12 | Interruption of course                                                                                                                      |                           |
 |                           | 1    | 01.01-07.01 | Interruption of course                                                                                                                      |                           |
-| [14](../weeks/week-14.md) | 2    | 08.01-14.01 | NestJS + Database + Swagger/Open API (2), Integration testing (2), Practical work 4 (2)                                                     |                           |
-| [15](../weeks/week-15.md) | 3    | 15.01-21.01 | Web security with NestJS (Authentification, Authorization, Sessions, Cookies & JWT) (3), WebSocket/WebRTC (1), Practical work 4 (2)         |                           |
-| [16](../weeks/week-16.md) | 4    | 22.01-28.01 | Test (2), Practical work (2), Quiz + Conclusion (2)                                                                                         | Test 3 + Practical work 4 |
-
-
+| [14](../weeks/week-14.md) | 2    | 08.01-14.01 |                                                                                                                                             |                           |
+| [15](../weeks/week-15.md) | 3    | 15.01-21.01 |                                                                                                                                             |                           |
+| [16](../weeks/week-16.md) | 4    | 22.01-28.01 |                                                                                                                                             | Test 3 + Practical work 3 |
 
 
 ## Perfect planning
