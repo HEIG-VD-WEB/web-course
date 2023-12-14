@@ -13,9 +13,9 @@
 
 ## Tutorials
 
- - [Interactice drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/){:target="_blank"}
- - [React - Quick start](https://react.dev/learn){:target="_blank"}
  - [Create React App](https://create-react-app.dev/){:target="_blank"}
+ - [React - Quick start](https://react.dev/learn){:target="_blank"}
+ - [Interactive drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/){:target="_blank"}
  - **Developer tools**
 	 - Install the React Developer Tools extension for your browser.
 	 - Go to the [React website](https://react.dev/learn){:target="blank"} and open the developer tools.
