@@ -1,4 +1,4 @@
-# Practical work 3 [NOT FINISHED]
+# Practical work 3
 
 ## Objectives
 
@@ -14,45 +14,55 @@ You will work in groups of no more than two students.
 - 1 point - The work is insufficient
 - 2 points - The work is done
 
-Maximum grade: ((NULL points \\ NULL) * 5) + 1 = 6
+Maximum grade: ((46 points \\ 46) * 5) + 1 = 6
 
 ### Category 1 - Repository
 
-| # | Criterion                                                                              | Points |
-|--:|----------------------------------------------------------------------------------------|-------:|
-| 1 | A frontend and a backend folder are at the root of the project                         |      2 |
-| 2 | There are `.gitattributes`, `.gitignore` files at the root of the project              |      2 |
-| 3 | The project is on GitHub                                                               |      2 |
-| 4 | The project has a README.md file and it has a description of the project               |      2 |
-| 5 | The README.md file contains the instructions to run the project locally                |      2 |
-| 6 | There is a `docker-compose` file at the root of the project to run the project locally |      2 |
+| # | Criterion                                                                                                              | Points |
+|--:|------------------------------------------------------------------------------------------------------------------------|-------:|
+| 0 | Someone else who doesn't know the project is capable of understanding it and taking it over                            |      2 |
+| 1 | The project is on GitHub                                                                                               |      2 |
+| 2 | The project has a README file to present your project and its idea                                                     |      2 |
+| 3 | The README contains instructions on how to prepare the development environment, run and build the project with Node.js |      2 |
+| 4 | The README contains instructions on how to to build and run the project with Docker and Docker Compose                 |      2 |
+| 5 | There is a `.gitattributes` file at the root of the project                                                            |      2 |
 
 ### Category 2 - Frontend
 
-| #   | Criterion                                                                                  | Points |
-| --: | -----------------------------------------------------------------------------------------  | -----: |
-|     | The frontend is implemented using a frontend framework (e.g., Vue, React, Angular, Svelte) |      4 |
-|     | The frontend is linted or formatted (e.g., ESLint, Prettier)                               |      2 |
-|     | The frontend dependencies are managed using a package manager (e.g., npm, yarn, pnpm)      |      2 |
-|     | The frontend is containerized                                                              |      2 |
+|  # | Criterion                                                                                            | Points |
+|---:|------------------------------------------------------------------------------------------------------|-------:|
+|  6 | The frontend is a Node.js application using a frontend framework (e.g., Vue, React, Angular, Svelte) |      2 |
+|  7 | The frontend is linted and formatted using ESLint and Prettier to ensure quality                     |      2 |
+|  8 | The frontend has a .gitignore that ignores all unnecessary files on Git                              |      2 |
+|  9 | The frontend has a Dockerfile to build and run the application with Docker                           |      2 |
+| 10 | The frontend has an intuitive interface for the end-user to use                                      |      2 |
 
 ### Category 3 - Backend
 
-| # | Criterion                                                                             | Points |
-|--:|---------------------------------------------------------------------------------------|-------:|
-|   | The backend is implemented using a backend framework (e.g., Express, Fastify, NestJS) |      4 |
-|   | The backend is linted or formatted (e.g., ESLint, Prettier)                           |      2 |
-|   | The backend is tested (e.g., Jest, Mocha, Chai)                                       |      2 |
-|   | The backend dependencies are managed using a package manager (e.g., npm, yarn, pnpm)  |      2 |
-|   | The backend is containerized                                                          |      2 |
+|  # | Criterion                                                                                                               | Points |
+|---:|-------------------------------------------------------------------------------------------------------------------------|-------:|
+| 11 | The backend is a Node.js application using a backend framework (e.g., Express, Fastify, NestJS)                         |      2 |
+| 12 | The backend is linted and formatted using ESLint and Prettier to ensure quality                                         |      2 |
+| 13 | The backend has a .gitignore that ignores all unnecessary files on Git                                                  |      2 |
+| 14 | The backend has a Dockerfile to build and run the application with Docker                                               |      2 |
+| 15 | The backend exposes an API for the frontend to use                                                                      |      2 |
+| 16 | The backend has a documented API so that everyone can use it with their own clients (CLI tools, another frontend, etc.) |      2 |
+| 17 | Some unit tests allow to test the backend (e.g., Jest, Mocha, Chai)                                                     |     2  |
+| 18 | Some integration tests allow to test the backend (e.g. Jest, Superrequest)                                              |     2  |
 
 ### Category 4 - Communication
 
-| # | Criterion                                                                                                 | Points |
-|--:|-----------------------------------------------------------------------------------------------------------|-------:|
-|   | The frontend and the backend communicate using HTTP (e.g., Axios, Fetch) or  WebSockets (e.g., Socket.io) |      8 |
-|   | The communication is well explained in a documentation                                                    |      8 |
+|  # | Criterion                                                                                                | Points |
+|---:|----------------------------------------------------------------------------------------------------------|-------:|
+| 19 | The frontend and the backend communicate using HTTP (e.g., Axios, Fetch) or WebSockets (e.g., Socket.io) |      2 |
+| 20 | Diagrams present how the frontend and the backend communicates                                           |      2 |
+| 21 | Some examples are made with screenshots of the project                                                   |      2 |
 
+### Category 5 - Containerization
+
+|  # | Criterion                                                                              | Points |
+|---:|----------------------------------------------------------------------------------------|-------:|
+| 22 | A Docker Compose file allows to build, start and run both backend and frontend locally |      2 |
 
 ## Remarks
 
@@ -95,5 +105,5 @@ If you have any questions about the evaluation, you can contact me!
 
 I encourage you to use TypeScript.
 
-If you do a video game and want everyone to play it on the last day of the course, I'm in! And I can give you the resources you need to do it.
+If you do a video game and want everyone to play it on the last day of the course, I'm in! And I can give you the resources you need to do it (hosting, domain name, etc.)
 

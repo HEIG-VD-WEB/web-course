@@ -20,10 +20,11 @@ nav:
       - Week 9: weeks/week-9.md
       # - Week 10: weeks/week-10.md
       - Week 11: weeks/week-11/index.md
-      # - Week 12: weeks/week-12.md
-      # - Week 13: weeks/week-13.md
-      # - Week 14: weeks/week-14.md
-      # - Week 15: weeks/week-15.md
+      - Week 12: weeks/week-12/index.md
+      # - Week 13: weeks/week-13/index.md
+      # - Week 14: weeks/week-14/index.md
+      # - Week 15: weeks/week-15/index.md
+      # - Week 16: weeks/week-16/index.md
   - Courses:
       - courses/index.md
       - Organisation: courses/organisation/index.md
