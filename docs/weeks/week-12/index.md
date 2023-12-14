@@ -4,7 +4,7 @@
 
 ## Practical Work
 
- - [Practical work 3](../../practical-work/practical-work-3/)
+ - [Practical work 3](../../practical-works/practical-work-3/)
 
 ## Courses
 
