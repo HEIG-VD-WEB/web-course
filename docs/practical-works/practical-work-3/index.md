@@ -106,3 +106,4 @@ I encourage you to use TypeScript.
 
 If you do a video game and want everyone to play it on the last day of the course, I'm in! And I can give you the resources you need to do it (hosting, domain name, etc.)
 
+Here is a tutorial to create an interactive drawing application: <https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/>
