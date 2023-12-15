@@ -15,7 +15,8 @@
 				"jebbs.plantuml",
 				"GitHub.vscode-github-actions",
 				"wholroyd.jinja",
-				"marp-team.marp-vscode"
+				"marp-team.marp-vscode",
+				"nvarner.typst-lsp"
 			]
 		}
 	},

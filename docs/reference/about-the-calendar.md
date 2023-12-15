@@ -27,34 +27,51 @@ So far, the calendar for 2023-2024 is the following:
 | [16](../weeks/week-16.md) | 4    | 22.01-28.01 |                                                                                                                                             | Test 3 + Practical work 3 |
 
 
-## Perfect planning
+# Second semester
 
-A perfect planning for the course would be the following:
+## Static
 
-**Static**
+- Introduction (1), HTML + CSS (4), JavaScript (1)
+- Wireframe + Penpot (3), Practical work 1 (3)
+- Bootstrap (2), Git + EditorConfig + Extension IDE (1), Practical work 1 (3)
+- GitHub Pages (2), Hugo (2), Practical work 1 (2)
+- Evaluation (2), Practical work 1 (4)
 
-- Introduction (1), IDE + Live server (1), HTML (2), CSS (2)
-- JavaScript (4), Practical work 1 (2)
-- Hugo + Static generator (1), CDN (1), Practical work 1 (4)
-- Test (2), Practical work 1 (4)
+## Dynamic
 
-**Dynamic**
+- Introduction (1), Node.js Ecosystem + Advanced JavaScript + TypeScript (5)
+- Formatter + Linter (1) + NestJS (3) + Practical work 2 (2)
+- MVC + Nunjucks (2), Forms + validation (2), Practical work 2 (2)
+- SEO (1), Deployment (1), Practical work 2 (4)
+- Evaluation (2), Practical work 2 (4)
 
-- Introduction (1), Dev container (1), PHP (2), Practical work (2)
-- PHP + MVC + HTML Forms (4), Practical work 2 (2)
-- Database + ORM (4), Practical work 2 (2)
-- Test (2) + Practical work 2 (4)
+## Stack Node.js
 
-**Frontend + Backend**
+- Introduction (1), React (5)
+- REST (2), Fetch + Server-Sent Events + Websockets + WebRTC (2), Practical work 3 (2)
+- WebSockets + WebRTC (3), Practical work 3 (3)
+- Jest (2), API key (1), Practical work 3 (3)
+- Deployment (3), Practical work 3 (3)
+- Evaluation (2), Practical work 3 (4)
 
-- Introduction (1), Dev container (1), Node.js + NPM (1), Asynchronous programmation (1), Practical work 3 (2)
-- Functionnal programming (1), TypeScript (1), React (2), Practical work 3 (2)
-- Fastify (1), Hosting (HTTPS, CORS, REST, HTTP, API, CRUD) (2), Practical work 3 (2)
-- Test (2), Practical work 3 (2)
-
-**Advanced Web technologies**
-
-- Introduction (1), Unit testing + Debugging (1), Next.js (2), Practical work 4 (2)
-- NestJS + Database + Swagger/Open API (2), Integration testing (2), Practical work 4 (2)
-- Web security with NestJS (Authentification, Authorization, Sessions, Cookies & JWT) (3), WebSocket/WebRTC (1), Practical work 4 (2)
-- Web assembly (1), Practical work (2), Quiz + Conclusion (3)
+<!-- | No | Week | Date        | Subjects (number of periods per subject)                                             | Evaluation       |
+|----|------|-------------|--------------------------------------------------------------------------------------|------------------|
+| 1  | 8    | 19.02-25.02 | Introduction (1), HTML + CSS (2), JavaScript (3)                                     |                  |
+| 2  | 9    | 26.02-03.03 | JavaScript (2), Wireframe + Penpot (2), Practical work 1 (2)                         |                  |
+| 3  | 10   | 04.03-10.03 | Bootstrap (2), Git + EditorConfig + Extension IDE (2), Practical work 1 (2)          |                  |
+| 4  | 11   | 11.03-17.03 | GitHub Pages (2), Hugo (2), Practical work 1 (2)                                     |                  |
+| 5  | 12   | 18.03-24.03 | Test (2), Practical work 1 (4)                                                       | Test 1           |
+| 6  | 13   | 25.03-31.03 | Introduction (1), Node.js Ecosystem (5)                                              | Practical work 1 |
+|    | 14   | 01.04-07.04 | Interruption of course                                                               |                  |
+| 7  | 15   | 08.04-14.04 | TypeScript + Formatter + Linter (2) + NestJS (2) + Practical work 2 (2)              | Baleinev         |
+| 8  | 16   | 15.04-21.04 | Nunjucks (2), Forms + validation (2), Practical work 2 (2)                           |                  |
+| 9  | 17   | 22.04-28.04 | SOE (2), Deployment (2), Practical work 2 (2)                                        |                  |
+| 10 | 18   | 29.04-05.05 | Test (2), Practical work 2 (4)                                                       | Test 2           |
+| 11 | 19   | 06.05-12.05 | Introduction (1), React (5)                                                          | Practical work 2 |
+| 12 | 20   | 13.05-19.05 | REST (2), Fetch + Server-Sent Events + Websockets + WebRTC (2), Practical work 3 (2) |                  |
+| 13 | 21   | 20.05-26.05 | WebSockets + WebRTC (3), Practical work 3 (3)                                        |                  |
+| 14 | 22   | 27.05-02.06 | Jest (2), API key, Practical work 3 (3)                                              |                  |
+| 15 | 23   | 03.06-09.06 | Deployment (3), Practical work 3 (3)                                                 |                  |
+| 16 | 24   | 10.06-16.06 | Test (2), Practical work 3 (4)                                                       | Test 3           |
+|    | 25   | 17.06-23.06 | Exam preparation                                                                     | Practical work 3 |
+|    | 26   | 24.06-30.06 | Exam                                                                                 |                  | -->

@@ -53,51 +53,49 @@ La personne qui étudie doit connaître et savoir utiliser les notions suivantes
 
 Les unités POO et DAI permettrent d'acquérir ces connaissances.
 
+#linebreak()
+
 == Objectifs
 
 #linebreak()
 
-Depuis sa création au début des années 90, le Web ne cesse d'évoluer. Riche en liberté et en innovation, il est devenu une plateforme de développement incontournable. Les paradigmes qui le composent ont chacun eu leur moment de gloire. De pages statiques en passant par des applications dynamique, le Web a su s'adapter aux besoins du marché. Avec l'explosion des services mobiles, des réseaux sociaux et plus récemment de l'Internet des Objets, les vagues d'innovation dans le domaine du Web se succèdent les unes aux autres. L'objectif principal de cette unité est d'étudier les grandes tendances actuelles et d'appréhender les principes, les standards, les technologies et les outils qui sont en train de s'imposer sur le marché.
+Depuis sa création au début des années 90, le Web ne cesse d'évoluer. Riche en liberté et en innovation, il est devenu une plateforme de développement incontournable. Les paradigmes qui le composent ont chacun eu leur moment de gloire. De pages statiques en passant par des applications dynamiques, le Web a su s'adapter aux besoins du marché. Avec l'explosion des services mobiles, des réseaux sociaux et plus récemment de l'Internet des Objets, les vagues d'innovation dans le domaine du Web se succèdent les unes aux autres. L'objectif principal de cette unité est d'étudier les grandes tendances passées et actuelles, d'appréhender les principes, les standards, les technologies et les outils qui sont en train de s'imposer sur le marché. Tout en étudiant les bonnes pratiques du domaine et en déployant des solutions adaptées aux besoins.
 
 #pagebreak()
 
-A l'issue de cette unité d'enseignement, la personne qui étudie sera capable de :
-
-*Génération statique*
-- expliquer les avantages et les inconvéniants de créer un site statique (Hugo, Jekyll, etc.) ;
+À l'issue de cette unité d'enseignement, la personne qui étudie sera capable de :
 
 *Statique*
 
-- créer des pages Web (HTML, CSS, Javascript, Typescript) de manière estétique (Bootstrap, Material Design, etc.) ;
-- illustrer les différentes parties qui composent le Web (CDN, DNS, etc.) ;
-- proposer des manières de communiquer avec de la clientèle (Wireframe, Penpot, Figma) ;
-- appliquer les bonnes pratiques du travail en équipe (Formatter, Linter, Git, etc.) ;
-- déployer un site statique et y attribuer un nom de domaine(GitHub Pages, GitLab CI/CD, truc de ludo pour les noms de domaine gratuits);
-- créer du contenu à partir d'une API externe (Fetch) ;
+- illustrer les différentes parties qui composent l'internet (CDN, DNS, Conceptual model) ;
+- créer des pages Web statiques (HTML, CSS, Javascript) ;
+- proposer des manières de communiquer avec de la clientèle (Wireframe, Penpot) ;
+- réaliser une interface utilisateur à l'aide de librairie de composants (Bootstrap) ;
+- appliquer les bonnes pratiques du travail en équipe (Git, EditorConfig, Extension IDE) ;
+- déployer un site statique ;
+- expliquer les avantages et les inconvéniants de générer un site statique (Hugo, Jekyll, etc.) ;
 
 *Dynamique*
 
-- développer une application CRUD avec le pattern MVC en PHP ;
-- expérimenter l'utilisation du routing ;
+- expliquer la différance entre statique et dynamique ;
+- comprendre l'écosystème Node.js (asynchronicité, Event loop, modules) ;
+- appliquer les bonnes pratiques (TypeScript, Formatter, Linter, Git, etc.) ;
+- développer une application CRUD avec un framework (NestJS) ;
+- créer des pages Web dynamique à l'aide du patron MVC et d'un langage de templating (Nunjucks) ;
 - créer des formulaires et les valider ;
-- utiliser des bases de données avec PHP ;
-- examiner les avantages et les inconvéniants d'utiliser des librairies externes (Composer) ;
-- proposer des manières de debugger une stack PHP ;
 - évaluer à quel point une application web est optimisée pour les moteurs de recherche (SEO) ;
-- mettre en place et utiliser une documentation API (Swagger, OpenAPI, etc.) ;
-- déployer une application PHP (VM de l'école, Traefik, etc) ;
+- déployer une application NestJS ;
 
 *Stack Node.js*
 
-- concevoir des interfaces utilisateur avec un framework réactif (React, Vue, Svelte) ;
+- expliquer la cission entre le frontend et le backend ;
+- concevoir des interfaces utilisateur avec un framework réactif (React) ;
 - comprendre l’architecture REST (client-server, statelessness, cacheable, uniform interface, layered system, code on demand) ;
-- choisir quelle paradigme utiliser pour communiquer sur le réseau (Fetch, Server-Sent Events, Websockets, WebRTC, etc.)
-- programmer des applications utilisant le réseau (Fetch, Server-Sent Events, Websockets, WebRTC, etc.) ;
+- choisir quelle paradigme utiliser pour communiquer sur le réseau (Fetch, Server-Sent Events, Websockets, WebRTC, etc.) ;
+- programmer des applications utilisant le réseau (Fetch, Websockets) ;
 - écrire des tests automatisés pour des applications Node.js ;
-- utiliser les notions de cookies, de session, d’authentification et d’autorisation ;
-- sécuriser une applications Web (injection SQL, XSS, CSRF, etc.) ;
-- comprendre et utiliser WebAssembly.
-- déployer une application PHP (VM de l'école, Traefik, etc) ;
+- sécuriser une API à l'aide d'une API Key ;
+- déployer une application Node.js ;
 
 Cette unité est organisée avec une orientation très pratique. Les concepts présentés sont appliqués pour réaliser des applications Web de plus en plus conséquentes.
 
@@ -107,7 +105,123 @@ Cette unité est organisée avec une orientation très pratique. Les concepts pr
 
 #linebreak()
 
-_Répartition des périodes indiquée à titre informatif_
+#table(
+  columns: (9fr, 1fr),
+  inset: 10pt,
+  align: horizon,
+  [*Cours - Statique*], [*18*],
+  "illustrer les différentes parties qui composent l'internet",
+  "1",
+	"créer des pages Web statiques",
+	"5",
+	"proposer des manières de communiquer avec de la clientèle",
+	"3",
+	"réaliser une interface utilisateur à l'aide de librairie de composants",
+	"2",
+	"appliquer les bonnes pratiques du travail en équipe",
+	"1",
+	"déployer un site statique",
+	"2",
+	"expliquer les avantages et les inconvéniants de générer un site statique",
+	"2",
+	"Test 1 : Statique",
+	"2",
+)
+
+#linebreak()
+
+#table(
+	columns: (9fr, 1fr),
+	inset: 10pt,
+	align: horizon,
+	[*Cours - Dynamique*], [*18*],
+	"expliquer la différance entre statique et dynamique",
+	"1",
+	"comprendre l'écosystème Node.js",
+	"4",
+	"appliquer les bonnes pratiques",
+	"2",
+	"développer une application CRUD avec un framework",
+	"3",
+	"créer des pages Web dynamique à l'aide du patron MVC et d'un langage de templating",
+	"2",
+	"créer des formulaires et les valider",
+	"2",
+	"évaluer à quel point une application web est optimisée pour les moteurs de recherche",
+	"1",
+	"déployer une application NestJS",
+	"1",
+	"Test 2 : Dynamique",
+	"2",
+)
+
+#pagebreak()
+
+#table(
+	columns: (9fr, 1fr),
+	inset: 10pt,
+	align: horizon,
+	[*Cours - Stack Node.js*], [*21*],
+	"expliquer la cission entre le frontend et le backend",
+	"1",
+	"concevoir des interfaces utilisateur avec un framework réactif",
+	"5",
+	"comprendre l’architecture REST",
+	"2",
+	"choisir quelle paradigme utiliser pour communiquer sur le réseau",
+	"2",
+	"programmer des applications utilisant le réseau",
+	"3",
+	"écrire des tests automatisés pour des applications Node.js",
+	"2",
+	"sécuriser une API à l'aide d'une API Key",
+	"1",
+	"déployer une application Node.js",
+	"3",
+	"Test 3 : Node.js",
+	"2",
+)
+
+#table(
+  columns: (9fr, 1fr),
+  inset: 10pt,
+  align: horizon,
+  [*Laboratoire*], [*39*],
+  "Partie 1 : Statique",
+  "12",
+	"Partie 2 : Dynamique",
+	"12",
+	"Partie 3 : Stack Node.js",
+	"15",
+)
+#pagebreak()
+
+== Répartition pour chaque cours (nombre de période)
+
+==== Static
+
+- Introduction (1), HTML + CSS (4), JavaScript (1)
+- Wireframe + Penpot (3), Practical work 1 (3)
+- Bootstrap (2), Git + EditorConfig + Extension IDE (1), Practical work 1 (3)
+- GitHub Pages (2), Hugo (2), Practical work 1 (2)
+- Evaluation (2), Practical work 1 (4)
+
+==== Dynamic
+
+- Introduction (1), Node.js Ecosystem + Advanced JavaScript + TypeScript (5)
+- Formatter + Linter (1) + NestJS (3) + Practical work 2 (2)
+- MVC + Nunjucks (2), Forms + validation (2), Practical work 2 (2)
+- SEO (1), Deployment (1), Practical work 2 (4)
+- Evaluation (2), Practical work 2 (4)
+
+==== Stack Node.js
+
+- Introduction (1), React (5)
+- REST (2), Fetch + Server-Sent Events + Websockets + WebRTC (2), Practical work 3 (2)
+- WebSockets + WebRTC (3), Practical work 3 (3)
+- Jest (2), API key (1), Practical work 3 (3)
+- Deployment (3), Practical work 3 (3)
+- Evaluation (2), Practical work 3 (4)
 
 #pagebreak()
 
