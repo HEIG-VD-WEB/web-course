@@ -11,3 +11,6 @@
 - [Async, REST, HTTPS](https://web-classroom.github.io/slides/8-async.html#/){:target="_blank"}
 - [Network Programming](https://web-classroom.github.io/slides/8-async.html#/){:target="_blank"}
 
+## Examples
+
+- [Chat](https://github.com/HEIG-VD-WEB/example-chat){:target="_blank"}
