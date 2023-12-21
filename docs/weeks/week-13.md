@@ -1,25 +1,13 @@
 # Week 13
 
+- [Evaluation](https://gaps.heig-vd.ch/consultation/evaluationenseignements/){:target="_blank"}
+
 ## Practical Work
 
-TODO
+ - [Practical work 3](../../practical-works/practical-work-3/)
 
 ## Courses
 
-TODO
+- [Async, REST, HTTPS](https://web-classroom.github.io/slides/8-async.html#/){:target="_blank"}
+- [Network Programming](https://web-classroom.github.io/slides/8-async.html#/){:target="_blank"}
 
-## Tutorials
-
-TODO
-
-## How-to Guides
-
-TODO
-
-## Examples
-
-TODO
-
-## Quiz
-
-TODO
