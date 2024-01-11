@@ -17,3 +17,5 @@
 
 - The course is too easy
 - PHP
+
+We can stay in touch ! Do not hesitate to contact me if you have any questions about web technologies. I will be happy to help you. You can contact me at contact[AT]artios.ch.
