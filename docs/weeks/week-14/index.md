@@ -21,7 +21,7 @@ TODO -->
 
 ## Course's evaluation
 
-[Course's evaluation](../../reference/about-evaluation-2023.md)
+- [Course's evaluation](../../reference/about-evaluation-2023.md)
 
 <!-- ## Quiz
 
