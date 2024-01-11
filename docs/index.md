@@ -2,6 +2,9 @@
 
 Welcome ! This is the main center of information for the HEIG-VD Web course. You will find here all the information you need to follow the course.
 
+- [Other HEIG-VD WEB course](https://web-classroom.github.io/)
+
+
 ## Weeks
 
 The course is divided in 16 weeks. Each week has a dedicated page with all the information you need to follow the course. You can find the list of all the weeks below.

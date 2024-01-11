@@ -17,7 +17,9 @@
 
 - [TypeScript Playground](https://www.typescriptlang.org/play){:target="_blank"}
 - [Solving TypeScript errors](https://www.totaltypescript.com/tutorials/solving-typescript-errors/errors/fixing-x-is-not-assignable-to-y/exercise){:target="_blank"}
+- [TypeScript Exercises](https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts){:target="_blank"}
 - [TypeScript Exercises](https://typescript-exercises.github.io/#exercise=4&file=%2Findex.ts){:target="_blank"}
+- [W3 schools - TypeScript Tutorial](https://www.w3schools.com/typescript/exercise.php?filename=exercise_simple_types2){:target="_blank"}
 
 <!-- ## How-to Guides
 
