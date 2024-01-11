@@ -1,5 +1,9 @@
 # Week 14
 
+## Course's evaluation
+
+- [Course's evaluation](../../reference/about-evaluation-2023.md)
+
 ## Practical Work
 
  - [Practical work 3](../../practical-works/practical-work-3/)
@@ -19,9 +23,6 @@
 
 TODO -->
 
-## Course's evaluation
-
-- [Course's evaluation](../../reference/about-evaluation-2023.md)
 
 <!-- ## Quiz
 
