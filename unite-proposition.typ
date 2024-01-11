@@ -12,21 +12,20 @@
 )
 
 #let name = "Vincent Guidoux"
-#let today = datetime.today()
 
 #set page(header: [
   *HEIG-VD*
   #h(1fr)
   _WEB - Fiche d'unité_
   #h(1fr)
-  #today.display("[day] [month repr:long] [year]")
+  21 décembre 2023
 
   #line(length: 100%)
 ])
 
 #set page(footer: [
   #line(length: 100%)
-  Technologie web 2023-2024
+  Technologies web 2023-2024
   #h(1fr)
   #counter(page).display(
     "1/1",
@@ -40,7 +39,7 @@
 
 == Fiche d'unité
 
-=== #today.display("[day] [month repr:long] [year]")
+=== 21 décembre 2023
 ]
 == Connaissances préalables recommandées
 
@@ -51,7 +50,7 @@ La personne qui étudie doit connaître et savoir utiliser les notions suivantes
 - programmation orientée objet ;
 - programmation réseau (sockets, utilisation de TCP et UDP, utilisation de HTTP).
 
-Les unités POO et DAI permettrent d'acquérir ces connaissances.
+Les unités POO et DAI permettent d'acquérir ces connaissances.
 
 #linebreak()
 
@@ -73,11 +72,11 @@ Depuis sa création au début des années 90, le Web ne cesse d'évoluer. Riche 
 - réaliser une interface utilisateur à l'aide de librairie de composants (Bootstrap) ;
 - appliquer les bonnes pratiques du travail en équipe (Git, EditorConfig, Extension IDE) ;
 - déployer un site statique ;
-- expliquer les avantages et les inconvéniants de générer un site statique (Hugo, Jekyll, etc.) ;
+- expliquer les avantages et les inconvénients de générer un site statique (Hugo, Jekyll, etc.) ;
 
 *Dynamique*
 
-- expliquer la différance entre statique et dynamique ;
+- expliquer la différence entre statique et dynamique ;
 - comprendre l'écosystème Node.js (asynchronicité, Event loop, modules) ;
 - appliquer les bonnes pratiques (TypeScript, Formatter, Linter, Git, etc.) ;
 - développer une application CRUD avec un framework (NestJS) ;
@@ -122,7 +121,7 @@ Cette unité est organisée avec une orientation très pratique. Les concepts pr
 	"1",
 	"déployer un site statique",
 	"2",
-	"expliquer les avantages et les inconvéniants de générer un site statique",
+	"expliquer les avantages et les inconvénients de générer un site statique",
 	"2",
 	"Test 1 : Statique",
 	"2",
@@ -135,7 +134,7 @@ Cette unité est organisée avec une orientation très pratique. Les concepts pr
 	inset: 10pt,
 	align: horizon,
 	[*Cours - Dynamique*], [*18*],
-	"expliquer la différance entre statique et dynamique",
+	"expliquer la différence entre statique et dynamique",
 	"1",
 	"comprendre l'écosystème Node.js",
 	"4",
@@ -168,7 +167,7 @@ Cette unité est organisée avec une orientation très pratique. Les concepts pr
 	"5",
 	"comprendre l’architecture REST",
 	"2",
-	"choisir quelle paradigme utiliser pour communiquer sur le réseau",
+	"choisir quel paradigme utiliser pour communiquer sur le réseau",
 	"2",
 	"programmer des applications utilisant le réseau",
 	"3",
@@ -196,9 +195,9 @@ Cette unité est organisée avec une orientation très pratique. Les concepts pr
 )
 #pagebreak()
 
-== Répartition pour chaque cours (nombre de période)
+== Répartition pour chaque cours (nombre de périodes)
 
-==== Static
+==== Statique
 
 - Introduction (1), HTML + CSS (4), JavaScript (1)
 - Wireframe + Penpot (3), Practical work 1 (3)
@@ -206,7 +205,7 @@ Cette unité est organisée avec une orientation très pratique. Les concepts pr
 - GitHub Pages (2), Hugo (2), Practical work 1 (2)
 - Evaluation (2), Practical work 1 (4)
 
-==== Dynamic
+==== Dynamique
 
 - Introduction (1), Node.js Ecosystem + Advanced JavaScript + TypeScript (5)
 - Formatter + Linter (1) + NestJS (3) + Practical work 2 (2)
@@ -233,27 +232,31 @@ Cette unité est organisée avec une orientation très pratique. Les concepts pr
 
 #linebreak()
 
-L'acquisition des matières de cet enseignement sera contrôlée au fur et à mesure par des tests tout au long de son déroulement. Avant chaque cours, les personnes rendent une série de questions sur le cours précédant qui fera une note complète à la fin de la partie. Il y aura au moins 2 tests d'une durée totale d'au moins 3 périodes.
+L'acquisition des matières de cet enseignement sera contrôlé au fur et à mesure par des tests tout au long de son déroulement. Avant chaque cours, les personnes rendent une série de questions sur le cours précédant qui fera une note complète à la fin de la partie. Il y aura au moins 2 tests d'une durée totale d'au moins 3 périodes.
 
-Matériel autorisé :
+Le matériel autorisé pour chaque est :
 
-- information communiquée directement par l'enseignant.
+- de quoi écrire ;
+- une feuille de résumé recto-verso.
+
+Les feuilles recto-verso seront réutilisables pour l'examen.
 
 === Laboratoire
 
 #linebreak()
 
-ils seront évalués sur la base de réalisation d'applications web, à 3 reprises au minimum.
+Ils seront évalués sur la base de réalisation d'applications web, ainsi qu'une présentation orale, à 3 reprises au minimum.
 
 === Examen
 
 #linebreak()
 
-l'atteinte de l'ensemble des objectifs de formation sera vérifiée lors d'un contrôle final commun écrit d'une durée de 90 minutes.
+L'ensemble des objectifs de formation sera vérifié lors d'un contrôle final commun écrit d'une durée de 90 minutes.
 
-Matériel autorisé :
+Le matériel autorisé est :
 
-- information communiquée directement par l'enseignant.
+- de quoi écrire ;
+- Une feuille de résumé recto-verso par test effectué durant le semestre.
 
 #linebreak()
 
