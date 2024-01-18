@@ -22,7 +22,7 @@ The course is divided in 16 weeks. Each week has a dedicated page with all the i
 - [Week 12](./weeks/week-12/index.md)
 - [Week 13](./weeks/week-13.md)
 - [Week 14](./weeks/week-14/index.md)
-<!-- - [Week 15](./weeks/week-15/index.md) -->
+- [Week 15](./weeks/week-15/index.md)
 <!-- - [Week 16](./weeks/week-16/index.md) -->
 
 

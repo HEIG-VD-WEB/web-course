@@ -108,3 +108,8 @@ I encourage you to use TypeScript.
 If you do a video game and want everyone to play it on the last day of the course, I'm in! And I can give you the resources you need to do it (hosting, domain name, etc.)
 
 Here is a tutorial to create an interactive drawing application: <https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/>
+
+## Long time ago
+
+A long time ago, one of the secretaries of the HEIG-VD and I joked about a student catapult. I told her that I could make her one. But never took the time to do it. I think it would be a great idea to do it for this practical work. I can give you the resources you need to do it (hosting, domain name, etc.)
+
