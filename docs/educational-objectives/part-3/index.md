@@ -8,7 +8,7 @@ On completion of this part, students will be able to:
 - explain the context and providers in React and know how to use them;
 - explain the difference between a development dependency and a production dependency;
 - review if an API is RESTFUL;
-- illustrate a HTTPS handshake;
+- illustrate a HTTPS handshake (SSL/TLS Handshake);
 - illustrate data in JSON format;
 - explain the advantages and disadvantages of WebSockets;
 - explain what is TypeScript;

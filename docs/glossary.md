@@ -30,7 +30,9 @@
 *[SEO]: Search engine optimization is a set of technical and content practices aimed at aligning a website page with a search engine's ranking algorithm so it can be easily found, crawled, indexed
 *[SMTP]: Simple Mail Transfer Protocol is an Internet standard for email transmission.
 *[SSH]: Secure Shell is a cryptographic network protocol for operating network services securely over an unsecured network.
+*[SSL]: Secure Sockets Layer is a standard security technology for establishing an encrypted link between a server and a client.
 *[TCP]: Transmission Control Protocol is in the transport layer in the Internet protocol suite.
+*[TLS]: Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network.
 *[Telnet]: Telnet is a protocol used on the Internet or local area networks to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection.
 *[traceroute]: Traceroute is a computer network diagnostic tool for displaying the route and measuring transit delays of packets across an Internet Protocol network.
 *[UI]: User Interface
