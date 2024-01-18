@@ -1,15 +1,5 @@
 # Part 3 - Frontend & backend
 
-Contents:
-
- - There will be questions about the two tutorials: [Create a media player](https://docs.beescreens.ch/tutorials/create-a-media-player-application/introduction/) and [Create an interactive drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/), like on how we resolve the problem we encounter, what are the advantages and disadvantages of the solution we choose, etc.
- - [Nods.js](https://heig-vd-web.github.io/web-course/courses/nodejs/presentation.html)
- - [React.js](https://web-classroom.github.io/slides/11-react-essentials.html#/0/1)
- - [Async, REST, HTTPS](https://web-classroom.github.io/slides/8-async.html#/)
- - [Network programming](https://web-classroom.github.io/slides/7-network-programming.html#/)
- - [TypeScript](https://web-classroom.github.io/slides/13-typescript.html#/)
- - [Same-origin policy, CORS, Phishing](https://web-classroom.github.io/slides/9-security.html#/3)
-
 On completion of this part, students will be able to:
 
 - describe the event loop, and how it is used to handle asynchronous code;
@@ -42,3 +32,12 @@ On completion of this part, students will be able to:
 
 Remember that the evaluation does not measure your emotional and relational intelligence. Your grade does not reflect your ability to dream or your artistic sensibility.
 
+## Contents
+
+ - There will be questions about the two tutorials: [Create a media player](https://docs.beescreens.ch/tutorials/create-a-media-player-application/introduction/) and [Create an interactive drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/), like on how we resolve the problem we encounter, what are the advantages and disadvantages of the solution we choose, etc.
+ - [Nods.js](https://heig-vd-web.github.io/web-course/courses/nodejs/presentation.html)
+ - [React.js](https://web-classroom.github.io/slides/11-react-essentials.html#/0/1)
+ - [Async, REST, HTTPS](https://web-classroom.github.io/slides/8-async.html#/)
+ - [Network programming](https://web-classroom.github.io/slides/7-network-programming.html#/)
+ - [TypeScript](https://web-classroom.github.io/slides/13-typescript.html#/)
+ - [Same-origin policy, CORS, Phishing](https://web-classroom.github.io/slides/9-security.html#/3)

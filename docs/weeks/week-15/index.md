@@ -10,6 +10,7 @@
 
 ## Tutorials
 
+ - [Interactive drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/){:target="_blank"}
 
 <!-- ## How-to Guides
 
