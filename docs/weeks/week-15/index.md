@@ -6,7 +6,7 @@
 
 ## Courses
 
-- [educational objectives](https://heig-vd-web.github.io/web-course/educational-objectives/part-3/)
+- [Last evaluation : Educational objectives](https://heig-vd-web.github.io/web-course/educational-objectives/part-3/)
 
 ## Tutorials
 
