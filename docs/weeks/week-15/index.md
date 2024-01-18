@@ -6,17 +6,8 @@
 
 ## Courses
 
-- [Last evaluation : Educational objectives](https://heig-vd-web.github.io/web-course/educational-objectives/part-3/)
+- [Information next week evaluation](https://heig-vd-web.github.io/web-course/educational-objectives/part-3/)
 
 ## Tutorials
 
  - [Interactive drawing application](https://docs.beescreens.ch/tutorials/create-an-interactive-drawing-application/introduction/){:target="_blank"}
-
-<!-- ## How-to Guides
-
-TODO -->
-
-
-<!-- ## Quiz
-
-TODO -->
