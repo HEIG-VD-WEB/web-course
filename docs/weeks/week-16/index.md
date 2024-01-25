@@ -1,8 +1,4 @@
-# Week 14
-
-## Course's evaluation
-
-- [Course's evaluation](../../reference/about-evaluation-2023.md)
+# Week 16
 
 ## Practical Work
 
@@ -10,7 +6,11 @@
 
 ## Courses
 
-- [Sécurité](https://web-classroom.github.io/slides/9-security.html#/){:target="_blank"}
+- [Polyglot](https://web-classroom.github.io/slides/12-polyglot-web.html#/){:target="_blank"}
+
+## Examples
+
+- [Polyglot](https://github.com/web-classroom/example-polyglot){:target="_blank"}
 
 ## Evaluation
 
